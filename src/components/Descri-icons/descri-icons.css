@@ -56,11 +56,6 @@
     opacity: 1;
   }
 }
-@media (max-width: 1738px) {
-  .descri-icons {
-    /* background-color: #154393; */
-  }
-}
 @media (max-width: 1524px) {
   .descri-icons {
     gap: 10px;
@@ -180,20 +175,20 @@
   .descri-icons {
     height: auto;
     gap: 10px;
-    padding: 10px;
+    /* padding: 10px; */
   }
   .descri-icons #title-icons {
     background-color: #154393;
-    height: 105px;
-    width: 105px !important;
+    height: 90px;
+    width: 90px !important;
     color: #fff;
   }
   .descri-icons #title-icons svg {
     fill: #fff;
-    height: 32px;
+    height: 26px;
   }
   .descri-icons #title-icons p {
-    font-size: x-small;
+    font-size: xx-small;
   }
 }
 @media (max-width: 350px) {
