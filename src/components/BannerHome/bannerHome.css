@@ -1,0 +1,89 @@
+section {
+  margin-top: 110px;
+  height: 600px;
+  overflow: hidden;
+  /* background-color: black; */
+}
+section .carousel {
+  height: 100%;
+}
+section #imageCarousel {
+  height: 600px;
+}
+
+@media (max-width: 1746px) {
+  section {
+    height: 640px;
+  }
+}
+@media (max-width: 1541px) {
+  section {
+    height: 580px;
+  }
+}
+@media (max-width: 1389px) {
+  section {
+    height: 520px;
+  }
+  #imageCarousel {
+    height: 520px !important;
+  }
+}
+@media (max-width: 1208px) {
+  section {
+    margin-top: 100px;
+    height: 440px;
+  }
+  #imageCarousel {
+    height: 440px !important;
+  }
+}
+@media (max-width: 1041px) {
+  section {
+    height: 390px;
+  }
+  #imageCarousel {
+    height: 390px !important;
+  }
+}
+@media (max-width: 919px) {
+  section {
+    margin-top: 90px;
+    height: 340px;
+  }
+  #imageCarousel {
+    height: 340px !important;
+  }
+}
+@media (max-width: 802px) {
+  section {
+    height: 300px;
+  }
+  #imageCarousel {
+    height: 300px !important;
+  }
+}
+@media (max-width: 700px) {
+  section {
+    height: 260px;
+  }
+  #imageCarousel {
+    height: 260px !important;
+  }
+}
+@media (max-width: 607px) {
+  section {
+    height: 225px;
+  }
+  #imageCarousel {
+    height: 225px !important;
+  }
+}
+@media (max-width: 535px) {
+  section {
+    height: 200px;
+  }
+  #imageCarousel {
+    height: 200px !important;
+  }
+}/*# sourceMappingURL=bannerHome.css.map */
