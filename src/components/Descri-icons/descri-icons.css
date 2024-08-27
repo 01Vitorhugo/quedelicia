@@ -179,16 +179,16 @@
   }
   .descri-icons #title-icons {
     background-color: #154393;
-    height: 90px;
-    width: 90px !important;
+    height: 75px;
+    width: 75px !important;
     color: #fff;
   }
   .descri-icons #title-icons svg {
     fill: #fff;
-    height: 26px;
+    height: 20px;
   }
   .descri-icons #title-icons p {
-    font-size: xx-small;
+    font-size: 7px;
   }
 }
 @media (max-width: 350px) {
