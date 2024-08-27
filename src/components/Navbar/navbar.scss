@@ -88,3 +88,34 @@
         animation: slide-in 0.3s forwards;
     }
 }
+
+@media (max-width: 1382px){
+    .navbar-brand {
+
+        img {
+            height: 90px !important;
+        }
+    }
+
+
+} 
+@media (max-width: 1101px){
+    .navbar-brand {
+
+        img {
+            height: 80px !important;
+        }
+    }
+
+
+} 
+@media (max-width: 870px){
+    .navbar-brand {
+
+        img {
+            height: 70px !important;
+        }
+    }
+
+
+} 
