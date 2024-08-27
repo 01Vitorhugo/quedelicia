@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+.descri-icons {
+  margin-top: 30px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+  flex-wrap: wrap;
+}
+.descri-icons #title-icons {
+  height: 74%;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 109px;
+  gap: 10px;
+  transition: background-color 0.3s ease-in-out;
+  transform-origin: center;
+  will-change: transform, background-color;
+}
+.descri-icons #title-icons svg {
+  height: 40%;
+  fill: rgba(0, 0, 0, 0.7803921569);
+}
+.descri-icons #title-icons p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.descri-icons #title-icons:hover {
+  animation: slideAndRotate 0.7s ease-in-out;
+  background-color: #154393;
+  color: #fff;
+}
+.descri-icons #title-icons:hover svg {
+  fill: #fff;
+}
+
+@keyframes slideAndRotate {
+  0% {
+    transform: translateX(-10%) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(10%) rotate(15deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@media (max-width: 1738px) {
+  .descri-icons {
+    /* background-color: #154393; */
+  }
+}
+@media (max-width: 1524px) {
+  .descri-icons {
+    gap: 10px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 160px;
+    width: 160px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 50px;
+  }
+  .descri-icons #title-icons p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1372px) {
+  .descri-icons {
+    gap: 10px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 150px;
+    width: 150px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 45px;
+  }
+  .descri-icons #title-icons p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1202px) {
+  .descri-icons {
+    gap: 10px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 140px;
+    width: 140px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 40px;
+  }
+  .descri-icons #title-icons p {
+    font-size: small;
+  }
+}
+@media (max-width: 1027px) {
+  .descri-icons {
+    gap: 10px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 130px;
+    width: 130px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 38px;
+  }
+  .descri-icons #title-icons p {
+    font-size: small;
+  }
+}
+@media (max-width: 812px) {
+  .descri-icons {
+    gap: 10px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 120px;
+    width: 120px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 34px;
+  }
+  .descri-icons #title-icons p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 662px) {
+  .descri-icons {
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 110px;
+    width: 110px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 34px;
+  }
+  .descri-icons #title-icons p {
+    font-size: x-small;
+  }
+}
+@media (max-width: 515px) {
+  .descri-icons {
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 105px;
+    width: 105px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 32px;
+  }
+  .descri-icons #title-icons p {
+    font-size: x-small;
+  }
+}
+@media (max-width: 350px) {
+  .descri-icons {
+    height: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  .descri-icons #title-icons {
+    background-color: #154393;
+    height: 100px;
+    width: 100px !important;
+    color: #fff;
+  }
+  .descri-icons #title-icons svg {
+    fill: #fff;
+    height: 30px;
+  }
+  .descri-icons #title-icons p {
+    font-size: x-small;
+  }
+}/*# sourceMappingURL=descri-icons.css.map */
