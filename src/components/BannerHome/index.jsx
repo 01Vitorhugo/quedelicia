@@ -1,4 +1,4 @@
-import "./bannerHome.scss";
+import "./bannerHome.css";
 import banner1 from "../../imagens/img-banner/bannerCarousel.png";
 import banner2 from "../../imagens/estrutura/camaraSeco.jpg";
 import banner3 from "../../imagens/estrutura/carrosGrandes.jpg";

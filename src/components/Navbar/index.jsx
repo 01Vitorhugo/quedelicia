@@ -1,5 +1,5 @@
 
-import "./navbar.scss";
+import "./navbar.css";
 import { useState, useEffect } from "react";
 import logo from "../../imagens/logo-sem-fundo.png";
 import {
