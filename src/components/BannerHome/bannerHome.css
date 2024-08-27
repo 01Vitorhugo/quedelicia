@@ -48,7 +48,7 @@ section #imageCarousel {
 }
 @media (max-width: 919px) {
   section {
-    margin-top: 90px;
+    margin-top: 70px;
     height: 340px;
   }
   #imageCarousel {
@@ -57,6 +57,7 @@ section #imageCarousel {
 }
 @media (max-width: 802px) {
   section {
+    margin-top: 75px;
     height: 300px;
   }
   #imageCarousel {
@@ -65,6 +66,7 @@ section #imageCarousel {
 }
 @media (max-width: 700px) {
   section {
+    margin-top: 80px;
     height: 260px;
   }
   #imageCarousel {
@@ -73,6 +75,7 @@ section #imageCarousel {
 }
 @media (max-width: 607px) {
   section {
+    margin-top: 85px;
     height: 225px;
   }
   #imageCarousel {
@@ -81,6 +84,7 @@ section #imageCarousel {
 }
 @media (max-width: 535px) {
   section {
+    margin-top: 80px;
     height: 200px;
   }
   #imageCarousel {
