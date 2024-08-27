@@ -1,5 +1,6 @@
-
+import "./app.css";
 import BannerLogo from './components/BannerHome';
+import DescriIcons from './components/Descri-icons';
 import RoutsPage from './router';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <RoutsPage/>
 
       <BannerLogo/>
+
+      <DescriIcons/>
     
     
     </div>
