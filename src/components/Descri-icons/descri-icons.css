@@ -37,6 +37,7 @@
   animation: slideAndRotate 0.7s ease-in-out;
   background-color: #154393;
   color: #fff;
+  --animation: animate__fadeInLeft 1s ease-in-out;
 }
 .descri-icons #title-icons:hover svg {
   fill: #fff;
