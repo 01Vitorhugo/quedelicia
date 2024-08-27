@@ -1,0 +1,90 @@
+.menuFixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    
+
+    &.scrolled nav {
+        background-color: rgba(128, 14, 20, 0.893); 
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.512);
+        transition: 0.5s ease-in-out;
+    }
+
+
+    nav {
+        background-color: #800e13;
+        height: auto;
+       
+
+        .navbar-brand {
+
+            img {
+                height: 110px;
+                filter: drop-shadow(1px 1px 7px #ffff);
+            }
+        }
+
+        .container-fluid {
+            padding: 0px 50px;
+
+            .offcanvas-body {
+                display: flex;
+                justify-content: right;
+
+                li {
+                    padding: 0 10px;
+
+                    a {
+                        color: #c6c6c6;
+                        
+                        position: relative;
+                        display: inline-block;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        color: #ffff;
+                    }
+
+
+                    a:hover::after {
+                        width: 100%;
+                    }
+
+                    a::after {
+                        content: '';
+                        position: absolute;
+                        width: 0;
+                        height: 2px;
+                        background: #c6c6c6;
+                        left: 0;
+                        bottom: -5px;
+                        transition: width 0.3s ease-in-out;
+                    }
+
+                }
+
+            }
+
+        }
+    }
+
+    /* .offcanvas-end {
+         background-color: #800e13 !important;
+    } */
+
+    @keyframes slide-in {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+
+    a:hover::after {
+        animation: slide-in 0.3s forwards;
+    }
+}
