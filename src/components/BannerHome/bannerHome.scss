@@ -1,14 +1,16 @@
-section{
+.imgageCarousel{
     margin-top: 110px;
     height: 600px;    
     overflow: hidden;
-    /* background-color: black;  */
-
+    /* background-color: black;   */
+    
     .carousel {
         height: 100%;
     }
     #imageCarousel{
         height: 600px;
+        animation: pulsar 20s ease-in-out infinite;
+        
     }
 }
 @media (max-width: 1746px){
@@ -104,3 +106,16 @@ section{
     }
 
 }
+
+
+@keyframes pulsar {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
