@@ -10,7 +10,7 @@ export default function BannerLogo() {
 
     return (
              
-        <section >
+        <section className="imgageCarousel">
             <CCarousel controls transition="crossfade">
                 <CCarouselItem>
                     <CImage className="d-block w-100" src={banner1} alt="slide 1" id="imageCarousel"/>

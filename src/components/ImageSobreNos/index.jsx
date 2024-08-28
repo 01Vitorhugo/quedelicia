@@ -1,6 +1,4 @@
 import './imageSobreNos.css';
-import  banner from '../../imagens/historia/bannerHistoria.png';
-import {  CImage } from '@coreui/react';
 
 export default function ImageSobreNos() {
 
@@ -23,7 +21,6 @@ export default function ImageSobreNos() {
                 </p>
 
             </article>
-            <CImage fluid src={banner}/>
         </section>
     )
 }
