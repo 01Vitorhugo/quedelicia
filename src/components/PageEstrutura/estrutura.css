@@ -29,7 +29,6 @@
   padding: 3px;
 }
 .estrutura .box-estrutura #box-box1:hover {
-  animation: scaleBackground 5s ease-in-out infinite;
   box-shadow: 7px 5px 20px #000;
   border-radius: 10px;
 }
@@ -128,16 +127,4 @@
 }
 .estrutura .box-estrutura figure img {
   height: 100%;
-}
-
-@keyframes scaleBackground {
-  0% {
-    background-size: 100%;
-  }
-  50% {
-    background-size: 110%;
-  }
-  100% {
-    background-size: 100%;
-  }
 }/*# sourceMappingURL=estrutura.css.map */
