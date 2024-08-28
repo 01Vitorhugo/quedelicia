@@ -7,3 +7,33 @@
 :root{
   background-color: #faf7f2;
 }
+
+.button-whats{
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;     
+  right: 10px;         
+  top: 96%; 
+  z-index: 1000; 
+  cursor: pointer;
+  animation: pular 2s ease-in-out infinite;
+
+  svg{
+    height: 65%;
+   fill: #a4c639;
+  }
+}
+
+
+@keyframes pular {
+  0%, 100% {
+      transform: translateY(-50%); 
+  }
+  50% {
+      transform: translateY(-60%); 
+  }
+}

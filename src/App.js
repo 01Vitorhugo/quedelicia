@@ -2,6 +2,7 @@ import "./app.css";
 import BannerLogo from './components/BannerHome';
 import DescriIcons from './components/Descri-icons';
 import ImageSobreNos from "./components/ImageSobreNos";
+import Estrutura from "./components/PageEstrutura";
 import RoutsPage from './router';
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <DescriIcons/>
 
       <ImageSobreNos/>
+
+      <Estrutura/>
     
     
     </div>
