@@ -1,0 +1,143 @@
+.estrutura {
+  height: 600px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: column; */
+}
+.estrutura .box-estrutura {
+  height: 100%;
+  width: 24%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.estrutura .box-estrutura #box-box1 {
+  width: 100%;
+  height: 48%;
+  /* background-color: blue; */
+  transition: 1s;
+  position: relative;
+  overflow: hidden;
+}
+.estrutura .box-estrutura #box-box1 aside {
+  background-color: #154393;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 3px;
+}
+.estrutura .box-estrutura #box-box1:hover {
+  animation: scaleBackground 5s ease-in-out infinite;
+  box-shadow: 7px 5px 20px #000;
+  border-radius: 10px;
+}
+.estrutura .box-estrutura .imageCarroGrande {
+  background-image: url("../../imagens/estrutura/carrosGrandes.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+.estrutura .box-estrutura .imageCarroGrande::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.268);
+  border-radius: 10px;
+}
+.estrutura .box-estrutura .imageFiorino {
+  background-image: url("../../imagens/estrutura/frotaFiorinos.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+.estrutura .box-estrutura .imageFiorino::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.268);
+  border-radius: 10px;
+}
+.estrutura .box-estrutura .imageCamaraSeco {
+  background-image: url("../../imagens/estrutura/camaraSeco.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+.estrutura .box-estrutura .imageCamaraSeco::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.268);
+  border-radius: 10px;
+}
+.estrutura .box-estrutura .imageCamara {
+  background-image: url("../../imagens/estrutura/fotoCamara.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+.estrutura .box-estrutura .imageCamara::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.268);
+  border-radius: 10px;
+}
+.estrutura .box-estrutura .box-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+}
+.estrutura .box-estrutura figure {
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+.estrutura .box-estrutura figure img {
+  height: 100%;
+}
+
+@keyframes scaleBackground {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 110%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}/*# sourceMappingURL=estrutura.css.map */
