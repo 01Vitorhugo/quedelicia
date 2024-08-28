@@ -1,3 +1,36 @@
 .App{
     background-color: #faf7f2;
 }
+.App .scroll{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: transparent; */
+  
+}
+.App .scroll button{
+    cursor: pointer;
+    background-color: transparent;
+}
+.App .scroll button svg{
+    fill: #154393;
+    height: 30px;
+    animation: seta 2s ease-in-out infinite;
+}
+
+@keyframes seta{
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
