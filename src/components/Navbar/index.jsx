@@ -46,20 +46,20 @@ export default function Navbar() {
                         <COffcanvasBody>
                             <CNavbarNav>
                                 <CNavItem>
-                                    <CNavLink href="#">
+                                    <CNavLink href="#" title="Voltar para Home">
                                         Home
                                     </CNavLink>
                                 </CNavItem>
                                 <CNavItem>
-                                    <CNavLink href="#" >
+                                    <CNavLink href="#" title="Ver Produtos">
                                         Produtos
                                     </CNavLink>
                                 </CNavItem>
                                 <CNavItem>
-                                    <CNavLink href="#">Contato</CNavLink>
+                                    <CNavLink href="#" title="Ir para Contato">Contato</CNavLink>
                                 </CNavItem>
                                 <CNavItem>
-                                    <CNavLink href="#">
+                                    <CNavLink href="#" title="Ver localização">
                                         Localização
                                     </CNavLink>
                                 </CNavItem>
