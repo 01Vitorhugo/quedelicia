@@ -1,276 +1,76 @@
-
 .descri-icons {
     margin-top: 30px;
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
     flex-wrap: wrap;
+    gap: 100px;
 
     #title-icons {
-        height: 74%;
+        height: 200px;
         width: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-radius: 109px;
-        gap: 10px;
-        transition: background-color 0.3s ease-in-out;
-        transform-origin: center;
-        will-change: transform, background-color;
-        padding: 3px;
 
+        figure{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-        svg {
-            height: 40%;
-            fill: #000000c7;
+            img{
+                height: 100%;
+                background-color: #800e13;
+                border-radius: 50px;
+                transition: 0.3s;
+            }
+
+            img:hover{
+                background-color: #154393 ;
+            }
         }
 
-        p {
+        article{
+            height: 50%;
+            width: 100;
+            display: flex;
             text-align: center;
-            font-size: 13px;
-            font-family: "lato", sans-serif;
-            font-weight: 600;
-        }
-
-    }
-
-    #title-icons:hover {
-        animation: slideAndRotate 0.7s ease-in-out;
-        background-color: #154393;
-        color: #fff;
-        
-        --animation: animate__fadeInLeft 1s ease-in-out;
-
-        svg {
-            fill: #fff;
-        }
-    }
-}
-
-@keyframes slideAndRotate {
-    0% {
-        transform: translateX(-10%) rotate(0deg);
-        opacity: 0;
-    }
-
-    50% {
-        transform: translateX(10%) rotate(15deg);
-        opacity: 0.5;
-    }
-
-    100% {
-        transform: translateX(0) rotate(0deg);
-        opacity: 1;
-    }
-}
-
-
-@media (max-width: 1524px) {
-    .descri-icons {
-        gap: 10px;
-        padding: 10px;
-
-        #title-icons {
-            background-color: #154393;
-            height: 160px;
-            width: 160px !important;
-            color: #fff;
-
-            svg {
-                fill: #fff;
-                height: 50px;
-            }
-
-            p {
-                font-size: 15px;
-
-            }
-        }     
-    }
-
-}
-
-@media (max-width: 1372px) {
-    .descri-icons {
-        gap: 10px;
-        padding: 10px;
-
-        #title-icons {
-            background-color: #154393;
-            height: 150px;
-            width: 150px !important;
-            color: #fff;
-
-            svg {
-                fill: #fff;
-                height: 45px;
-            }
-
-            p {
-                font-size: 15px;
-
-            }
-        }     
-    }
-
-}
-
-@media (max-width: 1202px) {
-    .descri-icons {
-            gap: 10px;
-            padding: 10px;
-
-            #title-icons {
-                background-color: #154393;
-                height: 140px;
-                width: 140px !important;
-                color: #fff;
-    
-                svg {
-                    fill: #fff;
-                    height: 40px;
-                }
-    
-                p {
-                    font-size: small;
-    
-                }
-            }     
-    }
-
-}
-
-@media (max-width: 1027px) {
-    .descri-icons {
-        gap: 10px;
-        padding: 10px;
-
-        #title-icons {
-            background-color: #154393;
-            height: 130px;
-            width: 130px !important;
-            color: #fff;
-
-            svg {
-                fill: #fff;
-                height: 38px;
-            }
-
-            p {
-                font-size: small;
-
-            }
-        }
-
-    }
-
-}
-
-@media (max-width: 812px) {
-    .descri-icons {
-        gap: 10px;
-        padding: 10px;
-
-        #title-icons {
-            background-color: #154393;
-            height: 120px;
-            width: 120px !important;
-            color: #fff;
-
-            svg {
-                fill: #fff;
-                height: 34px;
-            }
-
-            p {
-                font-size: 12px;
-
-            }
         }
     }
 
 }
 
-@media (max-width: 662px) {
+@media (max-width: 1196px) {
     .descri-icons {
-        height: auto;
-        gap: 10px;
-        padding: 10px;
-
-        #title-icons {
-            background-color: #154393;
-            height: 110px;
-            width: 110px !important;
-            color: #fff;
-
-            svg {
-                fill: #fff;
-                height: 34px;
-            }
-
-            p {
-                font-size: x-small;
-
-            }
-        }
+        gap: 80px;
     }
 
 }
 
-@media (max-width: 515px) {
+@media (max-width: 986px) {
     .descri-icons {
-        height: auto;
-        gap: 10px;
-        /* padding: 10px; */
-
-
-        #title-icons {
-            background-color: #154393;
-            height: 75px;
-            width: 75px !important;
-            color: #fff;
-
-            svg {
-                fill: #fff;
-                height: 20px;
-            }
-
-            p {
-                font-size: 7px;
-
-            }
-        }
+        gap: 40px;
+       
     }
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 854px) {
     .descri-icons {
-        height: auto;
-        gap: 20px;
-        padding: 10px;
+            gap: 20px;
+          
+    }
 
-
-        #title-icons {
-            background-color: #154393;
-            height: 100px;
-            width: 100px !important;
-            color: #fff;
-
-            svg {
-                fill: #fff;
-                height: 30px;
-            }
-
-            p {
-                font-size: x-small;
-
-            }
-        }
+}
+@media (max-width: 757px) {
+    .descri-icons {
+            gap: 20px;
+            flex-direction: column; 
     }
 
 }

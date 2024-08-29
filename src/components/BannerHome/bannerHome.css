@@ -2,7 +2,6 @@
   margin-top: 110px;
   height: 600px;
   overflow: hidden;
-  background-color: black;
 }
 .imgageCarousel .carousel {
   height: 100%;
@@ -12,9 +11,14 @@
   animation: pulsar 20s ease-in-out infinite;
 }
 
+.carousel-inner button {
+  background-color: aqua;
+  color: black;
+}
+
 @media (max-width: 1746px) {
   .imgageCarousel {
-    height: 640px;
+    height: 580px;
   }
 }
 @media (max-width: 1541px) {

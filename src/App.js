@@ -16,7 +16,9 @@ function App() {
 
       <BannerLogo />
       <DescriIcons />
-      <ImageSobreNos />
+
+      
+      {/* <ImageSobreNos /> */}
       <Estrutura />
       <Produtos/>
 

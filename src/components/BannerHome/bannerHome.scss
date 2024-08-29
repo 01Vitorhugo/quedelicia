@@ -1,8 +1,7 @@
 .imgageCarousel{
     margin-top: 110px;
     height: 600px;    
-    overflow: hidden;
-    background-color: black;   
+    overflow: hidden; 
     
     .carousel {
         height: 100%;
@@ -13,10 +12,15 @@
         
     }
 }
+
+.carousel-inner button {
+    background-color: aqua;
+    color: black;
+}
+
 @media (max-width: 1746px){
     .imgageCarousel{
-
-        height: 640px;
+        height: 580px;
     }
 
 }
