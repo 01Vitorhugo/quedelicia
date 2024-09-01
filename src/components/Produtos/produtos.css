@@ -39,8 +39,15 @@
 .produtos .slider-container .slick-list .carrossel-produto img {
   width: 85%;
 }
+<<<<<<< HEAD
 .produtos .slider-container .slick-list .carrossel-produto #ajuste-foto {
   width: 200px;
+=======
+.produtos .descri-produtos section .prod figure img {
+  height: 100%;
+  align-self: flex-end;
+  /* filter: drop-shadow(1px 5px 10px #000); */
+>>>>>>> 9332eb76b629807fe509ec8b81decf1c3e13f2a1
 }
 .produtos .slider-container .slick-list .carrossel-produto #ajuste-foto {
   width: 60%;

@@ -1,7 +1,6 @@
 .estrutura {
   height: 700px;
   width: 100%;
-  /* margin-top: 30px; */
   display: flex;
   justify-content: space-around;
   background-color: #fff;
