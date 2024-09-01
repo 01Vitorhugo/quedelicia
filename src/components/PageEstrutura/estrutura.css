@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.2470588235);
   flex-direction: column;
   overflow: hidden;
 }
@@ -48,7 +47,6 @@
   padding: 5px;
   margin: 5px;
   font-size: 20px;
-  /* border: solid 1px #fff; */
   width: 120px;
   display: flex;
   justify-content: center;
