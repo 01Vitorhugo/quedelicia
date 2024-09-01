@@ -206,6 +206,8 @@
   .caminhao {
     background-image: url("../../imagens/estrutura/caminhao.png");
     background-repeat: no-repeat;
+    background-position: 100px;
+    margin-top: 5px;
   }
   .caminhao article {
     height: 400px;
@@ -219,6 +221,43 @@
   .fiorino {
     background-image: url("../../imagens/estrutura/fiorino.png");
     background-repeat: no-repeat;
+    background-position: -400px;
+  }
+  .fiorino article {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fiorino img {
+    display: none !important;
+  }
+}
+@media (max-width: 468px) {
+  .caminhao {
+    background-image: url("../../imagens/estrutura/caminhao.png");
+    background-repeat: no-repeat;
+    background-position: 40px;
+  }
+  .caminhao article {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .caminhao img {
+    display: none !important;
+  }
+  .fiorino {
+    background-image: url("../../imagens/estrutura/fiorino.png");
+    background-repeat: no-repeat;
+    background-position: -400px;
+  }
+  .fiorino article {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .fiorino img {
     display: none !important;
