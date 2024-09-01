@@ -7,37 +7,54 @@ import Linguica from '../../imagens/produtos/linguica.png';
 import Queijo from '../../imagens/produtos/queijo.png';
 import Tilapia from '../../imagens/produtos/tilapia.png';
 import Batata from '../../imagens/produtos/batata.png';
-import {gsap} from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useLayoutEffect } from 'react';
+import Slider from "react-slick";
+
 
 
 export default function Produtos() {
-
-    useLayoutEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-        gsap.to(".prod", {
-            x: 0,
-            opacity: 1,
-            rotate: 0,
-            scrollTrigger:{
-                trigger: ".descri-produtos",
-                markers: false,
-                start: "top: 900px",
-                end: "bottom: 200px",
-                scrub: true
-
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-        })
-
-        return () => {
-            gsap.killTweensOf(".prod")
-        }
-    }, [])
-
-    function mensage(){
-        alert('Colocar todos os produtos da página de PRODUTOS');
-    }
+        ]
+    };
 
     return (
         <section className='produtos'>
@@ -45,91 +62,49 @@ export default function Produtos() {
                 <h1>Principais Produtos</h1>
             </article>
 
-            <div className='descri-produtos'>
-                <section>
-                    <div className='prod'>
-                        <figure>
-                            <img src={Mocoto} alt="Mocotó Bovino" />
-                        </figure>
-                        <article>
-                            <h1>Mocotó Bovino</h1>
-                        </article>
+            <div className="slider-container">
+                <Slider {...settings}>
+                        <div className='carrossel-produto'>
+                                <img src={Figado} alt="" srcset="" />
+                            <span>Figado Bovino</span>
+                        </div>
 
-                    </div>
+                        <div className='carrossel-produto'>
+                                <img src={Bucho} alt="" srcset="" />
+                            <span>Bucho Bovino</span>
+                        </div>
 
-                    <div className='prod'>
-                        <figure>
-                            <img src={Bucho} alt="Bucho Bovino" id='style-image' />
-                        </figure>
-                        <article>
-                            <h1>Bucho Bovino</h1>
-                        </article>
-                    </div>
-                    <div className='prod'>
-                        <figure>
-                            <img src={Figado} alt="Figado Bovino" />
-                        </figure>
-                        <article>
-                            <h1>Figado Bovino</h1>
-                        </article>
-                    </div>
-                    <div className='prod'>
-                        <figure>
-                            <img src={Frango} alt="Frango Congelado" id='style-image' />
-                        </figure>
-                        <article>
-                            <h1>Frango Congelado</h1>
-                        </article>
-                    </div>
+                        <div className='carrossel-produto' id='ajuste-foto'>
+                                <img src={Frango} alt="" id='ajuste-foto' />
+                            <span>Frango Congelado</span>
+                        </div>
 
-                </section>
+                        <div className='carrossel-produto'>
+                                <img src={Linguica} alt="" srcset="" />
+                            <span>Linguiça Toscana</span>
+                        </div>
 
-                    {/* Segundo linha dos itens */}
+                        <div className='carrossel-produto'>
+                                <img src={Mocoto} alt="" srcset="" />
+                            <span>Mocotó Bovino</span>
+                        </div>
 
-                <section>
-                    <div className='prod'>
-                        <figure>
-                            <img src={Linguica} alt="Linguiça Toscana" />
-                        </figure>
-                        <article>
-                            <h1>Linguiça Toscana</h1>
-                        </article>
+                        <div className='carrossel-produto'>
+                                <img src={Queijo} alt="" srcset="" />
+                            <span>Queijo Mussarela</span>
+                        </div>
 
-                    </div>
-
-                    <div className='prod'>
-                        <figure>
-                            <img src={Queijo} alt="Queijo Mussarela" />
-                        </figure>
-                        <article>
-                            <h1>Queijo Mussarela</h1>
-                        </article>
-                    </div>
-                    <div className='prod'>
-                        <figure>
-                            <img src={Tilapia} alt="Filé de Tilapia" id='style-image' />
-                        </figure>
-                        <article>
-                            <h1>Filé de Tilápia</h1>
-                        </article>
-                    </div>
-                    <div className='prod'>
-                        <figure>
-                            <img src={Batata} alt="Batata Congelada" id='style-image'/>
-                        </figure>
-                        <article>
-                            <h1>Batata Congelada</h1>
-                        </article>
-                    </div>
-
-                </section>
-
+                        <div className='carrossel-produto'>
+                                <img src={Tilapia} alt="" />
+                            <span>Filé de Tilápia</span>
+                        </div>
+                        
+                        <div className='carrossel-produto' >
+                                <img src={Batata} alt=""  id='ajuste-foto'/>
+                            <span>Batata Congelada</span>
+                        </div>                  
+                </Slider>
             </div>
-
-            <section className='button'>
-                <button onClick={mensage}>Ver mais</button>
-            </section>
-
 
         </section>
     )

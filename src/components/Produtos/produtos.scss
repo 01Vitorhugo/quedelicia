@@ -3,105 +3,111 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #faf7f2;
+    padding: 90px;
 
-    article {
-        margin-top: 40px;
-    }
-
-    .descri-produtos {
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
-       
-
-        section {
-            height: 300px;
-            display: flex;
-            justify-content: space-evenly;
-            margin-top: 30px;
-            overflow: hidden;
+    .slider-container{     
+        width: 80% !important;
+        height: 300px !important;
+        
+        .slick-list{
+            width: 100%;
+            margin-left: -10px !important;
             
-
-
-            .prod {
-                height: 100%;
-                width: 15%;
-                display: flex;
+            .carrossel-produto{
+                width: 90% !important ;
+                height: 300px !important;
+                display: flex !important;
+                justify-content: space-evenly !important;
+                align-items: center !important;
                 flex-direction: column;
-                border: solid 1px #0000002a;
-                border-radius: 10px;
-                overflow: hidden;
-                transform: translatex(700px) rotate(180deg);
-                opacity: 0;
-
-               
-                figure {
-                    height: 85%;
+                border-top: 0px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, .05);
+                position: relative;
+                transition: 0.3s ease-in-out;
+    
+                span{
                     width: 100%;
-                    margin: 0;
-                    display: flex;
-                    justify-content: center;
-
-                    #style-image {
-
-                        padding: 35px;
-                    }
-
-
-                    img {
-                        height: 100%;
-                        align-self: flex-end;
-                        filter: drop-shadow(1px 5px 3px #000);
-                    }
-                }
-
-                article {
-                    width: 100%;
-                    height: 15%;
-                    margin: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color:#800e13;
-                    color: #fff;
-
-                    h1 {
-                        font-size: 22px;
-                    }
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    text-align: center;
+                    padding: 15px;
+                    background-color: #ffff;
+                    color: #086ba2;
                     
                 }
-
+    
+                img{
+                    width: 85%;
+                }
+            
+                #ajuste-foto{
+                    width: 200px;
+                }
             }
+            .carrossel-produto #ajuste-foto{
+                width: 60%;
+            }
+
+
         }
+
+      
+        .slick-list:hover .carrossel-produto{
+            filter: blur(1px); 
+            opacity: 0.5; 
+        }
+        .slick-list .carrossel-produto:hover{
+            cursor: pointer;
+            border: 0;
+            transform: translateY(-10px);
+            filter: none;   
+            opacity: 1; 
+            z-index: 1;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, .05);
+        }
+
     }
 
-        .button{
-            height: 40px;
-            width: 150px;
-            margin-top: 50px;
-            /* margin-bottom: 50px; */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            
-            button{
-                height: 100%;
-                width: 100%;
-                border: solid 2px #000;
-                color: #000;
-                font-size: 20px;
-                border-radius: 10px;
-                background-color: transparent;
-                transition: 0.5s;
-            }
-            button:hover{
-                background-color: #800e13;
-                color: #fff;
-                border: none;
 
-            }
-          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .slick-slider{
+        ul{
+            visibility: hidden;
+
         }
+    } 
+    
+    .slick-prev:before, .slick-next:before{
+        color: #086ba2;
+        opacity: 1;
+        font-size: 35px;
+        font-weight: 300;
+        margin-left: -50px !important;
+    }
 
 }
+

@@ -8,14 +8,16 @@
   } */
 }
 .menuFixed.scrolled nav {
-  background-color: rgba(128, 14, 20, 0.893);
+  background-color: rgba(9, 65, 95, 0.8784313725);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.512);
   transition: 0.5s ease-in-out;
 }
 .menuFixed nav {
-  background-color: #800e13;
+  background-color: rgba(9, 65, 95, 0.8784313725);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   height: auto;
 }
 .menuFixed nav .navbar-brand img {

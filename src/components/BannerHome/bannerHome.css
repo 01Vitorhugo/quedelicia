@@ -1,13 +1,13 @@
 .imgageCarousel {
-  margin-top: 110px;
-  height: 600px;
+  /* margin-top: 110px; */
+  height: 750px;
   overflow: hidden;
 }
 .imgageCarousel .carousel {
   height: 100%;
 }
 .imgageCarousel #imageCarousel {
-  height: 600px;
+  height: 750px;
   animation: pulsar 20s ease-in-out infinite;
 }
 
