@@ -16,10 +16,10 @@ function App() {
       <BannerLogo />
       <DescriIcons />
       <Produtos/>
-<<<<<<< HEAD
+
       <Estrutura /> 
-=======
->>>>>>> 9332eb76b629807fe509ec8b81decf1c3e13f2a1
+
+
 
       <Estrutura />
       

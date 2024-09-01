@@ -6,7 +6,6 @@ import ImagePhone from '../../imagens/estrutura/imgPhone.png'
 
 export default function Estrutura() {
 
-<<<<<<< HEAD
     // useLayoutEffect(() => {
     //     gsap.registerPlugin(ScrollTrigger);
     //     gsap.to("#box-box1", {
@@ -28,19 +27,13 @@ export default function Estrutura() {
     // }, [])
 
    
-=======
->>>>>>> 9332eb76b629807fe509ec8b81decf1c3e13f2a1
 
     return (
         <section className='estrutura'>
             
 
-<<<<<<< HEAD
+
            
-
-
-=======
->>>>>>> 9332eb76b629807fe509ec8b81decf1c3e13f2a1
 
         </section>
     )
