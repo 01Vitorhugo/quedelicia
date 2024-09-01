@@ -3,19 +3,25 @@ import "./navbar.css";
 import { useState, useEffect } from "react";
 import logo from "../../imagens/logo-sem-fundo.png";
 import {
-    CNavbar, CNavbarBrand, CContainer, CNavbarToggler, COffcanvas, COffcanvasHeader,
-    CCloseButton, COffcanvasBody, CNavbarNav, CNavItem, CNavLink
-} from '@coreui/react';
+    Avatar,
+    Dropdown,
+    DropdownDivider,
+    DropdownHeader,
+    DropdownItem,
+    Navbar,
+    NavbarBrand,
+    NavbarCollapse,
+    NavbarLink,
+    NavbarToggle,
+} from "flowbite-react";
 
-export default function Navbar() {
-
-    const [visible, setVisible] = useState(false);
+export default function Menu() {
     const [isScrolled, setIsScrolled] = useState(false);
 
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 50) { 
+            if (window.scrollY > 50) {
                 setIsScrolled(true);
             } else {
                 setIsScrolled(false);
@@ -30,44 +36,23 @@ export default function Navbar() {
     }, []);
 
     return (
-            <div className={`menuFixed  ${isScrolled ? 'menu scrolled' : ''}`}>
-            <CNavbar expand="xxl">
-                <CContainer fluid>
-                    <CNavbarBrand><img src={logo} alt="logo empresa" /></CNavbarBrand>
-                    <CNavbarToggler
-                        aria-controls="offcanvasNavbar2"
-                        aria-label="Toggle navigation"
-                        onClick={() => setVisible(!visible)}
-                    />
-                    <COffcanvas id="offcanvasNavbar2" placement="end" portal={false} visible={visible} onHide={() => setVisible(false)}>
-                        <COffcanvasHeader>
-                            <CCloseButton className="text-reset" onClick={() => setVisible(false)} />
-                        </COffcanvasHeader>
-                        <COffcanvasBody>
-                            <CNavbarNav>
-                                <CNavItem>
-                                    <CNavLink href="#" title="Voltar para Home">
-                                        Home
-                                    </CNavLink>
-                                </CNavItem>
-                                <CNavItem>
-                                    <CNavLink href="#" title="Ver Produtos">
-                                        Produtos
-                                    </CNavLink>
-                                </CNavItem>
-                                <CNavItem>
-                                    <CNavLink href="#" title="Ir para Contato">Contato</CNavLink>
-                                </CNavItem>
-                                <CNavItem>
-                                    <CNavLink href="#" title="Ver localização">
-                                        Localização
-                                    </CNavLink>
-                                </CNavItem>
-                            </CNavbarNav>
-                        </COffcanvasBody>
-                    </COffcanvas>
-                </CContainer>
-            </CNavbar>
+        <div className={`menuFixed  ${isScrolled ? 'menu scrolled' : ''}`}>
+            <Navbar fluid rounded>
+                <NavbarBrand href="https://flowbite-react.com">
+                    <img src={logo} className="mr-3 h-6 sm:h-9" alt="Que Delícia Logo" />
+                </NavbarBrand>
+                <div className="flex md:order-2">
+                    <NavbarToggle />
+                </div>
+                <NavbarCollapse>
+                    <NavbarLink href="#" active>
+                        Home
+                    </NavbarLink>
+                    <NavbarLink href="#">Produtos</NavbarLink>
+                    <NavbarLink href="#">Contato</NavbarLink>
+                    <NavbarLink href="#">Localização</NavbarLink>
+                </NavbarCollapse>
+            </Navbar>
         </div>
 
     )

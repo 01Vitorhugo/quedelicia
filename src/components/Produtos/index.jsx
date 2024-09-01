@@ -106,6 +106,8 @@ export default function Produtos() {
                 </Slider>
             </div>
 
+            <button className='button-verMais'>Veja todos produtos</button>
+
         </section>
     )
 }

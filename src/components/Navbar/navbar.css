@@ -3,9 +3,6 @@
   top: 0;
   z-index: 1000;
   width: 100%;
-  /* .offcanvas-end {
-       background-color: #800e13 !important;
-  } */
 }
 .menuFixed.scrolled nav {
   background-color: rgba(9, 65, 95, 0.8784313725);
@@ -20,9 +17,17 @@
           backdrop-filter: blur(10px);
   height: auto;
 }
-.menuFixed nav .navbar-brand img {
-  height: 100px;
+.menuFixed nav img {
+  margin-left: 50px;
+  height: 90px;
   filter: drop-shadow(1px 1px 7px white);
+}
+.menuFixed nav ul li a:hover {
+  background-color: transparent !important;
+}
+.menuFixed nav ul li a {
+  color: white;
+  font-size: 15px;
 }
 .menuFixed nav .container-fluid {
   padding: 0px 50px;

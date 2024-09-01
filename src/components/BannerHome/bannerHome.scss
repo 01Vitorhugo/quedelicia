@@ -1,39 +1,24 @@
 .imgageCarousel{
-    /* margin-top: 110px; */
     height: 750px;    
     overflow: hidden; 
-    
-    .carousel {
-        height: 100%;
-    }
-    #imageCarousel{
-        height: 750px;
-        animation: pulsar 20s ease-in-out infinite;
-        
-    }
-}
 
-.carousel-inner button {
-    background-color: aqua;
-    color: black;
 }
 
 @media (max-width: 1746px){
     .imgageCarousel{
-        height: 580px;
+        height: 780px;
     }
 
 }
 @media (max-width: 1541px){
     .imgageCarousel{
-        height: 580px;
+        height: 680px;
     }
 
 }
 @media (max-width: 1389px){
     .imgageCarousel{
-        height: 520px;
-        background-color: aqua;
+        height: 580px;
     }
     #imageCarousel{
         height: 520px !important;
@@ -42,8 +27,7 @@
 }
 @media (max-width: 1208px){
     .imgageCarousel{
-        margin-top: 100px;
-        height: 440px;
+        height: 580px;
     }
     #imageCarousel{
         height: 440px !important;
@@ -52,8 +36,7 @@
 }
 @media (max-width: 1041px){
     .imgageCarousel{
-
-        height: 390px;
+        height: 590px;
     }
     #imageCarousel{
         height: 390px !important;
@@ -62,18 +45,16 @@
 }
 @media (max-width: 919px){
     .imgageCarousel{
-        margin-top: 70px;
-        height: 340px;
+        height: 580px;
     }
     #imageCarousel{
         height: 340px !important;
     }
 
 }
-@media (max-width: 802px){
+@media (max-width: 756px){
     .imgageCarousel{
-        margin-top: 75px;
-        height: 300px;
+        height: 600px;
     }
     #imageCarousel{
         height: 300px !important;
@@ -82,8 +63,7 @@
 }
 @media (max-width: 700px){
     .imgageCarousel{
-        margin-top: 80px;
-        height: 260px;
+        height: 580px;
     }
     #imageCarousel{
         height: 260px !important;
@@ -92,8 +72,7 @@
 }
 @media (max-width: 607px){
     .imgageCarousel{
-        margin-top: 85px;
-        height: 225px;
+        height: 525px;
     }
     #imageCarousel{
         height: 225px !important;
@@ -102,8 +81,7 @@
 }
 @media (max-width: 535px){
     .imgageCarousel{
-        margin-top: 80px;
-        height: 200px;
+        height: 500px;
     }
     #imageCarousel{
         height: 200px !important;

@@ -4,8 +4,6 @@
     z-index: 1000;
     width: 100%;
 
-    
-
     &.scrolled nav {
         background-color:#09415fe0; 
         backdrop-filter: blur(10px);
@@ -18,15 +16,22 @@
         background-color:#09415fe0;
         backdrop-filter: blur(10px);
         height: auto;
-       
-
-        .navbar-brand {
+    
 
             img {
-                height: 100px;
+                margin-left: 50px;
+                height: 90px;
                 filter: drop-shadow(1px 1px 7px #ffff);
             }
-        }
+
+            ul li a:hover{
+                background-color: transparent!important;
+            }
+            ul li a{
+                color: #ffff;
+                font-size: 15px;
+            }
+
 
         .container-fluid {
             padding: 0px 50px;
@@ -73,10 +78,6 @@
 
         }
     }
-
-    /* .offcanvas-end {
-         background-color: #800e13 !important;
-    } */
 
     @keyframes slide-in {
         from {

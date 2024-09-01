@@ -16,12 +16,9 @@ function App() {
       <BannerLogo />
       <DescriIcons />
       <Produtos/>
-
+      
       <Estrutura /> 
-
-
-
-      <Estrutura />
+      {/* <Estrutura /> */}
       
       {/* <ImageSobreNos /> */}
 

@@ -4,7 +4,31 @@
     align-items: center;
     flex-direction: column;
     background-color: #faf7f2;
-    padding: 90px;
+    /* padding: 90px; */
+    gap: 100px;
+        
+    article{
+        margin-top: 30px;
+        h1{
+            font-size: 48px;
+            font-weight: 600;
+            font-style: italic;
+            color: #044168;
+        }
+    }
+    .button-verMais{
+        background: linear-gradient(45deg, #044168, #037cdd);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    .button-verMais:hover{
+        background: linear-gradient(45deg, #037cdd, #044168);
+    }
 
     .slider-container{     
         width: 80% !important;
@@ -12,10 +36,11 @@
         
         .slick-list{
             width: 100%;
-            margin-left: -10px !important;
+            overflow: hidden !important;
             
             .carrossel-produto{
-                width: 90% !important ;
+                width: 87% !important ;
+                margin-left: 35px;
                 height: 300px !important;
                 display: flex !important;
                 justify-content: space-evenly !important;
@@ -28,7 +53,6 @@
     
                 span{
                     width: 100%;
-
                     position: absolute;
                     bottom: 0;
                     left: 0;
@@ -102,6 +126,24 @@
 
     }
 
+    @media (max-width: 735px){ 
+        h1{
+            font-size: 35px !important;
+        }
+
+      
+
+    }
+    @media (max-width: 421px){ 
+        h1{
+            font-size: 25px !important;
+        }
+
+      
+
+    }
+
+
 
 
 
@@ -138,7 +180,7 @@
         opacity: 1;
         font-size: 35px;
         font-weight: 300;
-        margin-left: -50px !important;
+        /* margin-left: -50px !important; */
     }
 
 }
