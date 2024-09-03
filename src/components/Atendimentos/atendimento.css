@@ -1,0 +1,30 @@
+.atendimento {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.atendimento article {
+  margin-bottom: 20px;
+}
+.atendimento article h1 {
+  font-size: 20px;
+}
+.atendimento .atendimento-icons {
+  height: 200px;
+  width: 80%;
+  background-color: black;
+}
+.atendimento .atendimento-icons .icon-box1 {
+  width: 100%;
+  height: 50%;
+  background-color: aqua;
+}
+.atendimento .atendimento-icons .icon-box2 {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(178, 52, 17);
+}/*# sourceMappingURL=atendimento.css.map */
