@@ -38,7 +38,7 @@ export default function Menu() {
     return (
         <div className={`menuFixed  ${isScrolled ? 'menu scrolled' : ''}`}>
             <Navbar fluid rounded>
-                <NavbarBrand href="https://flowbite-react.com">
+                <NavbarBrand href="#">
                     <img src={logo} className="mr-3 h-6 sm:h-9" alt="Que Delícia Logo" />
                 </NavbarBrand>
                 <div className="flex md:order-2">
