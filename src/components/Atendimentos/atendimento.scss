@@ -97,3 +97,17 @@
         }
     }
 }
+
+@media (max-width: 844px){
+    .atendimento-icons{
+        width: 100% !important;
+
+        .icon-box1{
+            justify-content: space-between !important;
+        }
+        .icon-box2{
+            justify-content: space-between !important;
+        }
+    }
+
+}

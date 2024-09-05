@@ -82,4 +82,16 @@
 .atendimento .atendimento-icons .icon-box2 section svg {
   height: 30px;
   fill: #044168;
+}
+
+@media (max-width: 844px) {
+  .atendimento-icons {
+    width: 100% !important;
+  }
+  .atendimento-icons .icon-box1 {
+    justify-content: space-between !important;
+  }
+  .atendimento-icons .icon-box2 {
+    justify-content: space-between !important;
+  }
 }/*# sourceMappingURL=atendimento.css.map */
