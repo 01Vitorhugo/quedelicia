@@ -17,36 +17,21 @@
   flex-direction: column;
 }
 .descri-icons #title-icons figure {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descri-icons #title-icons figure img {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #044168;
-  border-radius: 7rem;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s;
 }
-
-.descri-icons #title-icons figure .img-container {
-  width: 90%;
-  height: 90%;
-  border: 0.16rem solid #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+.descri-icons #title-icons figure img:hover {
+  background-color: #037cdd;
 }
-
-.descri-icons #title-icons figure .img-container img {
-  width: 80%;
-  height: auto;
-}
-
-.descri-icons #title-icons figure:hover {
-  background-color: #037cdd; 
-}
-
 .descri-icons #title-icons article {
   height: 50%;
   width: 100;
