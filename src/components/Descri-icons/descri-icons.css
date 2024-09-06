@@ -71,7 +71,10 @@
 }
 @media (max-width: 757px) {
   .descri-icons {
-    gap: 20px;
+    margin-top: 20px;
     flex-direction: column;
+  }
+  .descri-icons article {
+    height: 30%;
   }
 }/*# sourceMappingURL=descri-icons.css.map */
