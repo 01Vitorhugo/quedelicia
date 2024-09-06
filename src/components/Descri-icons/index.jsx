@@ -1,5 +1,5 @@
 import "./descri-icons.css";
-import BatePapo from "../../imagens/icons/bate-papo-online.png";
+import BatePapo from "../../imagens/icons/bate-papo-online2.png";
 import Alimento from "../../imagens/icons/alimento.png";
 import Enviado from "../../imagens/icons/enviado.png";
 import Qualidade from "../../imagens/icons/qualidade.png";
