@@ -17,24 +17,37 @@
   flex-direction: column;
 }
 .descri-icons #title-icons figure {
-  height: 50%;
-  width: 100%;
+  height: 100px;
+  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.descri-icons #title-icons figure img {
-  height: 100%;
   background-color: #044168;
-  border-radius: 50px;
-  transition: 0.3s;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
-.descri-icons #title-icons figure img:hover {
+.descri-icons #title-icons figure:hover {
   background-color: #037cdd;
 }
-.descri-icons #title-icons article {
+.descri-icons #title-icons figure .img-container {
+  width: 90%;
+  aspect-ratio: 1/1;
+  border: 0.16rem solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.descri-icons #title-icons figure .img-container img {
+  width: 70%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.descri-icons article {
   height: 50%;
-  width: 100;
+  width: 100%;
   display: flex;
   text-align: center;
 }
