@@ -1,0 +1,29 @@
+.parceiros{
+    width: 100%;
+    height: auto;
+    background-color: #faf7f2;
+
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+    article{
+        background-color: aqua;
+    }
+
+    .box-parceiros{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+
+        .slider-container{
+            width: 80%;
+            height: 50%;
+        }
+    }
+}

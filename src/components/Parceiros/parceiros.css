@@ -1,0 +1,24 @@
+.parceiros {
+  width: 100%;
+  height: auto;
+  background-color: #faf7f2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.parceiros article {
+  background-color: aqua;
+}
+.parceiros .box-parceiros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+.parceiros .box-parceiros .slider-container {
+  width: 80%;
+  height: 50%;
+}/*# sourceMappingURL=parceiros.css.map */
