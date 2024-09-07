@@ -5,11 +5,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
 }
 .parceiros article {
   width: 80%;
-  color: rgba(9, 65, 95, 0.8784313725);
+  background-color: #044168;
+  color: #fff;
   padding: 5px;
   text-align: center;
   font-size: 20px;
@@ -41,7 +42,7 @@
   height: 80%;
 }
 .parceiros .slick-prev:before, .parceiros .slick-next:before {
-  color: rgba(9, 65, 95, 0.8784313725);
+  color: #044168;
   font-weight: 300;
   font-size: 20px;
 }/*# sourceMappingURL=parceiros.css.map */
