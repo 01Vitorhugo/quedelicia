@@ -46,7 +46,7 @@ export default function DescriIcons() {
           </div>
         </figure>
         <article>
-          <p>Central de Vendas</p>
+          <p>Central de vendas</p>
         </article>
       </div>
     </section>
