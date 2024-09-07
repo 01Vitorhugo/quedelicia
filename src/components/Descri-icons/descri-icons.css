@@ -40,8 +40,8 @@
   transition: 1s ease-in-out;
 }
 .descri-icons #title-icons figure .img-container img {
-  width: 70%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 .descri-icons #title-icons figure .img-container:hover {
   transform: scale(1.3);
