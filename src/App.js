@@ -7,6 +7,8 @@ import RoutsPage from './router';
 import Produtos from "./components/Produtos";
 import Atendimento from "./components/Atendimentos";
 import Parceiros from "./components/Parceiros";
+import BannerFotoSobreNos from "./components/BannerFotoSobreNos";
+import FooterMain from "./components/Footer";
 
 function App() {
 
@@ -19,7 +21,10 @@ function App() {
       <DescriIcons />
       <Produtos/>
       <Atendimento/>
+      <BannerFotoSobreNos/>
       <Parceiros/>
+
+      <FooterMain/>
         
 
       <div className='button-whats'>
