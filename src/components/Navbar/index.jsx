@@ -50,7 +50,8 @@ export default function Menu() {
                     </NavbarLink>
                     <NavbarLink href="#">Produtos</NavbarLink>
                     <NavbarLink href="#">Contato</NavbarLink>
-                    <NavbarLink href="#">Localização</NavbarLink>
+                    <NavbarLink href="#">Quem somos</NavbarLink>
+                    <NavbarLink href="#">Trabalhe conosco</NavbarLink>
                 </NavbarCollapse>
             </Navbar>
         </div>
