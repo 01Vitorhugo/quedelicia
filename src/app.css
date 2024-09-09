@@ -16,11 +16,16 @@
     cursor: pointer;
     animation: pular 2s ease-in-out infinite;
     
+}
+.App .button-whats a{
+    height: 100%;
+    width: 100%;
     
-    svg{
-        height: 65%;
-        fill: #a4c639;
-    }
+  }
+  .App .button-whats a svg{
+    height: 65%;
+    fill: #a4c639;
+
   }
   
   
