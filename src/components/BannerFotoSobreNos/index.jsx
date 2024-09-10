@@ -7,7 +7,6 @@ export default function BannerFotoSobreNos(){
 
     return(
         <section className='bannerSobreNos'>
-            <img src={teste} alt='teste' />
             <img src={teste2} alt='teste' />
 
 
