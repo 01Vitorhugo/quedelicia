@@ -3,6 +3,11 @@
     overflow: hidden; 
     background-color: black;
 
+    #imageCarousel{
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 @media (max-width: 1746px){
@@ -21,71 +26,54 @@
     .imgageCarousel{
         height: 550px;
     }
-    #imageCarousel{
-        height: 550px !important;
-    }
+ 
 
 }
 @media (max-width: 1208px){
     .imgageCarousel{
         height: 580px;
     }
-    #imageCarousel{
-        height: 440px !important;
-    }
 
 }
 @media (max-width: 1041px){
     .imgageCarousel{
-        height: 590px;
+        height: 560px;
     }
-    #imageCarousel{
-        height: 390px !important;
-    }
-
+   
 }
 @media (max-width: 919px){
     .imgageCarousel{
-        height: 580px;
+        height: 500px;
     }
-    #imageCarousel{
-        height: 340px !important;
-    }
-
+  
 }
 @media (max-width: 756px){
     .imgageCarousel{
-        height: 600px;
-    }
-    #imageCarousel{
-        height: 300px !important;
+        height: 480px;
     }
 
 }
 @media (max-width: 700px){
     .imgageCarousel{
-        height: 580px;
-    }
-    #imageCarousel{
-        height: 260px !important;
+        height: 410px;
     }
 
 }
 @media (max-width: 607px){
     .imgageCarousel{
-        height: 525px;
-    }
-    #imageCarousel{
-        height: 225px !important;
+        height: 390px;
     }
 
 }
 @media (max-width: 535px){
     .imgageCarousel{
-        height: 500px;
+        height: 350px;
     }
-    #imageCarousel{
-        height: 200px !important;
+
+}
+@media (max-width: 429px){
+    .imgageCarousel{
+        height: 300px;
     }
 
 }
