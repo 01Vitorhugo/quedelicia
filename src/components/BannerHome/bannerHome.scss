@@ -1,7 +1,7 @@
 .imgageCarousel{
     height: 750px;    
     overflow: hidden; 
-    background-color: black;
+    /* background-color: black; */
 
     #imageCarousel{
         width: 100%;
@@ -77,8 +77,6 @@
     }
 
 }
-
-
 @keyframes pulsar {
     0% {
       transform: scale(1);
