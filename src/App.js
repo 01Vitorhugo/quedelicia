@@ -20,8 +20,8 @@ function App() {
       <BannerLogo />
       <DescriIcons />
       <Produtos />
-      <BannerFotoSobreNos />
       <Atendimento />
+      <BannerFotoSobreNos />
       <Parceiros />
 
       <FooterMain />

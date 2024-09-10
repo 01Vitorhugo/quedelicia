@@ -11,9 +11,15 @@
   margin-top: 30px;
 }
 .produtos article h1 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 600;
+  color: #044168;
+  text-align: center;
+}
+.produtos article h2 {
   font-style: italic;
+  text-align: center;
+  font-weight: 600;
   color: #044168;
 }
 .produtos .button-verMais {
@@ -105,16 +111,6 @@
   opacity: 1;
   z-index: 1;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
-}
-@media (max-width: 735px) {
-  .produtos h1 {
-    font-size: 35px !important;
-  }
-}
-@media (max-width: 421px) {
-  .produtos h1 {
-    font-size: 25px !important;
-  }
 }
 .produtos .slick-slider ul {
   visibility: hidden;

@@ -59,7 +59,8 @@ export default function Produtos() {
     return (
         <section className='produtos'>
             <article>
-                <h1>Principais Produtos</h1>
+                <h1>Produtos</h1>
+                <h2>Principais produtos Que Delícia</h2>
             </article>
 
             <div className="slider-container">

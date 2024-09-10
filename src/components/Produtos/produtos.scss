@@ -10,9 +10,15 @@
     article{
         margin-top: 30px;
         h1{
-            font-size: 48px;
+            font-size: 38px;
             font-weight: 600;
+            color: #044168;
+            text-align: center;
+        }
+        h2{
             font-style: italic;
+            text-align: center;
+            font-weight: 600;
             color: #044168;
         }
     }
@@ -126,19 +132,19 @@
 
     }
 
-    @media (max-width: 735px){ 
-        h1{
-            font-size: 35px !important;
-        }
-    }
-    @media (max-width: 421px){ 
-        h1{
-            font-size: 25px !important;
-        }
+    // @media (max-width: 735px){ 
+    //     h1{
+    //         font-size: 35px !important;
+    //     }
+    // }
+    // @media (max-width: 421px){ 
+    //     h1{
+    //         font-size: 25px !important;
+    //     }
 
       
 
-    }
+    // }
 
 
 
