@@ -1,6 +1,6 @@
 import './fotoSobreNos.css'
-import teste from '../../imagens/teste.jpg'
-import teste2 from '../../imagens/teste2.jpg'
+import teste from '../../imagens/teste.png'
+import teste2 from '../../imagens/teste2.png'
 
 
 export default function BannerFotoSobreNos(){
