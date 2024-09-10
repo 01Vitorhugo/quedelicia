@@ -1,6 +1,7 @@
 .imgageCarousel{
     height: 750px;    
     overflow: hidden; 
+    background-color: black;
 
 }
 
@@ -12,16 +13,16 @@
 }
 @media (max-width: 1541px){
     .imgageCarousel{
-        height: 680px;
+        height: 580px;
     }
 
 }
 @media (max-width: 1389px){
     .imgageCarousel{
-        height: 580px;
+        height: 550px;
     }
     #imageCarousel{
-        height: 520px !important;
+        height: 550px !important;
     }
 
 }
