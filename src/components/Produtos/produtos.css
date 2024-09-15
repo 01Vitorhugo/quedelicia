@@ -11,10 +11,20 @@
   margin-top: 30px;
 }
 .produtos article h1 {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 600;
   color: #044168;
   text-align: center;
+  text-transform: uppercase;
+}
+.produtos article ::after {
+  content: "";
+  width: 100px;
+  background: rgba(9, 65, 95, 0.4901960784);
+  height: 6px;
+  display: block;
+  margin: 7px auto 0;
+  border-radius: 8px;
 }
 .produtos .button-verMais {
   position: relative;
@@ -28,7 +38,7 @@
   border-radius: 100px;
   font-weight: 600;
   color: black;
-  box-shadow: 0 0 0 2px #037cdd;
+  box-shadow: 0 0 0 2px rgba(9, 65, 95, 0.4901960784);
   cursor: pointer;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -89,7 +99,7 @@
 }
 .produtos .button-verMais:active {
   scale: 0.95;
-  box-shadow: 0 0 0 4px #037cdd;
+  box-shadow: 0 0 0 4px rgba(9, 65, 95, 0.4901960784);
 }
 .produtos .slider-container {
   width: 80% !important;
@@ -120,7 +130,7 @@
   text-align: center;
   padding: 15px;
   background-color: white;
-  color: #086ba2;
+  color: #044168;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -168,9 +178,12 @@
   z-index: 1;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
 }
-@media (max-width: 758px) {
+@media (max-width: 1009px) {
+  .produtos article h1 {
+    font-size: 28px;
+  }
   .produtos .button-verMais {
-    padding: 8px 20px;
+    padding: 10px 22px;
     font-size: 12px;
   }
   .produtos .button-verMais svg {
@@ -181,6 +194,17 @@
   }
   .produtos .button-verMais:hover .arr-2 {
     left: 10px;
+  }
+}
+@media (max-width: 758px) {
+  .produtos .button-verMais {
+    padding: 8px 20px;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 734px) {
+  .produtos article h1 {
+    font-size: 26px !important;
   }
 }
 .produtos .slick-slider ul {

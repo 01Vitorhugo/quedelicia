@@ -11,10 +11,21 @@
         margin-top: 30px;
 
         h1 {
-            font-size: 38px;
+            font-size: 30px;
             font-weight: 600;
             color: #044168;
             text-align: center;
+            text-transform: uppercase;
+        }
+
+        ::after {
+            content: '';
+            width: 100px;
+            background: #09415f7d;
+            height: 6px;
+            display: block;
+            margin: 7px auto 0;
+            border-radius: 8px;
         }
     }
 
@@ -30,7 +41,7 @@
         border-radius: 100px;
         font-weight: 600;
         color: black;
-        box-shadow: 0 0 0 2px #037cdd;
+        box-shadow: 0 0 0 2px #09415f7d;
         cursor: pointer;
         overflow: hidden;
         transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -102,7 +113,7 @@
 
         &:active {
             scale: 0.95;
-            box-shadow: 0 0 0 4px #037cdd;
+            box-shadow: 0 0 0 4px #09415f7d;
         }
     }
 
@@ -137,7 +148,7 @@
                     text-align: center;
                     padding: 15px;
                     background-color: #ffff;
-                    color: #086ba2;
+                    color: #044168;
 
                     margin: 0;
                     display: flex;
@@ -205,31 +216,50 @@
 
     }
 
-    
-    @media (max-width: 758px){ 
-        .button-verMais {
-            padding: 8px 20px;
-            font-size: 12px;
 
-            svg {
-                width: 16px;
-            }
-            .arr-1 {
-                right: 10px;
-            }
-            &:hover {
-                .arr-2 {
-                    left: 10px;
+    @media (max-width: 1009px) {
+            article {
+                h1 {
+                    font-size: 28px;
                 }
             }
+
+            .button-verMais {
+                padding: 10px 22px;
+                font-size: 12px;
+
+                svg {
+                    width: 16px;
+                }
+
+                .arr-1 {
+                    right: 10px;
+                }
+
+                &:hover {
+                    .arr-2 {
+                        left: 10px;
+                    }
+                }
+            }
+        }
+    
+
+    @media (max-width: 758px) {
+        .button-verMais {
+            padding: 8px 20px;
+            margin-bottom: 3rem;
+        }
+
     }
-    @media (max-width: 421px){ 
-      
 
-     } 
-
-    } 
-
+    @media (max-width: 734px) {
+        article {
+            h1 {
+                font-size: 26px !important; 
+            }
+        }
+    }
 
 
 
