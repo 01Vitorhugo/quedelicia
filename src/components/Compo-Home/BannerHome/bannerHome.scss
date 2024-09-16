@@ -1,90 +1,109 @@
-.imgageCarousel{
-    height: 750px;    
-    overflow: hidden; 
-    /* background-color: black; */
+.imgageCarousel {
+    height: 750px;
+    overflow: hidden;
 
-    #imageCarousel{
+    
+
+    div{
+        border-radius: 0 !important;
+    }
+
+    #imageCarousel {
         width: 100%;
         height: 100%;
+
     }
 
 }
 
-@media (max-width: 1746px){
-    .imgageCarousel{
+@media (max-width: 1746px) {
+    .imgageCarousel {
         height: 780px;
     }
 
 }
-@media (max-width: 1541px){
-    .imgageCarousel{
+
+@media (max-width: 1541px) {
+    .imgageCarousel {
         height: 580px;
     }
 
 }
-@media (max-width: 1389px){
-    .imgageCarousel{
+
+@media (max-width: 1389px) {
+    .imgageCarousel {
         height: 550px;
     }
- 
+
 
 }
-@media (max-width: 1208px){
-    .imgageCarousel{
+
+@media (max-width: 1208px) {
+    .imgageCarousel {
         height: 580px;
     }
 
 }
-@media (max-width: 1041px){
-    .imgageCarousel{
+
+@media (max-width: 1041px) {
+    .imgageCarousel {
         height: 560px;
     }
-   
+
 }
-@media (max-width: 919px){
-    .imgageCarousel{
+
+@media (max-width: 919px) {
+    .imgageCarousel {
         height: 500px;
     }
-  
+
 }
-@media (max-width: 756px){
-    .imgageCarousel{
+
+@media (max-width: 756px) {
+    .imgageCarousel {
         height: 480px;
     }
 
 }
-@media (max-width: 700px){
-    .imgageCarousel{
+
+@media (max-width: 700px) {
+    .imgageCarousel {
         height: 410px;
     }
 
 }
-@media (max-width: 607px){
-    .imgageCarousel{
+
+@media (max-width: 607px) {
+    .imgageCarousel {
         height: 390px;
     }
 
 }
-@media (max-width: 535px){
-    .imgageCarousel{
+
+@media (max-width: 535px) {
+    .imgageCarousel {
         height: 350px;
     }
 
 }
-@media (max-width: 429px){
-    .imgageCarousel{
+
+@media (max-width: 429px) {
+    .imgageCarousel {
         height: 300px;
     }
 
 }
+
 @keyframes pulsar {
     0% {
-      transform: scale(1);
+        transform: scale(1);
     }
+
     50% {
-      transform: scale(1.1);
+        transform: scale(1.1);
     }
+
     100% {
-      transform: scale(1);
+        transform: scale(1);
     }
-  }
+}

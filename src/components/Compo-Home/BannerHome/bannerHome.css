@@ -1,7 +1,9 @@
 .imgageCarousel {
   height: 750px;
   overflow: hidden;
-  /* background-color: black; */
+}
+.imgageCarousel div {
+  border-radius: 0 !important;
 }
 .imgageCarousel #imageCarousel {
   width: 100%;
