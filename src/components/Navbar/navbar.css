@@ -25,7 +25,7 @@
 .menuFixed nav ul li a:hover {
   background-color: transparent !important;
 }
-.menuFixed nav ul li a {
+.menuFixed nav ul a {
   color: white;
   font-size: 15px;
 }
