@@ -4,7 +4,7 @@
     background-color: #faf7f2;
 
     display: flex;
-    // justify-content: center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px;
@@ -53,5 +53,32 @@
         color: #044168;
         font-weight: 300;
         font-size: 20px;
+    }
+}
+
+@media (max-width: 479px){
+    .box-parceiros{
+        .slider-container{
+
+            .slick-list{
+                padding-left: 20%;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 480px) and ( max-width: 527px){
+    .box-parceiros{
+        .slider-container{
+
+           .img-parceiro{
+            width: 10px !important;
+            img{
+                width: 100%;
+            }
+           }
+        }
+
     }
 }
