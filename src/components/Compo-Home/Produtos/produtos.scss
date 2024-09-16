@@ -261,6 +261,13 @@
         }
     }
 
+    @media (max-width: 495px) {
+        .carrossel-produto {
+            margin-left: 5% !important;
+
+        }
+    }
+
 
 
 
@@ -294,7 +301,7 @@
     .slick-next:before {
         color: #086ba2;
         opacity: 1;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 300;
         /* margin-left: -50px !important; */
     }

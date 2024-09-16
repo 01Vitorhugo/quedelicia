@@ -207,6 +207,11 @@
     font-size: 26px !important;
   }
 }
+@media (max-width: 495px) {
+  .produtos .carrossel-produto {
+    margin-left: 5% !important;
+  }
+}
 .produtos .slick-slider ul {
   visibility: hidden;
 }
@@ -214,7 +219,7 @@
 .produtos .slick-next:before {
   color: #086ba2;
   opacity: 1;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 300;
   /* margin-left: -50px !important; */
 }/*# sourceMappingURL=produtos.css.map */
