@@ -23,7 +23,7 @@
   height: 90px;
   filter: drop-shadow(1px 1px 7px white);
 }
-.menuFixed nav ul li a:hover {
+.menuFixed nav ul a:hover {
   background-color: transparent !important;
 }
 .menuFixed nav ul a {
