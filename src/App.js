@@ -1,13 +1,5 @@
 import "./app.css";
-import BannerLogo from './components/BannerHome';
-import DescriIcons from './components/Descri-icons';
-import ImageSobreNos from "./components/ImageSobreNos";
-import Estrutura from "./components/PageEstrutura";
 import RoutsPage from './router';
-import Produtos from "./components/Produtos";
-import Atendimento from "./components/Atendimentos";
-import Parceiros from "./components/Parceiros";
-import BannerFotoSobreNos from "./components/BannerFotoSobreNos";
 import FooterMain from "./components/Footer";
 
 function App() {
@@ -17,13 +9,6 @@ function App() {
   return (
     <div className="App">
       <RoutsPage />
-      <BannerLogo />
-      <DescriIcons />
-      <Produtos />
-      <Atendimento />
-      <BannerFotoSobreNos />
-      <Parceiros />
-
       <FooterMain />
 
       <div className='button-whats'>
