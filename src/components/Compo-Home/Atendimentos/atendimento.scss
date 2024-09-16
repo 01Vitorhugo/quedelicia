@@ -99,16 +99,122 @@
     }
 }
 
-@media (max-width: 844px){
+@media (max-width: 761px){
     .atendimento-icons{
-        width: 100% !important;
+       .icon-box1{
+        svg{
+            height: 20px !important;
+        }
+        p{
+            font-size: 13px;
+        }
 
-        .icon-box1{
-            justify-content: space-between !important;
+       }
+
+       .icon-box2{
+        svg{
+            height: 20px !important;
         }
-        .icon-box2{
-            justify-content: space-between !important;
+        p{
+            font-size: 13px;
         }
+
+       }
     }
 
+}
+
+
+@media (max-width: 625px){
+    .atendimento-icons{
+        width: 90% !important;
+
+        .icon-box1{
+            justify-content: space-evenly !important;
+            border-bottom: solid 3px #fff !important;
+
+            section{
+                background-color: rgba(9, 65, 95, 0.8784313725);
+                color: #fff;
+
+                svg{
+                    fill: #fff !important;
+                }
+            }
+            section::before{
+                display: none;
+            }
+        }
+        .icon-box2{
+            justify-content: space-evenly!important;
+
+            section{
+                background-color: rgba(9, 65, 95, 0.8784313725);
+                color: #fff;
+
+                svg{
+                    fill: #fff !important;
+                }
+            }
+            section::before{
+                display: none;
+            }
+        }
+     
+}
+}
+
+@media (max-width: 545px){
+    article{
+        width: 90% !important;
+    }
+    .atendimento-icons{
+
+        height: auto !important ;
+        
+        .icon-box1{
+            flex-wrap: wrap !important;
+            gap: 10px;
+
+            
+            section{
+                height: 100px !important;
+                flex-direction: row !important;
+                gap: 30px !important;
+                flex: 1 1 50%; 
+                box-sizing: border-box;
+
+                svg{
+                    height: 25px !important;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .icon-box2{
+            flex-wrap: wrap !important;
+            gap: 10px;
+
+            
+            section{
+                height: 100px !important;
+                flex-direction: row !important;
+                gap: 30px !important;
+                flex: 1 1 50%; 
+                box-sizing: border-box;
+
+                svg{
+                    height: 25px !important;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+
+        }
+       
+}
 }

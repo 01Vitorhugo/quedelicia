@@ -85,14 +85,91 @@
   fill: #044168;
 }
 
-@media (max-width: 844px) {
+@media (max-width: 761px) {
+  .atendimento-icons .icon-box1 svg {
+    height: 20px !important;
+  }
+  .atendimento-icons .icon-box1 p {
+    font-size: 13px;
+  }
+  .atendimento-icons .icon-box2 svg {
+    height: 20px !important;
+  }
+  .atendimento-icons .icon-box2 p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 625px) {
   .atendimento-icons {
-    width: 100% !important;
+    width: 90% !important;
   }
   .atendimento-icons .icon-box1 {
-    justify-content: space-between !important;
+    justify-content: space-evenly !important;
+    border-bottom: solid 3px #fff !important;
+  }
+  .atendimento-icons .icon-box1 section {
+    background-color: rgba(9, 65, 95, 0.8784313725);
+    color: #fff;
+  }
+  .atendimento-icons .icon-box1 section svg {
+    fill: #fff !important;
+  }
+  .atendimento-icons .icon-box1 section::before {
+    display: none;
   }
   .atendimento-icons .icon-box2 {
-    justify-content: space-between !important;
+    justify-content: space-evenly !important;
+  }
+  .atendimento-icons .icon-box2 section {
+    background-color: rgba(9, 65, 95, 0.8784313725);
+    color: #fff;
+  }
+  .atendimento-icons .icon-box2 section svg {
+    fill: #fff !important;
+  }
+  .atendimento-icons .icon-box2 section::before {
+    display: none;
+  }
+}
+@media (max-width: 545px) {
+  article {
+    width: 90% !important;
+  }
+  .atendimento-icons {
+    height: auto !important;
+  }
+  .atendimento-icons .icon-box1 {
+    flex-wrap: wrap !important;
+    gap: 10px;
+  }
+  .atendimento-icons .icon-box1 section {
+    height: 100px !important;
+    flex-direction: row !important;
+    gap: 30px !important;
+    flex: 1 1 50%;
+    box-sizing: border-box;
+  }
+  .atendimento-icons .icon-box1 section svg {
+    height: 25px !important;
+  }
+  .atendimento-icons .icon-box1 section p {
+    font-size: 20px;
+  }
+  .atendimento-icons .icon-box2 {
+    flex-wrap: wrap !important;
+    gap: 10px;
+  }
+  .atendimento-icons .icon-box2 section {
+    height: 100px !important;
+    flex-direction: row !important;
+    gap: 30px !important;
+    flex: 1 1 50%;
+    box-sizing: border-box;
+  }
+  .atendimento-icons .icon-box2 section svg {
+    height: 25px !important;
+  }
+  .atendimento-icons .icon-box2 section p {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=atendimento.css.map */
