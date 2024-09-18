@@ -26,38 +26,39 @@
   margin: 7px auto 0;
   border-radius: 8px;
 }
-.produtos .button-verMais {
+.produtos .button-view {
   position: relative;
   display: flex;
   align-items: center;
   gap: 4px;
   padding: 16px 36px;
-  border: 4px solid transparent;
-  font-size: 16px;
+  border: 4px solid;
+  border-color: #044168;
+  font-size: 14px;
   background-color: inherit;
   border-radius: 100px;
   font-weight: 600;
   color: black;
-  box-shadow: 0 0 0 2px rgba(9, 65, 95, 0.4901960784);
+  box-shadow: 0 0 0 2px white;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  margin-bottom: 3.4rem;
+  margin-bottom: 2rem;
 }
-.produtos .button-verMais svg {
+.produtos .button-view svg {
   position: absolute;
   width: 24px;
-  fill: #000;
+  fill: black;
   z-index: 9;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
-.produtos .button-verMais .arr-1 {
+.produtos .button-view .arr-1 {
   right: 16px;
 }
-.produtos .button-verMais .arr-2 {
+.produtos .button-view .arr-2 {
   left: -25%;
 }
-.produtos .button-verMais .circle {
+.produtos .button-view .circle {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -69,35 +70,36 @@
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
-.produtos .button-verMais .text {
+.produtos .button-view .text {
   position: relative;
   z-index: 1;
   transform: translateX(-12px);
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
-.produtos .button-verMais:hover {
+.produtos .button-view:hover {
   box-shadow: 0 0 0 12px transparent;
   color: #fff;
   border-radius: 12px;
 }
-.produtos .button-verMais:hover .arr-1 {
+.produtos .button-view:hover .arr-1 {
   right: -25%;
 }
-.produtos .button-verMais:hover .arr-2 {
+.produtos .button-view:hover .arr-2 {
   left: 16px;
 }
-.produtos .button-verMais:hover .text {
+.produtos .button-view:hover .text {
   transform: translateX(12px);
+  font-size: 18px;
 }
-.produtos .button-verMais:hover svg {
+.produtos .button-view:hover svg {
   fill: #fff;
 }
-.produtos .button-verMais:hover .circle {
-  width: 220px;
+.produtos .button-view:hover .circle {
+  width: 260px;
   height: 220px;
   opacity: 1;
 }
-.produtos .button-verMais:active {
+.produtos .button-view:active {
   scale: 0.95;
   box-shadow: 0 0 0 4px rgba(9, 65, 95, 0.4901960784);
 }
@@ -182,22 +184,25 @@
   .produtos article h1 {
     font-size: 28px;
   }
-  .produtos .button-verMais {
+  .produtos .button-view {
     padding: 10px 22px;
     font-size: 12px;
   }
-  .produtos .button-verMais svg {
+  .produtos .button-view svg {
     width: 16px;
   }
-  .produtos .button-verMais .arr-1 {
+  .produtos .button-view .arr-1 {
     right: 10px;
   }
-  .produtos .button-verMais:hover .arr-2 {
+  .produtos .button-view:hover .arr-2 {
     left: 10px;
+  }
+  .produtos .button-view:hover .text {
+    font-size: 17px;
   }
 }
 @media (max-width: 758px) {
-  .produtos .button-verMais {
+  .produtos .button-view {
     padding: 8px 20px;
     margin-bottom: 3rem;
   }
