@@ -1,0 +1,60 @@
+.estrutura {
+  /* background-color: #faf7f2; */
+}
+.estrutura .conteudo {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+.estrutura .veiculos {
+  width: 50%;
+  height: 700px;
+  position: relative;
+}
+.estrutura .veiculos img {
+  height: 350px;
+  position: absolute;
+  left: 40%;
+}
+.estrutura .veiculos .fiorino {
+  height: 400px;
+  transform: translateX(-500px);
+  opacity: 0;
+}
+.estrutura .veiculos .ducato {
+  margin-top: 130px;
+  left: 35%;
+  transform: translateX(-700px);
+  opacity: 0;
+}
+.estrutura .veiculos .caminhao {
+  margin-top: 300px;
+  left: 10%;
+  transform: translateX(-900px);
+  opacity: 0;
+}
+.estrutura .texto {
+  width: 50%;
+  height: 700px;
+  background-color: rgba(9, 65, 95, 0.8784313725);
+  border-radius: 200px 0px 0px 0px;
+}
+.estrutura .texto article {
+  text-align: center;
+  padding: 10px;
+}
+.estrutura .texto article h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+.estrutura .texto article ::after {
+  content: "";
+  width: 100px;
+  background: #fff;
+  height: 6px;
+  display: block;
+  margin: 7px auto 0;
+  border-radius: 8px;
+}/*# sourceMappingURL=estrutura.css.map */
