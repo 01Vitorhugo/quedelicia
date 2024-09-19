@@ -33,12 +33,17 @@ footer .wrapper .footer-widget p {
 }
 footer .wrapper .footer-widget h6 {
   color: #585978;
-  margin: 10px 0 35px;
+  margin: 10px 0 40px;
   font-size: 20px;
   font-weight: 600;
 }
+footer .wrapper .footer-widget .links {
+  display: flex;
+  flex-wrap: wrap;
+}
 footer .wrapper .footer-widget .links li {
   list-style: none;
+  flex: 1 1 50%;
 }
 footer .wrapper .footer-widget .links li a {
   color: #585978;
@@ -98,20 +103,20 @@ footer .copyright-wrapper p a:hover {
 
 @media (max-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 960px !important;
   }
   .footer-widget,
   .footer-widget:nth-child(1) {
-    width: calc(50% - 30px);
+    width: calc(50% - 30px) !important;
   }
 }
 @media (max-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 720px !important;
   }
   .footer-widget,
   .footer-widget:nth-child(1) {
-    width: 100%;
-    margin: 0 10px 50px;
+    width: 100% !important;
+    margin: 0 10px 50px !important;
   }
 }/*# sourceMappingURL=footer.css.map */

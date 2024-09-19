@@ -47,15 +47,19 @@ footer {
       
         h6 {
           color: $text-color;
-          margin: 10px 0 35px;
+          margin: 10px 0 40px;
           font-size: 20px;
           font-weight: $font-weight-bold;
         }
       
         .links {
+          display: flex;
+          flex-wrap: wrap;
+          
           li {
             list-style: none;
-      
+            flex: 1 1 50%; 
+            
             a {
               color: $text-color;
               font-size: $font-size-base;
@@ -63,13 +67,14 @@ footer {
               text-transform: capitalize;
               line-height: 32px;
               transition: all 0.3s ease-out;
-      
+        
               &:hover {
                 color: $primary-color;
               }
             }
           }
         }
+        
       }
       
 
@@ -129,23 +134,23 @@ footer {
 
 @media (max-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 960px !important ;
   }
 
   .footer-widget,
   .footer-widget:nth-child(1) {
-    width: calc(50% - 30px);
+    width: calc(50% - 30px)!important;
   }
 }
 
 @media (max-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 720px !important;
   }
 
   .footer-widget,
   .footer-widget:nth-child(1) {
-    width: 100%;
-    margin: 0 10px 50px;
+    width: 100% !important ;
+    margin: 0 10px 50px !important;
   }
 }
