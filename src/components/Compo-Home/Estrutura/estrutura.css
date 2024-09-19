@@ -52,7 +52,7 @@
 .estrutura .texto article ::after {
   content: "";
   width: 100px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.4745098039);
   height: 6px;
   display: block;
   margin: 7px auto 0;
