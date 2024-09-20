@@ -12,8 +12,8 @@ export default function Home(){
         <BannerLogo/>
         <DescriIcons/>
         <Produtos/>
-        <Atendimento/>
         <Estrutura/>
+        <Atendimento/>
         <Parceiros/>
         </>
     )
