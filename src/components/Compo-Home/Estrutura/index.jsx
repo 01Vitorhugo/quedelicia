@@ -134,7 +134,7 @@ export default function Estrutura() {
                             </figure>
 
                             <article>
-                                <h2>Compomisso e Qualidade</h2>
+                                <h2>Compromisso e Qualidade</h2>
                                 <p>Garantimos a entrega confiável e eficiente de produtos <br />
                                     perecíveis, ideal para produtos sensíveis à temperatura.
                                 </p>
