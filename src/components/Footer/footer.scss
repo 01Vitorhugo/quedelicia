@@ -1,14 +1,13 @@
-$primary-color: #037ef3;
+$primary-color: #044168;
 $text-color: #585978;
 $background-color: #ffffff;
 $border-color: rgba(88, 89, 120, 0.4);
-$hover-color: rgba(3, 127, 243, 0.5);
+$hover-color: #09415f7d;
+$hover-color-2: #1471ab;
 $font-size-base: 16px;
 $font-size-small: 14px;
 $font-weight-regular: 500;
 $font-weight-bold: 600;
-
-
 footer {
   position: relative;
   width: 100%;
@@ -87,21 +86,29 @@ footer {
         list-style: none;
 
         a {
-          width: 44px;
-          height: 44px;
+          width: 46px;
+          height: 46px;
           margin-right: 10px;
-          color: #ffffff;
-          background-color: $hover-color;
+          background-color: $primary-color;
           border-radius: 50%;
-          font-size: 20px;
           text-decoration: none;
           display: flex;
           align-items: center;
           justify-content: center;
           transition: all 0.3s ease-out;
 
+          svg{
+            width: 32px;  
+            height: 32px;
+          }
+         
           &:hover {
-            background-color: $primary-color;
+            background-color: $hover-color-2;
+            svg{ 
+              width: 36px;  
+              height: 36px;
+              transition: 0.3s ease-in-out;
+            }
           }
         }
       }
@@ -125,8 +132,9 @@ footer {
         transition: all 0.3s ease-out;
 
         &:hover {
-          color: $primary-color;
+          color: $primary-color; 
         }
+        
       }
     }
   }

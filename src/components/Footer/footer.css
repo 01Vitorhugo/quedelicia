@@ -54,7 +54,7 @@ footer .wrapper .footer-widget .links li a {
   transition: all 0.3s ease-out;
 }
 footer .wrapper .footer-widget .links li a:hover {
-  color: #037ef3;
+  color: #044168;
 }
 footer .wrapper .socials {
   display: flex;
@@ -65,21 +65,28 @@ footer .wrapper .socials li {
   list-style: none;
 }
 footer .wrapper .socials li a {
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   margin-right: 10px;
-  color: #ffffff;
-  background-color: rgba(3, 127, 243, 0.5);
+  background-color: #044168;
   border-radius: 50%;
-  font-size: 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-out;
 }
+footer .wrapper .socials li a svg {
+  width: 32px;
+  height: 32px;
+}
 footer .wrapper .socials li a:hover {
-  background-color: #037ef3;
+  background-color: #1471ab;
+}
+footer .wrapper .socials li a:hover svg {
+  width: 36px;
+  height: 36px;
+  transition: 0.3s ease-in-out;
 }
 footer .copyright-wrapper {
   padding: 20px 0;
@@ -98,7 +105,7 @@ footer .copyright-wrapper p a {
   transition: all 0.3s ease-out;
 }
 footer .copyright-wrapper p a:hover {
-  color: #037ef3;
+  color: #044168;
 }
 
 @media (max-width: 992px) {
