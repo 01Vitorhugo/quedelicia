@@ -1,8 +1,6 @@
 .imgageCarousel {
     height: 750px;
-    max-width: 130%;
-    /* overflow: hidden; */
-
+    overflow: hidden;
     div {
         border-radius: 0 !important;
     }
@@ -70,36 +68,11 @@
 
 @media (max-width: 700px) {
     .imgageCarousel {
-        height: 680px;
+        height: 100vh;
     }
 
 }
 
-@media (max-width: 607px) {
-    .imgageCarousel {
-        height: 390px;
-        .car{
-            position: absolute;
-        }
-    }
-
-}
-
-@media (max-width: 535px) {
-    .imgageCarousel {
-        height: 350px;
-
-
-    }
-
-}
-
-@media (max-width: 429px) {
-    .imgageCarousel {
-        height: 300px;
-    }
-
-}
 
 @keyframes pulsar {
     0% {
