@@ -179,10 +179,9 @@
             
             section{
                 height: 100px !important;
-                flex-direction: row !important;
-                gap: 30px !important;
+                flex-direction: column !important;
+                gap: 10px !important;
                 flex: 1 1 50%; 
-                box-sizing: border-box;
 
                 svg{
                     height: 25px !important;
@@ -201,10 +200,9 @@
             
             section{
                 height: 100px !important;
-                flex-direction: row !important;
-                gap: 30px !important;
+                flex-direction: column !important;
+                gap: 10px !important;
                 flex: 1 1 50%; 
-                box-sizing: border-box;
 
                 svg{
                     height: 25px !important;
