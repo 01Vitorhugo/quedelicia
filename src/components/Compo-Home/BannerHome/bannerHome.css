@@ -42,11 +42,6 @@
 }
 @media (max-width: 756px) {
   .imgageCarousel {
-    height: 700px;
-  }
-}
-@media (max-width: 700px) {
-  .imgageCarousel {
     height: 100vh;
   }
 }
