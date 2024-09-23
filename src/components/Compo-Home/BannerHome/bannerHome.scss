@@ -1,10 +1,9 @@
 .imgageCarousel {
     height: 750px;
-    overflow: hidden;
+    max-width: 130%;
+    /* overflow: hidden; */
 
-    
-
-    div{
+    div {
         border-radius: 0 !important;
     }
 
@@ -13,6 +12,7 @@
         height: 100%;
 
     }
+    
 
 }
 
@@ -61,14 +61,16 @@
 
 @media (max-width: 756px) {
     .imgageCarousel {
-        height: 480px;
+        height: 700px;
+       
+        
     }
 
 }
 
 @media (max-width: 700px) {
     .imgageCarousel {
-        height: 410px;
+        height: 680px;
     }
 
 }
@@ -76,6 +78,9 @@
 @media (max-width: 607px) {
     .imgageCarousel {
         height: 390px;
+        .car{
+            position: absolute;
+        }
     }
 
 }
@@ -83,6 +88,8 @@
 @media (max-width: 535px) {
     .imgageCarousel {
         height: 350px;
+
+
     }
 
 }
