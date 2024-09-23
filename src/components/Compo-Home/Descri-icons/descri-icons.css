@@ -27,6 +27,9 @@
   transition: background-color 0.3s ease;
   cursor: pointer;
   overflow: hidden;
+  /* &:hover {
+      background-color: #037cdd;
+  } */
 }
 .descri-icons #title-icons figure .img-container {
   width: 90%;
