@@ -27,8 +27,7 @@ export default function FooterMain() {
               style={{ width: "50px", height: "auto" }}
             />
             <p className="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              deserunt magni recusandae ut! Natus?
+              
             </p>
             <ul className="socials">
               <li>
@@ -37,12 +36,11 @@ export default function FooterMain() {
                     xmlns="http://www.w3.org/2000/svg"
                     data-name="Layer 1"
                     viewBox="0 0 24 24"
-                    id="facebook"
-                    
+                    id="facebook-f"
                   >
                     <path
                       fill="#fff"
-                      d="M20.9,2H3.1A1.1,1.1,0,0,0,2,3.1V20.9A1.1,1.1,0,0,0,3.1,22h9.58V14.25h-2.6v-3h2.6V9a3.64,3.64,0,0,1,3.88-4,20.26,20.26,0,0,1,2.33.12v2.7H17.3c-1.26,0-1.5.6-1.5,1.47v1.93h3l-.39,3H15.8V22h5.1A1.1,1.1,0,0,0,22,20.9V3.1A1.1,1.1,0,0,0,20.9,2Z"
+                      d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"
                     ></path>
                   </svg>
                 </a>
@@ -63,7 +61,7 @@ export default function FooterMain() {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://wa.me/5511995216604?text=Olá,%20vim%20do%20site%20https://quedelicia.vercel.app/,%20tenho%20interesse%20nos%20seus%20produtos.">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -80,7 +78,7 @@ export default function FooterMain() {
           </div>
 
           <div className="footer-widget">
-            <h6>Quick Link</h6>
+            <h6>Links</h6>
             <ul className="links">
               <FooterLinkGroup>
                 <FooterLink href="#">About</FooterLink>
