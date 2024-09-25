@@ -1,5 +1,5 @@
 .imgageCarousel {
-  margin-top: 30px;
+  margin-top: 60px;
   height: 750px;
   overflow: hidden;
 }
@@ -54,7 +54,6 @@
 @media (max-width: 524px) {
   .imgageCarousel {
     height: 300px;
-    margin-top: 60px;
   }
 }
 @media (max-width: 434px) {
