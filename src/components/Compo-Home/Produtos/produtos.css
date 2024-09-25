@@ -195,15 +195,16 @@
 }
 @media (max-width: 758px) {
   .produtos .button-view {
-    padding: 8px 20px;
+    padding: 12px 24px;
     margin-bottom: 3rem;
-    height: 35px;
+    height: 40px;
+    font-size: 14px;
   }
   .produtos .button-view svg {
-    width: 14px;
+    width: 18px;
   }
   .produtos .button-view:hover .text {
-    font-size: 13px;
+    font-size: 16px;
   }
   .produtos .button-view .circle {
     width: 150px;
