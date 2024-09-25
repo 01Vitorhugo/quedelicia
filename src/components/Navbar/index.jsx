@@ -3,15 +3,8 @@ import "./navbar.css";
 import { useState, useEffect } from "react";
 import logo from "../../imagens/logo-sem-fundo.png";
 import {
-    Avatar,
-    Dropdown,
-    DropdownDivider,
-    DropdownHeader,
-    DropdownItem,
     Navbar,
-    NavbarBrand,
     NavbarCollapse,
-    NavbarLink,
     NavbarToggle,
 } from "flowbite-react";
 
