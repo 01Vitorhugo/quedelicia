@@ -147,27 +147,36 @@
     flex-direction: column !important;
     gap: 10px !important;
     flex: 1 1 50%;
+    background-color: transparent !important;
+    box-shadow: 2px 4px 10px #000;
   }
   .atendimento-icons .icon-box1 section svg {
     height: 25px !important;
+    fill: #044168 !important;
   }
   .atendimento-icons .icon-box1 section p {
     font-size: 20px;
+    color: #044168;
   }
   .atendimento-icons .icon-box2 {
     flex-wrap: wrap !important;
     gap: 10px;
   }
   .atendimento-icons .icon-box2 section {
+    margin-top: 7px;
     height: 100px !important;
     flex-direction: column !important;
     gap: 10px !important;
     flex: 1 1 50%;
+    background-color: transparent !important;
+    box-shadow: 2px 4px 10px #000;
   }
   .atendimento-icons .icon-box2 section svg {
     height: 25px !important;
+    fill: #044168 !important;
   }
   .atendimento-icons .icon-box2 section p {
     font-size: 20px;
+    color: #044168;
   }
 }/*# sourceMappingURL=atendimento.css.map */
