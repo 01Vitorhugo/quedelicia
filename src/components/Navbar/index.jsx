@@ -40,9 +40,9 @@ export default function Menu() {
     return (
         <div className={`menuFixed  ${isScrolled ? 'menu scrolled' : ''}`}>
             <Navbar fluid rounded>
-                <NavbarBrand href="#">
-                    <img src={logo} className="mr-3 h-6 sm:h-9" alt="Que Delícia Logo" />
-                </NavbarBrand>
+                <Link to="/">
+                        <img src={logo} className="mr-3 h-6 sm:h-9" alt="Que Delícia Logo" />
+                </Link>
                 <div className="flex md:order-2">
                     <NavbarToggle />
                 </div>
