@@ -7,6 +7,7 @@ import backFrango from '../Produtos/imagens/backgroundFrango.jpg'
 import backLactio from '../Produtos/imagens/backgroundLactio.jpg'
 import backPeixe from '../Produtos/imagens/backgroundPeixe.jpg'
 import { useState, useEffect } from 'react';
+import SlideProdutos from '../../components/SliderProdutos/Produtos';
 
 export default function PageProdutos() {
 
@@ -85,6 +86,7 @@ export default function PageProdutos() {
                             </figure>
 
                         </section>
+                        <SlideProdutos/>
                     </>
 
                 )
