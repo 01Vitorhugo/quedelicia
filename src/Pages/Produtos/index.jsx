@@ -1,7 +1,7 @@
 import "./pageProdutos.css";
-import { useState, useEffect } from "react";
 import CardProduto from "../../components/CardProduto";
 import data from "../../components/CardProduto/data";
+import SubMenu from "../../components/SubMenuProdutos";
 
 export default function PageProdutos() {
 
@@ -25,6 +25,8 @@ export default function PageProdutos() {
 
 
   return (
+    <>
+    <SubMenu/>
     <section className="pageProdutos">
       <article>
         <h1>Nossos Produtos</h1>
@@ -38,5 +40,6 @@ export default function PageProdutos() {
           <CardProduto produtos={lactioProducts} />{" "}
           
         </section>
+    </>
   )
 }
