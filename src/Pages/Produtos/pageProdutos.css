@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 .pageProdutos article {
-  margin-top: 130px;
+  margin-top: 260px;
   width: 30%;
   height: auto;
   text-align: center;
@@ -54,14 +54,4 @@
   text-align: center;
   margin: 0;
   width: auto;
-}
-
-.loading {
-  height: 100vh;
-  width: 100%;
-  /* background-color: #044168; */
-  /* margin-top: 140px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }/*# sourceMappingURL=pageProdutos.css.map */
