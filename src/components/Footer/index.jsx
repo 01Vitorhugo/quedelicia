@@ -2,7 +2,7 @@ import "./footer.css";
 import Logo from "../../imagens/logo-sem-fundo.png";
 
 import {
-  Footer,
+  // Footer,
   FooterBrand,
   FooterCopyright,
   FooterDivider,
