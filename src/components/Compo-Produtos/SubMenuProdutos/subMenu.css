@@ -16,4 +16,8 @@
 }
 .subMenu ul li {
   font-size: large;
+}
+.subMenu ul li a:hover {
+  color: #bdbdbd;
+  text-shadow: 1px 1px 1px black;
 }/*# sourceMappingURL=subMenu.css.map */
