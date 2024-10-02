@@ -1,7 +1,7 @@
 import "./pageProdutos.css";
-import CardProduto from "../../components/CardProduto";
-import data from "../../components/CardProduto/data";
-import SubMenu from "../../components/SubMenuProdutos";
+import CardProduto from "../../components/Compo-Produtos/CardProduto";
+import data from "../../components/Compo-Produtos/CardProduto/data";
+import SubMenu from "../../components/Compo-Produtos/SubMenuProdutos";
 
 export default function PageProdutos() {
 
