@@ -8,15 +8,13 @@ export default function SubMenu(){
        <nav className='subMenu'>
         <ul>
             <li>Aves</li>
-            <li>Bovinos</li>
+            <li>Cortes bovinos</li>
             <li>Suinos</li>
-            <li>Frios e Laticínios</li>
-            <li>Paixes</li>
+            <li>Frios e laticínios</li>
+            <li>Congelados</li>
+            <li>Peixes</li>
             <li>Conservas e secos</li>
-            <li>Temperos</li>
-            <li>Feijão</li>
-            <li>Feijoada</li>
-
+            <li>Pertences de feijoada</li>
         </ul>
 
        </nav>
