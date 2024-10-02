@@ -1,14 +1,13 @@
 import { useState } from 'react';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './cardproduto.css';
 
 const CardProduto = ({ produtos }) => {
-  const [noOfElement, setNoOfElement] = useState(3);
+  const [noOfElement, setNoOfElement] = useState(4);
   const [showAll, setShowAll] = useState(false);
 
   const loadMore = () => {
     if (showAll) {
-      setNoOfElement(3); 
+      setNoOfElement(4); 
     } else {
       setNoOfElement(produtos.length); 
     }
@@ -23,8 +22,10 @@ const CardProduto = ({ produtos }) => {
 
   return (
     <section className="CardProdutos">
-      <TransitionGroup className="listing">
-        <CSSTransition key="slider" timeout={500} classNames="fade">
+      <div className="slide-text">
+        <h1>EXEMPLO</h1>
+        <p>aaaaaaaaaa aaaaaaaaa aaaaaaaaa aaaaaaaaaa aaaaaa </p>
+      </div>
           <div className="wrapper">
             {displayedProducts.map((item) => (
               <div className="product-area" key={item.id}>
@@ -37,10 +38,6 @@ const CardProduto = ({ produtos }) => {
               </div>
             ))}
           </div>
-        </CSSTransition>
-      </TransitionGroup>
-
-      {/* Verifique se o botão é renderizado */}
       {produtos.length > 4 && (
         <button className="button-view" onClick={loadMore}>
           <svg
