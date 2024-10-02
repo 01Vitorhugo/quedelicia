@@ -2,11 +2,14 @@ import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import './aves.css'
 
 
-export default function Aves(){
+export default function Aves() {
 
-    return(
-       <>
-       {/* <SubMenu/> */}
-       </>
+    return (
+        <>
+            <SubMenu />
+            <section className='aves'>
+                <h1>Aves</h1>
+            </section>
+        </>
     )
 }

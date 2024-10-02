@@ -1,10 +1,15 @@
 import './peixes.css'
+import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 
 export default function Peixes(){
 
     return(
         <>
-            <h1>Aves</h1>
+            <SubMenu/>
+            <section className='peixes'>
+                <h1>Peixes</h1>
+
+            </section>
         </>
     )
 }

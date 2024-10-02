@@ -20,14 +20,17 @@ export default function RoutsPage() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/produtos" element={<PageProdutos/> } />
-                <Route path="/aves" element={ <Aves/> } />
-                <Route path="/congelados" element={<Congelados/> } />
-                <Route path="/conservas" element={<Conservas/> } />
-                <Route path="/bovinos" element={<Bovinos/> } />
-                <Route path="/feijoada" element={ <Feijoada/> } />
-                <Route path="/frios" element={<Frios/> } />
-                <Route path="/peixes" element={ <Peixes/>} />
-                <Route path="/suinos" element={ <Suinos/>} />
+                <Route path="/produtos/aves" element={ <Aves/> } />
+                <Route path="/produtos/congelados" element={<Congelados/> } />
+                <Route path="/produtos/conservas" element={<Conservas/> } />
+                <Route path="/produtos/bovinos" element={<Bovinos/> } />
+                <Route path="/produtos/feijoada" element={ <Feijoada/> } />
+                <Route path="/produtos/frios" element={<Frios/> } />
+                <Route path="/produtos/peixes" element={ <Peixes/>} />
+                <Route path="/produtos/suinos" element={ <Suinos/>} />
+
+                <Route path="*" element={ <Home/>} />
+                
             </Routes>
         </BrowserRouter>
 

@@ -1,1 +1,10 @@
-/*# sourceMappingURL=peixes.css.map */
+.peixes {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.peixes h1 {
+  margin-top: 270px;
+  text-align: center;
+  font-size: 40px;
+}/*# sourceMappingURL=peixes.css.map */

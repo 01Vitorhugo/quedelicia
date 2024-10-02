@@ -1,1 +1,10 @@
-/*# sourceMappingURL=suinos.css.map */
+.suinos {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.suinos h1 {
+  margin-top: 270px;
+  text-align: center;
+  font-size: 40px;
+}/*# sourceMappingURL=suinos.css.map */

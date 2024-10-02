@@ -1,10 +1,15 @@
 import './congelados.css'
+import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 
-export default function Congelados(){
+export default function Congelados() {
 
-    return(
+    return (
         <>
-            <h1>Aves</h1>
+            <SubMenu />
+            <section className='congelados'>
+                <h1>Congelados</h1>
+
+            </section>
         </>
     )
 }

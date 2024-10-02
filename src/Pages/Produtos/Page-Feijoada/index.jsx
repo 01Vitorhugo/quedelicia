@@ -1,10 +1,15 @@
 import './feijoada.css'
+import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 
 export default function Feijoada(){
 
     return(
         <>
-            <h1>Aves</h1>
+            <SubMenu/>
+            <section className='feijoada'>
+                <h1>Feijoada</h1>
+
+            </section>
         </>
     )
 }
