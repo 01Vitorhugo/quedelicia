@@ -31,8 +31,6 @@ export default function PageProdutos() {
       <article>
         <h1>Nossos Produtos</h1>
       </article>
-
-     
           <CardProduto produtos={frangoProducts} />{" "}
           <CardProduto produtos={peixeProducts} />{" "}
           <CardProduto produtos={bovinoProducts} />{" "}
