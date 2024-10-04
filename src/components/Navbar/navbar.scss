@@ -5,32 +5,32 @@
     width: 100%;
 
     &.scrolled nav {
-        background-color:#09415fe0; 
-        backdrop-filter: blur(10px);
         box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.512);
         transition: 0.5s ease-in-out;
-    }
-    
-    
+    } 
+
+
     nav {
-        background-color:#09415fe0;
+        background-color: #ffffffd9;
         backdrop-filter: blur(10px);
         height: auto;
         border-radius: 0px;
+        
 
-            img {
-                margin-left: 50px;
-                height: 90px;
-                filter: drop-shadow(1px 1px 7px #ffff);
-            }
+        img {
+            margin-left: 50px;
+            height: 90px;
+            filter: drop-shadow(1px 1px 7px #ffff);
+        }
 
-            ul  a:hover{
-                background-color: transparent!important;
-            }
-            ul  a{
-                color: #ffff ;
-                font-size: 15px;
-            }
+        ul a:hover {
+            background-color: transparent !important;
+        }
+
+        ul a {
+            color: #000;
+            font-size: 17px;
+        }
 
 
         .container-fluid {
@@ -45,13 +45,14 @@
 
                     a {
                         color: #c6c6c6;
-                        
+
                         position: relative;
                         display: inline-block;
                         text-decoration: none;
                         font-weight: 400;
                     }
-                    a:hover{
+
+                    a:hover {
                         color: #ffff;
                         font-weight: 600;
                     }
@@ -94,27 +95,29 @@
     }
 }
 
-@media (max-width: 1382px){
+@media (max-width: 1382px) {
     nav {
 
         img {
             height: 90px !important;
         }
     }
-} 
-@media (max-width: 1101px){
+}
+
+@media (max-width: 1101px) {
     nav {
 
         img {
             height: 80px !important;
         }
     }
-} 
-@media (max-width: 870px){
+}
+
+@media (max-width: 870px) {
     nav {
 
         img {
             height: 60px !important;
         }
     }
-} 
+}

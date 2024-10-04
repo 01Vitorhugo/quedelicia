@@ -5,14 +5,11 @@
   width: 100%;
 }
 .menuFixed.scrolled nav {
-  background-color: rgba(9, 65, 95, 0.8784313725);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.512);
   transition: 0.5s ease-in-out;
 }
 .menuFixed nav {
-  background-color: rgba(9, 65, 95, 0.8784313725);
+  background-color: rgba(255, 255, 255, 0.8509803922);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   height: auto;
@@ -27,8 +24,8 @@
   background-color: transparent !important;
 }
 .menuFixed nav ul a {
-  color: white;
-  font-size: 15px;
+  color: #000;
+  font-size: 17px;
 }
 .menuFixed nav .container-fluid {
   padding: 0px 50px;
