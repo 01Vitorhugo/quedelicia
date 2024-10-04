@@ -18,42 +18,42 @@ export default function SubMenu() {
             <ul>
                 <Link to='/produtos/aves' title='Aves'>
                     <li>
-                        Aves
+                        <p>Aves</p>
                         <img src={ave} alt="icone ave" />
                     </li>
                 </Link>
 
                 <Link to='/produtos/bovinos' title='Cortes bovinos'>
                     <li>
-                        Cortes bovinos
+                        <p>Cortes bovinos</p>
                         <img src={bovino} alt="icone cortes bovinos" />
                     </li>
                 </Link>
 
                 <Link to='/produtos/suinos' title='Suinos'>
                     <li>
-                        Suinos
+                        <p>Suinos</p>
                         <img src={suino} alt="icone suinos" />
                     </li>
                 </Link>
 
                 <Link to='/produtos/frios' title='Frios e laticínios'>
                     <li>
-                        Frios e laticínios
+                        <p>Frios e laticínios</p>
                         <img src={frios} alt="icone frios e laticínios" />
                     </li>
                 </Link>
 
                 <Link to='/produtos/congelados' title='Congelados'>
                     <li>
-                        Congelados
+                        <p>Congelados</p>
                         <img src={congelados} alt="icone congelados" />
                     </li>
                 </Link>
 
                 <Link to='/produtos/peixes' title='Peixes'>
                     <li>
-                        Peixes
+                        <p>Peixes</p>
                         <img src={peixes} alt="icone peixes" />
                     </li>
                 </Link>
@@ -61,14 +61,14 @@ export default function SubMenu() {
 
                 <Link to='/produtos/conservas' title='Conservas e secos'>
                     <li>
-                        Conservas e secos
+                        <p>Conservas e secos</p>
                         <img src={conservas} alt="icone conservas e secos" />
                     </li>
                 </Link>
 
                 <Link to='/produtos/feijoada' title='Pertences de feijoada'>
                     <li>
-                        Pertences de feijoada
+                        <p>Pertences de feijoada</p>
                         <img src={feijoada} alt="icone feijoada" />
                     </li>
                 </Link>
