@@ -19,7 +19,10 @@
   cursor: pointer;
   color: #000;
 }
-.subMenu ul li {
+.subMenu ul a {
+  font-size: 15px;
+}
+.subMenu ul a li {
   font-size: large;
   display: flex;
   justify-content: center;
@@ -28,10 +31,7 @@
   height: 100%;
   padding: 10px;
 }
-.subMenu ul li a {
-  font-size: 15px;
-}
-.subMenu ul li img {
-  height: 15px;
+.subMenu ul a li #icons-submenu {
+  height: 15px !important;
   margin-top: 8px;
 }/*# sourceMappingURL=subMenu.css.map */
