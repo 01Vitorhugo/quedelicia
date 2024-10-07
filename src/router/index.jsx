@@ -10,11 +10,13 @@ import Feijoada from "../Pages/Produtos/Page-Feijoada";
 import Frios from "../Pages/Produtos/Page-Frios";
 import Peixes from "../Pages/Produtos/Page-Peixes";
 import Suinos from "../Pages/Produtos/Page-Suinos";
+import ScrollToTop from "../components/ScrollTop";
 
 export default function RoutsPage() {
 
     return (
         <BrowserRouter>
+         <ScrollToTop/>
             <Menu/>
 
             <Routes>
