@@ -4,8 +4,39 @@ import Queijo from "../../../imagens/produtos/queijo.png";
 import Tilapia from "../../../imagens/produtos/tilapia.png";
 import Batata from "../../../imagens/produtos/batata.png";
 
+import coracaoDeFrango from '../../../imagens/aves/coração-de-frango.png';
+import meioDaAsa from '../../../imagens/aves/meio-da-asa.png';
+import sassami from '../../../imagens/aves/sassami.png';
+import fileDeFrango from '../../../imagens/aves/Filé-de-Frango.png';
+import fileDeCoxa from '../../../imagens/aves/file-de-coxa.png';
+import asaDeFrango from '../../../imagens/aves/asa-de-frango.jpg';
+import peitoDeFrango from '../../../imagens/aves/peito-de-frango.jpg';
+import coxinhaDaAsa from '../../../imagens/aves/coxinha-da-asa.png';
+import coxaSobrecoxa from '../../../imagens/aves/coxa-e-sobrecoxa.png';
+import carcacaoDeFrango from '../../../imagens/aves/carcaça-de-frango.png';
+import frangoResfriado from '../../../imagens/aves/frango-inteiro.png';
+import moela from '../../../imagens/aves/moela.png';
+import galinha from '../../../imagens/aves/galinha-e-galo.png';
+
+
 const data = {
     cardData: [
+
+        { id: 31, img: coracaoDeFrango , title: 'Coração de Frango', category: 'aves' },
+        { id: 32, img: meioDaAsa , title: 'Meio da asa', category: 'aves' },
+        { id: 33, img: sassami , title: 'Sassami', category: 'aves' },
+        { id: 34, img: fileDeFrango , title: 'Filé de Frango (peito s/ osso)', category: 'aves' },
+        { id: 35, img: fileDeCoxa , title: 'Filé de Coxa', category: 'aves' },
+        { id: 36, img: asaDeFrango , title: 'Asa de Frango', category: 'aves' },
+        { id: 37, img: peitoDeFrango , title: 'Peito de Frango c/ osso', category: 'aves' },
+        { id: 38, img: coxinhaDaAsa , title: 'Coxinha da Asa', category: 'aves' },
+        { id: 39, img: coxaSobrecoxa , title: 'Coxa e Sobrecoxa', category: 'aves' },
+        { id: 40, img: carcacaoDeFrango , title: 'Carcaça de Frango 1.9Kg', category: 'aves' },
+        { id: 42, img: frangoResfriado , title: 'Frango Resfriado', category: 'aves' },
+        { id: 42, img: moela , title: 'Moela', category: 'aves' },
+        { id: 43, img: galinha , title: 'Galinha Pesada', category: 'aves' },
+
+
         { id: 1, img: Frango, title: 'Frango Resfriado', category: 'frango' },
         { id: 2, img: Queijo, title: 'Queijo coalho', category: 'lactio' },
         { id: 3, img: Linguica, title: 'Linguiça Seca', category: 'suino' },
@@ -41,19 +72,6 @@ const data = {
         // 
         // 
 
-        { id: 31, img: '' , title: 'Coração de Frango', category: 'aves' },
-        { id: 32, img: '' , title: 'Meio da asa', category: 'aves' },
-        { id: 33, img: '' , title: 'Sassami', category: 'aves' },
-        { id: 34, img: '' , title: 'Filé de Frango (peito s/ osso)', category: 'aves' },
-        { id: 35, img: '' , title: 'Filé de Coxa', category: 'aves' },
-        { id: 36, img: '' , title: 'Asa de Frango', category: 'aves' },
-        { id: 37, img: '' , title: 'Peito de Frango c/ osso', category: 'aves' },
-        { id: 38, img: '' , title: 'Coxinha da Asa', category: 'aves' },
-        { id: 39, img: '' , title: 'Coxa e Sobrecoxa', category: 'aves' },
-        { id: 40, img: '' , title: 'Carcaça de Frango 1.9Kg', category: 'aves' },
-        { id: 42, img: '' , title: 'Frango Resfriado', category: 'aves' },
-        { id: 42, img: '' , title: 'Moela', category: 'aves' },
-        { id: 43, img: '' , title: 'Galinha Pesada', category: 'aves' },
 
         { id: 44, img: '' , title: 'Picanha Uruguaia Steakhouse', category: 'bovinos' },
         { id: 45, img: '' , title: 'Filé Mignon s/ Cordão', category: 'bovinos' },
