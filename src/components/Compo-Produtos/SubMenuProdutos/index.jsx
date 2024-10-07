@@ -1,13 +1,13 @@
 import './subMenu.css'
 import { Link } from "react-router-dom";
-import ave from '../../../imagens/icons-produtos-submenu/ave.svg'
-import bovino from '../../../imagens/icons-produtos-submenu/boi.svg'
-import suino from '../../../imagens/icons-produtos-submenu/suinos.svg'
-import frios from '../../../imagens/icons-produtos-submenu/frios e laticnios.svg'
-import congelados from '../../../imagens/icons-produtos-submenu/congelados.svg'
-import peixes from '../../../imagens/icons-produtos-submenu/peixes.svg'
-import conservas from '../../../imagens/icons-produtos-submenu/conservas e secos.svg'
-import feijoada from '../../../imagens/icons-produtos-submenu/pertences de feijoada.svg'
+import ave from '../../../imagens/icons-produtos-submenu/aveBranco.png'
+import bovino from '../../../imagens/icons-produtos-submenu/bovinoBranco.png'
+import suino from '../../../imagens/icons-produtos-submenu/suinosBranco.png'
+import frios from '../../../imagens/icons-produtos-submenu/frios e laticiniosBranco.png'
+import congelados from '../../../imagens/icons-produtos-submenu/congeladosBranco.png'
+import peixes from '../../../imagens/icons-produtos-submenu/peixesBranco.png'
+import conservas from '../../../imagens/icons-produtos-submenu/conservasBranco.png'
+import feijoada from '../../../imagens/icons-produtos-submenu/feijoadaBranco.png'
 
 
 export default function SubMenu() {
