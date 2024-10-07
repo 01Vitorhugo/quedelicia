@@ -19,9 +19,9 @@
 
 
         li:hover{
-            background-color: #fff;
+            background-color: #ffffff3b;
             cursor: pointer;
-            color: #000;
+            /* color: #000; */
         }
         li{
             font-size: large;
@@ -31,6 +31,7 @@
             flex-direction: column;
             height: 100%;
             padding: 10px;
+            transition: 0.3s;
             
             a{
                 font-size: 15px;
