@@ -1,6 +1,6 @@
 import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import './aves.css'
-import logo from '../../../imagens/icons-produtos-submenu/ave.svg'
+import background from '../../../imagens/aves/background.png'
 import data from '../../../components/Compo-Produtos/CardProduto/data'
 
 
@@ -14,12 +14,9 @@ export default function Aves() {
         <>
             <SubMenu />
             <section className='aves'>
-                <article>
-                    <h1>Aves</h1>
-                    <figure>
-                        <img src={logo} alt="logo ave" />
+                    <figure className='imagemBackground'>
+                        <img src={background} alt="Imagem aves" />
                     </figure>
-                </article>
 
                 <div className='box-produto-aves'>
                     {
