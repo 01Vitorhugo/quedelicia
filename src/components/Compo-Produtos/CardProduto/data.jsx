@@ -1,8 +1,4 @@
-import Frango from "../../../imagens/produtos/frango.png";
-import Linguica from "../../../imagens/produtos/linguica.png";
-import Queijo from "../../../imagens/produtos/queijo.png";
-import Tilapia from "../../../imagens/produtos/tilapia.png";
-import Batata from "../../../imagens/produtos/batata.png";
+
 
 import coracaoDeFrango from '../../../imagens/aves/coração-de-frango.png';
 import meioDaAsa from '../../../imagens/aves/meio-da-asa.png';
@@ -17,6 +13,19 @@ import carcacaoDeFrango from '../../../imagens/aves/carcaça-de-frango.png';
 import frangoResfriado from '../../../imagens/aves/frango-inteiro.png';
 import moela from '../../../imagens/aves/moela.png';
 import galinha from '../../../imagens/aves/galinha-e-galo.png';
+
+import picanha from '../../../imagens/bovinos/picanha.png'
+import fileMignon from '../../../imagens/bovinos/file-mignon.png'
+import patinho from '../../../imagens/bovinos/patinho.png'
+import alcatra from '../../../imagens/bovinos/alcatra-com-maminha.jpg'
+import coxaoDuro from '../../../imagens/bovinos/coxão-duro.png'
+import coxaoMole from '../../../imagens/bovinos/coxão-mole.png'
+import capaFile from '../../../imagens/bovinos/capa-de-filé.png'
+import peitoBovino from '../../../imagens/bovinos/peito-bovino.png'
+import acem from '../../../imagens/bovinos/acem.png'
+import costelaBovina from '../../../imagens/bovinos/costela-bovina.png'
+import carneMoida from '../../../imagens/bovinos/carne-moida.png'
+
 
 
 const data = {
@@ -37,53 +46,17 @@ const data = {
         { id: 43, img: galinha , title: 'Galinha Pesada', category: 'aves' },
 
 
-        { id: 1, img: Frango, title: 'Frango Resfriado', category: 'frango' },
-        { id: 2, img: Queijo, title: 'Queijo coalho', category: 'lactio' },
-        { id: 3, img: Linguica, title: 'Linguiça Seca', category: 'suino' },
-        { id: 4, img: Tilapia, title: 'Tilápia', category: 'peixe' },
-        { id: 5, img: Batata, title: 'Batata', category: 'vegetal' },
-        { id: 6, img: Frango, title: 'Frango Resfriado', category: 'frango' },
-        { id: 7, img: Queijo, title: 'Queijo coalho', category: 'lactio' },
-        { id: 8, img: Linguica, title: 'Linguiça Seca', category: 'suino' },
-        { id: 9, img: Tilapia, title: 'Tilápia', category: 'peixe' },
-        { id: 10, img: Batata, title: 'Batata', category: 'vegetal' },
-        { id: 11, img: Frango, title: 'Frango Resfriado', category: 'frango' },
-        { id: 12, img: Queijo, title: 'Queijo coalho', category: 'lactio' },
-        { id: 13, img: Linguica, title: 'Linguiça Seca', category: 'suino' },
-        { id: 14, img: Tilapia, title: 'Tilápia', category: 'peixe' },
-        { id: 15, img: Batata, title: 'Batata', category: 'vegetal' },
-        { id: 16, img: Frango, title: 'Frango Resfriado', category: 'frango' },
-        { id: 17, img: Queijo, title: 'Queijo coalho', category: 'lactio' },
-        { id: 18, img: Linguica, title: 'Linguiça Seca', category: 'suino' },
-        { id: 19, img: Tilapia, title: 'Tilápia', category: 'peixe' },
-        { id: 20, img: Batata, title: 'Batata', category: 'vegetal' },
-        { id: 21, img: Frango, title: 'Frango Resfriado', category: 'frango' },
-        { id: 22, img: Queijo, title: 'Queijo coalho', category: 'lactio' },
-        { id: 23, img: Linguica, title: 'Linguiça Seca', category: 'suino' },
-        { id: 24, img: Tilapia, title: 'Tilápia', category: 'peixe' },
-        { id: 25, img: Batata, title: 'Batata', category: 'vegetal' },
-        { id: 26, img: Frango, title: 'Frango Resfriado', category: 'frango' },
-        { id: 27, img: Queijo, title: 'Queijo coalho', category: 'lactio' },
-        { id: 28, img: Linguica, title: 'Linguiça Seca', category: 'suino' },
-        { id: 29, img: Tilapia, title: 'Tilápia', category: 'peixe' },
-        { id: 30, img: Batata, title: 'Batata', category: 'vegetal' },
-
-        // 
-        // 
-        // 
-
-
-        { id: 44, img: '' , title: 'Picanha Uruguaia Steakhouse', category: 'bovinos' },
-        { id: 45, img: '' , title: 'Filé Mignon s/ Cordão', category: 'bovinos' },
-        { id: 46, img: '' , title: 'Patinho', category: 'bovinos' },
-        { id: 47, img: '' , title: 'Alcatra c/ Maminha', category: 'bovinos' },
-        { id: 48, img: '' , title: 'Coxão Mole', category: 'bovinos' },
-        { id: 49, img: '' , title: 'Coxão Duro', category: 'bovinos' },
-        { id: 50, img: '' , title: 'Capa de Filé', category: 'bovinos' },
-        { id: 51, img: '' , title: 'Peito Bovino', category: 'bovinos' },
-        { id: 52, img: '' , title: 'Acém', category: 'bovinos' },
-        { id: 53, img: '' , title: 'Costela Bovina', category: 'bovinos' },
-        { id: 54, img: '' , title: 'Carne Moída (Pct 2kg)', category: 'bovinos' },
+        { id: 44, img: picanha , title: 'Picanha Uruguaia Steakhouse', category: 'bovinos' },
+        { id: 45, img: fileMignon , title: 'Filé Mignon s/ Cordão', category: 'bovinos' },
+        { id: 46, img: patinho , title: 'Patinho', category: 'bovinos' },
+        { id: 47, img: alcatra , title: 'Alcatra c/ Maminha', category: 'bovinos' },
+        { id: 48, img: coxaoMole , title: 'Coxão Mole', category: 'bovinos' },
+        { id: 49, img: coxaoDuro , title: 'Coxão Duro', category: 'bovinos' },
+        { id: 50, img: capaFile , title: 'Capa de Filé', category: 'bovinos' },
+        { id: 51, img: peitoBovino , title: 'Peito Bovino', category: 'bovinos' },
+        { id: 52, img: acem , title: 'Acém', category: 'bovinos' },
+        { id: 53, img: costelaBovina , title: 'Costela Bovina', category: 'bovinos' },
+        { id: 54, img: carneMoida , title: 'Carne Moída (Pct 2kg)', category: 'bovinos' },
         { id: 55, img: '' , title: 'Diafragma', category: 'bovinos' },
         { id: 56, img: '' , title: 'Sangria', category: 'bovinos' },
         { id: 57, img: '' , title: 'Carne Indústrial', category: 'bovinos' },
@@ -100,62 +73,62 @@ const data = {
         { id: 67, img: '' , title: 'Toucinho c/ Pele', category: 'suinos'},
 
 
-        { id: 67, img: '' , title: 'Bacalhau Desfiado', category: 'peixe'},
-        { id: 67, img: '' , title: 'Merluzão', category: 'peixe'},
-        { id: 67, img: '' , title: 'Merluza Argentina', category: 'peixe'},
-        { id: 67, img: '' , title: 'Filé de Tilapia', category: 'peixe'},
-        { id: 67, img: '' , title: 'File de Pangassius', category: 'peixe'},
-        { id: 67, img: '' , title: 'Filé de Pescada Branca', category: 'peixe'},
-        { id: 67, img: '' , title: 'Cação', category: 'peixe'},
-        { id: 67, img: '' , title: 'Porquinho Limpo (s/ cabeça)', category: 'peixe'},
-        { id: 67, img: '' , title: 'Sardinha Espalmada', category: 'peixe'},
-        { id: 67, img: '' , title: 'Sardinha (s/ cabeça)', category: 'peixe'},
-        { id: 67, img: '' , title: 'Camarão 7 Barbas (Pct 5kg)', category: 'peixe'},
+        { id: 68, img: '' , title: 'Bacalhau Desfiado', category: 'peixe'},
+        { id: 69, img: '' , title: 'Merluzão', category: 'peixe'},
+        { id: 70, img: '' , title: 'Merluza Argentina', category: 'peixe'},
+        { id: 71, img: '' , title: 'Filé de Tilapia', category: 'peixe'},
+        { id: 72, img: '' , title: 'File de Pangassius', category: 'peixe'},
+        { id: 73, img: '' , title: 'Filé de Pescada Branca', category: 'peixe'},
+        { id: 74, img: '' , title: 'Cação', category: 'peixe'},
+        { id: 75, img: '' , title: 'Porquinho Limpo (s/ cabeça)', category: 'peixe'},
+        { id: 76, img: '' , title: 'Sardinha Espalmada', category: 'peixe'},
+        { id: 77, img: '' , title: 'Sardinha (s/ cabeça)', category: 'peixe'},
+        { id: 78, img: '' , title: 'Camarão 7 Barbas (Pct 5kg)', category: 'peixe'},
 
 
-        { id: 67, img: '' , title: 'Champignon Fatiado', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Ovo de Codorna', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Palmito Picado', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Palmito Rodela', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Tomate Seco', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Pimenta Biquinho Vermelha', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Atum Ralado Tours', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Chicharro', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Verde s/ Caroço', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Verde Fatiada', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Verde c/ Caroço Pequena', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Verde c/ Caroço Grande', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Preta s/ Caroço', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Preta Pequena', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Preta Fatiada', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Chilena Grande', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Verde 28x32', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Azeitona Verde 16x20', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Amaciante de Carne', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Caldo de Carnes', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Caldo de galinha', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Chimichurr', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Colorifico', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Cominho', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Condimento Pimenta', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Creme de cebola', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Oregano flocos', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Tempero Baiano', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Feijão Carioca 30x1', category: 'conservas-secos'},
-        { id: 67, img: '' , title: 'Feijão Preto 10x1', category: 'conservas-secos'},
+        { id: 79, img: '' , title: 'Champignon Fatiado', category: 'conservas-secos'},
+        { id: 80, img: '' , title: 'Ovo de Codorna', category: 'conservas-secos'},
+        { id: 81, img: '' , title: 'Palmito Picado', category: 'conservas-secos'},
+        { id: 82, img: '' , title: 'Palmito Rodela', category: 'conservas-secos'},
+        { id: 83, img: '' , title: 'Tomate Seco', category: 'conservas-secos'},
+        { id: 84, img: '' , title: 'Pimenta Biquinho Vermelha', category: 'conservas-secos'},
+        { id: 85, img: '' , title: 'Atum Ralado Tours', category: 'conservas-secos'},
+        { id: 86, img: '' , title: 'Chicharro', category: 'conservas-secos'},
+        { id: 87, img: '' , title: 'Azeitona Verde s/ Caroço', category: 'conservas-secos'},
+        { id: 88, img: '' , title: 'Azeitona Verde Fatiada', category: 'conservas-secos'},
+        { id: 89, img: '' , title: 'Azeitona Verde c/ Caroço Pequena', category: 'conservas-secos'},
+        { id: 90, img: '' , title: 'Azeitona Verde c/ Caroço Grande', category: 'conservas-secos'},
+        { id: 91, img: '' , title: 'Azeitona Preta s/ Caroço', category: 'conservas-secos'},
+        { id: 92, img: '' , title: 'Azeitona Preta Pequena', category: 'conservas-secos'},
+        { id: 93, img: '' , title: 'Azeitona Preta Fatiada', category: 'conservas-secos'},
+        { id: 94, img: '' , title: 'Azeitona Chilena Grande', category: 'conservas-secos'},
+        { id: 95, img: '' , title: 'Azeitona Verde 28x32', category: 'conservas-secos'},
+        { id: 96, img: '' , title: 'Azeitona Verde 16x20', category: 'conservas-secos'},
+        { id: 97, img: '' , title: 'Amaciante de Carne', category: 'conservas-secos'},
+        { id: 98, img: '' , title: 'Caldo de Carnes', category: 'conservas-secos'},
+        { id: 99, img: '' , title: 'Caldo de galinha', category: 'conservas-secos'},
+        { id: 100, img: '' , title: 'Chimichurr', category: 'conservas-secos'},
+        { id: 101, img: '' , title: 'Colorifico', category: 'conservas-secos'},
+        { id: 102, img: '' , title: 'Cominho', category: 'conservas-secos'},
+        { id: 103, img: '' , title: 'Condimento Pimenta', category: 'conservas-secos'},
+        { id: 104, img: '' , title: 'Creme de cebola', category: 'conservas-secos'},
+        { id: 105, img: '' , title: 'Oregano flocos', category: 'conservas-secos'},
+        { id: 106, img: '' , title: 'Tempero Baiano', category: 'conservas-secos'},
+        { id: 107, img: '' , title: 'Feijão Carioca 30x1', category: 'conservas-secos'},
+        { id: 108, img: '' , title: 'Feijão Preto 10x1', category: 'conservas-secos'},
 
-        { id: 67, img: '' , title: 'Costela Salgada', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Rabo Salgado', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Ponta de Costela', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Pé Salgado', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Orelha Salgada', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Língua Salgada', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Costela Salgada', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Lombo Salgado', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Coxão Duro (Pct 30kg) - 41,99kg', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Traseiro (Pct 5kg) - 36,80kg', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Dianteiro (Pct 5kg)', category: 'feijoada'},
-        { id: 67, img: '' , title: 'Dianteiro Vilheto Pct 400gr', category: 'feijoada'}
+        { id: 109, img: '' , title: 'Costela Salgada', category: 'feijoada'},
+        { id: 110, img: '' , title: 'Rabo Salgado', category: 'feijoada'},
+        { id: 111, img: '' , title: 'Ponta de Costela', category: 'feijoada'},
+        { id: 112, img: '' , title: 'Pé Salgado', category: 'feijoada'},
+        { id: 113, img: '' , title: 'Orelha Salgada', category: 'feijoada'},
+        { id: 114, img: '' , title: 'Língua Salgada', category: 'feijoada'},
+        { id: 115, img: '' , title: 'Costela Salgada', category: 'feijoada'},
+        { id: 116, img: '' , title: 'Lombo Salgado', category: 'feijoada'},
+        { id: 117, img: '' , title: 'Coxão Duro (Pct 30kg) - 41,99kg', category: 'feijoada'},
+        { id: 118, img: '' , title: 'Traseiro (Pct 5kg) - 36,80kg', category: 'feijoada'},
+        { id: 119, img: '' , title: 'Dianteiro (Pct 5kg)', category: 'feijoada'},
+        { id: 129, img: '' , title: 'Dianteiro Vilheto Pct 400gr', category: 'feijoada'}
 
         // Colocar frios e lacticíos
         ]
