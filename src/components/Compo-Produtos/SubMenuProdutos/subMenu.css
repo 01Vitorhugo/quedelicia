@@ -26,13 +26,33 @@
   align-items: center;
   flex-direction: column;
   height: 100%;
-  padding: 10px;
+  padding: 15px !important;
   transition: 0.3s;
 }
 .subMenu ul li a {
   font-size: 15px;
 }
 .subMenu ul li img {
-  height: 15px;
+  height: 26px !important;
   margin-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .subMenu {
+    display: none;
+  }
+}
+@media (min-width: 1025Px) {
+  .subMenu {
+    margin-top: 100px;
+  }
+  .subMenu li {
+    padding: 5px !important;
+  }
+  .subMenu li p {
+    font-size: small;
+  }
+  .subMenu li img {
+    height: 20px !important;
+  }
 }/*# sourceMappingURL=subMenu.css.map */

@@ -30,7 +30,7 @@
             align-items: center;
             flex-direction: column;
             height: 100%;
-            padding: 10px;
+            padding: 15px !important;
             transition: 0.3s;
             
             a{
@@ -38,11 +38,37 @@
             }
 
             img{
-                height: 15px;
+                height: 26px !important;
                 margin-top: 8px;
             }
           
         }
 
     }
+}
+
+@media (max-width: 1024px){
+    .subMenu{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1025Px){
+    .subMenu{
+        margin-top: 100px;
+
+        li{
+            padding: 5px !important;
+            p{
+                font-size: small;
+            }
+
+            img{
+                height: 20px !important;
+            }
+        }
+        
+    }
+
 }
