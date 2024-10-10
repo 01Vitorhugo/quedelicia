@@ -11,7 +11,7 @@ export default function PageProdutos() {
     <>
       <SubMenu />
       <section className="pageProdutos">
-        <article>
+        <article className="texto-pageProdutos">
           <h1>Nossos Produtos</h1>
         </article>
 

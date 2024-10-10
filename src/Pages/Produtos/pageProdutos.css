@@ -7,8 +7,8 @@
   background-color: #faf7f2;
 }
 .pageProdutos article {
-  margin-top: 230px;
-  width: 30%;
+  margin-top: 150px;
+  width: 100%;
   height: auto;
   text-align: center;
   color: #044168;
@@ -26,4 +26,10 @@
   margin: auto;
   border-radius: 8px;
   background: rgba(9, 65, 95, 0.4901960784);
+}
+
+@media (min-width: 1025px) {
+  .pageProdutos .texto-pageProdutos {
+    margin-top: 220px !important;
+  }
 }/*# sourceMappingURL=pageProdutos.css.map */

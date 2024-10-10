@@ -114,3 +114,44 @@
 
     }
 }
+
+@media (max-width: 1023px){
+    .container-produtosBovinos {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        margin-top: 50px;
+
+        .text{
+            margin-bottom: 30px;
+
+        }
+
+        .box-produto{
+            width: 90%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+
+            .container{
+                height: auto;
+                width: 100% ;
+                flex-wrap: wrap;
+
+                 .card-produto {
+                    width: 350px;
+                    
+                } 
+            }
+
+            .button{
+                margin-top: 50px;
+            }
+
+        }
+    }
+    
+}

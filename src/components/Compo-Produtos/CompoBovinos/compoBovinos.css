@@ -89,4 +89,35 @@
 .container-produtosBovinos .box-produto .button button p {
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+@media (max-width: 1023px) {
+  .container-produtosBovinos {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .container-produtosBovinos .text {
+    margin-bottom: 30px;
+  }
+  .container-produtosBovinos .box-produto {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-produtosBovinos .box-produto .container {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container-produtosBovinos .box-produto .container .card-produto {
+    width: 350px;
+  }
+  .container-produtosBovinos .box-produto .button {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=compoBovinos.css.map */

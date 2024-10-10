@@ -7,8 +7,8 @@
     background-color: #faf7f2;
 
     article {
-        margin-top: 230px;
-        width: 30%;
+        margin-top: 150px;
+        width: 100%;
         height: auto;
         text-align: center;
         color: #044168;
@@ -30,4 +30,15 @@
         }
 
     }
+}
+
+@media (min-width: 1025px){
+    .pageProdutos {
+        .texto-pageProdutos{
+            margin-top: 220px !important;
+          
+        
+        }
+    }
+
 }
