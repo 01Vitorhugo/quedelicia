@@ -78,6 +78,8 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-weight: 700;
+                color: #044168;
             }
         }
     }
@@ -107,7 +109,7 @@
 
 @media (min-width: 501px) and (max-width: 600px ){
     .imagemBackground{
-       height: 190px !important;
+       height: 160px !important;
        margin-top: 80px !important;
    }
    .imagemBackground::after{

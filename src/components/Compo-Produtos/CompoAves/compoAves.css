@@ -119,4 +119,9 @@
   .container-produtosAves .box-produto .button {
     margin-top: 50px;
   }
+}
+@media (max-width: 545px) {
+  .card-produto article {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=compoAves.css.map */
