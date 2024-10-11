@@ -22,7 +22,7 @@ export default function Bovinos(){
                     {
                         bovinosProducts.map((item) => {
                             return (
-                                <section className='box-produto'>
+                                <section className='box-produto' key={item.id}>
                                     <figure>
                                         <img src={item.img} alt="imagem produto" />
                                     </figure>
