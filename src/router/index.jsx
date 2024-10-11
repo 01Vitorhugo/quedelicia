@@ -11,6 +11,7 @@ import Frios from "../Pages/Produtos/Page-Frios";
 import Peixes from "../Pages/Produtos/Page-Peixes";
 import Suinos from "../Pages/Produtos/Page-Suinos";
 import ScrollToTop from "../components/ScrollTop";
+import Muidos from "../Pages/Produtos/Page-Muidos";
 
 export default function RoutsPage() {
 
@@ -23,6 +24,7 @@ export default function RoutsPage() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/produtos" element={<PageProdutos/> } />
                 <Route path="/produtos/aves" element={ <Aves/> } />
+                <Route path="/produtos/muidos" element={ <Muidos/> } />
                 <Route path="/produtos/congelados" element={<Congelados/> } />
                 <Route path="/produtos/conservas" element={<Conservas/> } />
                 <Route path="/produtos/bovinos" element={<Bovinos/> } />
