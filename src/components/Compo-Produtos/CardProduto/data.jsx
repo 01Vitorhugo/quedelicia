@@ -26,10 +26,65 @@ import acem from '../../../imagens/bovinos/acem.png'
 import costelaBovina from '../../../imagens/bovinos/costela-bovina.png'
 import carneMoida from '../../../imagens/bovinos/carne-moida.png'
 
+import barriga from '../../../imagens/suinos/barriga.png'
+import costelinha from '../../../imagens/suinos/costelinha.png'
+import carre from '../../../imagens/suinos/carré.png'
+import bisteca from '../../../imagens/suinos/bisteca.png'
+import pernil from '../../../imagens/suinos/Pernil.png'
+import tripa from '../../../imagens/suinos/tripa suina.png'
+import papada from '../../../imagens/suinos/papada.png'
+import paleta from '../../../imagens/suinos/Sobre Paleta.png'
+import toucinhoPele from '../../../imagens/suinos/toucinho com pele.png'
+import toucinhoCortado from '../../../imagens/suinos/toucinho cortado.png'
+
+import batataBemBrasil from '../../../imagens/congelados/batata bem brasil.png'
+import batataCarinha from '../../../imagens/congelados/batata carinhas.png'
+import batataChic from '../../../imagens/congelados/batata chic.png'
+import batataCrinkle from '../../../imagens/congelados/batata crinckle.png'
+import batataFast from '../../../imagens/congelados/batata fast food.png'
+import batataRustica from '../../../imagens/congelados/batata rústica.png'
+import batataSteack from '../../../imagens/congelados/batata steak house.png'
+import batataLamb from '../../../imagens/congelados/batata lamb weston.png'
+import batataMaisBatata from '../../../imagens/congelados/batata mais batata.png'
+import Stickqueijo from '../../../imagens/congelados/stick de queijo.png'
+import anelCebola from '../../../imagens/congelados/anel de cebola.png'
+import mandioca from '../../../imagens/congelados/mandioca.png'
+import brocolis from '../../../imagens/congelados/brócolis.png'
+import couve from '../../../imagens/congelados/Couve flor.png'
+import seleta from '../../../imagens/congelados/Jardineira Seleta.png'
+import polenta from '../../../imagens/congelados/Polenta.png'
+import vagem from '../../../imagens/congelados/Design sem nome.png'
 
 
 const data = {
     cardData: [
+        { id: 1, img: batataBemBrasil , title: 'Batata Bem Brasil (Pct 1,05kg)', category: 'congelados' },
+        { id: 2, img: batataBemBrasil , title: 'Batata Bem Brasil (Pct 2,5kg)', category: 'congelados' },
+        { id: 3, img: batataCarinha , title: 'Batata Bem Brasil Carinhas', category: 'congelados' },
+        { id: 4, img:  batataChic, title: 'Batata Bem Brasil Chic', category: 'congelados' },
+        { id: 5, img: batataCrinkle , title: 'Batata Bem Brasil Crinkle (Pct 2kg)', category: 'congelados' },
+        { id: 6, img: batataFast , title: 'Batata Bem Brasil Fast Food 7mm (Pct 2kg)', category: 'congelados' },
+        { id: 7, img: batataRustica , title: 'Batata Bem Brasil Rústica (Pct 2,5kg)', category: 'congelados' },
+        { id: 8, img: batataSteack , title: 'Batata Bem Brasil Steakhouse 9x18 (Pct 2,5kg)', category: 'congelados' },
+        { id: 9, img: batataLamb , title: 'Batata Lamb Weston Stealth Fries (Pct 2kg)', category: 'congelados' },
+        { id: 10, img: batataMaisBatata , title: 'Batata Mais Batata (Pct 1,5kg)', category: 'congelados' },
+        { id: 11, img: batataMaisBatata , title: 'Batata Mais Batata (Pct 2kg)', category: 'congelados' },
+        { id: 12, img: batataMaisBatata , title: 'Batata Mais Batata (Pct 2,5kg)', category: 'congelados' },
+        { id: 13, img: Stickqueijo , title: 'Stick de Queijo Bem Brasil (Pct 1,2kg) -', category: 'congelados' },
+        { id: 14, img: anelCebola , title: 'Anel de Cebola Bem Brasil (Pct 1,05kg)', category: 'congelados' },
+        { id: 15, img: anelCebola , title: 'Anel de Cebola Bem Brasil (Pct 400gr)', category: 'congelados' },
+        { id: 16, img: mandioca , title: 'Mandioca Pedaços Canção', category: 'congelados' },
+        { id: 17, img: brocolis , title: 'Brócolis', category: 'congelados' },
+        { id: 18, img: couve , title: 'Couve Flor', category: 'congelados' },
+        { id: 19, img: seleta , title: 'Jardineira Seleta', category: 'congelados' },
+        { id: 20, img:  polenta, title: 'Polenta Bem Brasil', category: 'congelados' },
+        { id: 21, img: vagem , title: 'Vagem Inteira Francesa', category: 'congelados' },
+        // { id: 31, img:  , title: 'Batata Mc Cain (Pct 2,5kg)', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr *Picanha*', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 36x90gr', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 36x56gr', category: 'congelados' },
+        
 
         { id: 31, img: coracaoDeFrango , title: 'Coração de Frango', category: 'aves' },
         { id: 32, img: meioDaAsa , title: 'Meio da asa', category: 'aves' },
@@ -61,16 +116,17 @@ const data = {
         { id: 56, img: '' , title: 'Sangria', category: 'bovinos' },
         { id: 57, img: '' , title: 'Carne Indústrial', category: 'bovinos' },
 
-        { id: 58, img: '' , title: 'Barriga', category: 'suinos' },
-        { id: 59, img: '' , title: 'Costelinha', category: 'suinos' },
-        { id: 60, img: '' , title: 'Carré', category: 'suinos' },
-        { id: 61, img: '' , title: 'Bisteca', category: 'suinos' },
-        { id: 62, img: '' , title: 'Pernil c/ osso c/ pele', category: 'suinos' },
-        { id: 63, img: '' , title: 'Tripa Suina (Culatra)', category: 'suinos' },
-        { id: 64, img: '' , title: 'Papada c/ Pele', category: 'suinos' },
-        { id: 65, img: '' , title: 'Sobre Paleta c/ Osso', category: 'suinos' },
-        { id: 66, img: '' , title: 'Toucinho Cortado p/ Torresmo', category: 'suinos' },
-        { id: 67, img: '' , title: 'Toucinho c/ Pele', category: 'suinos'},
+
+        { id: 58, img: barriga , title: 'Barriga', category: 'suinos' },
+        { id: 59, img: costelinha , title: 'Costelinha', category: 'suinos' },
+        { id: 60, img: carre , title: 'Carré', category: 'suinos' },
+        { id: 61, img: bisteca , title: 'Bisteca', category: 'suinos' },
+        { id: 62, img: pernil , title: 'Pernil c/ osso c/ pele', category: 'suinos' },
+        { id: 63, img: tripa , title: 'Tripa Suina (Culatra)', category: 'suinos' },
+        { id: 64, img: papada , title: 'Papada c/ Pele', category: 'suinos' },
+        { id: 65, img: paleta , title: 'Sobre Paleta c/ Osso', category: 'suinos' },
+        { id: 66, img: toucinhoCortado , title: 'Toucinho Cortado p/ Torresmo', category: 'suinos' },
+        { id: 67, img: toucinhoPele , title: 'Toucinho c/ Pele', category: 'suinos'},
 
 
         { id: 68, img: '' , title: 'Bacalhau Desfiado', category: 'peixe'},
