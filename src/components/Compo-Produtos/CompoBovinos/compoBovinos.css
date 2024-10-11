@@ -52,7 +52,8 @@
   overflow: hidden;
 }
 .container-produtosBovinos .box-produto .container .card-produto figure img {
-  width: 90%;
+  height: 80%;
+  width: 85%;
 }
 .container-produtosBovinos .box-produto .container .card-produto article {
   width: 100%;
