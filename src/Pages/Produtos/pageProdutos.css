@@ -32,4 +32,13 @@
   .pageProdutos .texto-pageProdutos {
     margin-top: 220px !important;
   }
+}
+@media (max-width: 1022px) {
+  .pageProdutos .texto-pageProdutos {
+    margin-top: 120px;
+  }
+  .pageProdutos .texto-pageProdutos h1 {
+    font-size: 26px;
+    font-weight: 800;
+  }
 }/*# sourceMappingURL=pageProdutos.css.map */
