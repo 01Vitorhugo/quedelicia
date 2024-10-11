@@ -84,6 +84,7 @@
             align-items: center;
             font-weight: 700;
             color: #044168;
+            width: 100% !important;
         }
     }
 }
@@ -101,7 +102,7 @@
 
 @media (min-width: 431px) and (max-width: 500px ){
      .imagemBackground{
-        height: 170px !important;
+        height: 160px !important;
         margin-top: 80px !important;
     }
     .imagemBackground::after{
@@ -119,11 +120,6 @@
        font-size: 27px !important;
    } 
 
-   .box-produto{
-    article{
-        width: 100% !important;
-    }
-   }
 
 }
 @media (min-width: 601px) and (max-width: 649px ){
