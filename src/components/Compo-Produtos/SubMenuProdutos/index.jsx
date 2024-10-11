@@ -24,6 +24,13 @@ export default function SubMenu() {
                     </li>
                 </Link>
 
+                <Link to='/produtos/feijoada' title='Pertences de feijoada'>
+                    <li>
+                        <p>Muidos</p>
+                        <img src={muidos} alt="icone feijoada" id='icons-submenu'/>
+                    </li>
+                </Link>
+
                 <Link to='/produtos/bovinos' title='Cortes bovinos'>
                     <li>
                         <p>Cortes bovinos</p>
@@ -74,12 +81,6 @@ export default function SubMenu() {
                     </li>
                 </Link>
 
-                <Link to='/produtos/feijoada' title='Pertences de feijoada'>
-                    <li>
-                        <p>Muidos</p>
-                        <img src={muidos} alt="icone feijoada" id='icons-submenu'/>
-                    </li>
-                </Link>
             </ul>
 
         </nav>
