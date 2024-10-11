@@ -24,10 +24,10 @@ export default function SubMenu() {
                     </li>
                 </Link>
 
-                <Link to='/produtos/feijoada' title='Pertences de feijoada'>
+                <Link to='/produtos/muidos' title='Pertences de feijoada'>
                     <li>
                         <p>Muidos</p>
-                        <img src={muidos} alt="icone feijoada" id='icons-submenu'/>
+                        <img src={muidos} alt="icone muidos" id='icons-submenu'/>
                     </li>
                 </Link>
 
