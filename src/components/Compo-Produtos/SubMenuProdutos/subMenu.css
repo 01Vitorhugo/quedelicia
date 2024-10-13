@@ -20,7 +20,7 @@
 .subMenu ul li {
   font-size: large;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100% !important;
@@ -32,12 +32,6 @@
 }
 .subMenu ul li img {
   height: 45px !important;
-}
-.subMenu ul li .subMenuBovinoImg {
-  height: 35px !important;
-}
-.subMenu ul li .subMenuCongeladosImg {
-  height: 13px !important;
 }
 
 @media (max-width: 1024px) {
