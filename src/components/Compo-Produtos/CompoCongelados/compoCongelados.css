@@ -1,0 +1,125 @@
+.container-produtosCongelados {
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  background-color: #fff;
+}
+.container-produtosCongelados .text {
+  margin: 0;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-produtosCongelados .text img {
+  height: 100px;
+}
+.container-produtosCongelados .text h1 {
+  color: #242322;
+  margin: 0.5rem 0 0.75rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.container-produtosCongelados .text h1::after {
+  display: none;
+}
+.container-produtosCongelados .box-produto {
+  height: 100%;
+  width: 70%;
+}
+.container-produtosCongelados .box-produto .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 80%;
+}
+.container-produtosCongelados .box-produto .container .card-produto {
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+.container-produtosCongelados .box-produto .container .card-produto figure {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.container-produtosCongelados .box-produto .container .card-produto figure img {
+  height: 80%;
+  width: 70%;
+}
+.container-produtosCongelados .box-produto .container .card-produto article {
+  width: 100%;
+  height: 20%;
+  background-color: #faf7f2;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-produtosCongelados .box-produto .container .card-produto article p {
+  font-weight: 700;
+}
+.container-produtosCongelados .box-produto .container .card-produto article p::after {
+  display: none;
+}
+.container-produtosCongelados .box-produto .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-produtosCongelados .box-produto .button button:hover {
+  background-color: rgba(4, 66, 104, 0.9137254902);
+  border-radius: 0px 40px 0px 30px;
+}
+.container-produtosCongelados .box-produto .button button {
+  height: 50px;
+  width: 120px;
+  background-color: #044168;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  transition: 1s;
+}
+.container-produtosCongelados .box-produto .button button p {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1023px) {
+  .container-produtosCongelados {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .container-produtosCongelados .text {
+    margin-bottom: 30px;
+  }
+  .container-produtosCongelados .box-produto {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-produtosCongelados .box-produto .container {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container-produtosCongelados .box-produto .container .card-produto {
+    width: 350px;
+  }
+  .container-produtosCongelados .box-produto .button {
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=compoCongelados.css.map */
