@@ -12,6 +12,7 @@
   position: fixed;     
   right: 10px;         
   top: 80%; 
+  left: 97%;
   z-index: 1000; 
   cursor: pointer;
   animation: pular 3s ease-in-out infinite; 
@@ -40,6 +41,7 @@
     position: fixed;     
     right: 10px;         
     top: 90%; 
+    left: 97%;
     z-index: 1000; 
     cursor: pointer;
     animation: pular 2s ease-in-out infinite;
