@@ -11,8 +11,7 @@
   
   position: fixed;     
   right: 10px;         
-  top: 80%; 
-  left: 97%;
+  top: 82%; 
   z-index: 1000; 
   cursor: pointer;
   animation: pular 3s ease-in-out infinite; 
@@ -23,11 +22,12 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   
 }
 .App .arrow-top .button-icon-top svg{
-  height: 50%;
+  height: 40%;
 }
 
 
@@ -41,7 +41,6 @@
     position: fixed;     
     right: 10px;         
     top: 90%; 
-    left: 97%;
     z-index: 1000; 
     cursor: pointer;
     animation: pular 2s ease-in-out infinite;
@@ -51,11 +50,16 @@
 .App .button-whats a{
     height: 100%;
     width: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
     
   }
   .App .button-whats a svg{
-    height: 65%;
+    height: 70%;
     fill: #a4c639;
+    padding: 5px;
 
   }
   
