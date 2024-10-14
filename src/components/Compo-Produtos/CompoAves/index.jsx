@@ -33,7 +33,7 @@ export default function CompoAves() {
                             <img src={aves2} alt="imagem aves" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Frango Resfriado</p>
                         </article>
                     </div>
 
@@ -42,7 +42,7 @@ export default function CompoAves() {
                             <img src={aves3} alt="imagem aves" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Filé de Coxa</p>
                         </article>
                     </div>
 
@@ -51,7 +51,7 @@ export default function CompoAves() {
                             <img src={aves4} alt="imagem aves" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Meio da asa</p>
                         </article>
                     </div>
 
