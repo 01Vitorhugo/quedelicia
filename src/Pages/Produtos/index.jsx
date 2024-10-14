@@ -4,6 +4,8 @@ import SubMenu from "../../components/Compo-Produtos/SubMenuProdutos";
 
 import CompoAves from "../../components/Compo-Produtos/CompoAves";
 import CompoBovinos from "../../components/Compo-Produtos/CompoBovinos";
+import CompoSuinos from "../../components/Compo-Produtos/CompoSuinos";
+import CompoCongelados from "../../components/Compo-Produtos/CompoCongelados";
 
 export default function PageProdutos() {
 
@@ -17,6 +19,8 @@ export default function PageProdutos() {
 
         <CompoAves/>
         <CompoBovinos/>
+        <CompoSuinos/>
+        <CompoCongelados/>
 
        
 
