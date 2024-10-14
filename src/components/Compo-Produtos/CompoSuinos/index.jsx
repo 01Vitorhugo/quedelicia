@@ -23,7 +23,7 @@ export default function CompoSuinos() {
                             <img src={suinos1} alt="imagem suinos" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Pernil c/ osso c/ pele</p>
                         </article>
                     </div>
 
@@ -32,7 +32,7 @@ export default function CompoSuinos() {
                             <img src={suinos2} alt="imagem suinos" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Sobre Paleta c/ Osso</p>
                         </article>
                     </div>
 
@@ -41,7 +41,7 @@ export default function CompoSuinos() {
                             <img src={suinos3} alt="imagem suinos" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Bisteca</p>
                         </article>
                     </div>
 
@@ -50,7 +50,7 @@ export default function CompoSuinos() {
                             <img src={suinos4} alt="imagem suinos" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Papada c/ Pele</p>
                         </article>
                     </div>
 

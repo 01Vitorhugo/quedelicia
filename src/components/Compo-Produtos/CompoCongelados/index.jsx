@@ -23,7 +23,7 @@ export default function CompoCongelados() {
                             <img src={congelados1} alt="imagem congelados" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Couve Flor</p>
                         </article>
                     </div>
 
@@ -32,7 +32,7 @@ export default function CompoCongelados() {
                             <img src={congelados2} alt="imagem congelados" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Anel de Cebola Bem Brasil (Pct 1,05kg)</p>
                         </article>
                     </div>
 
@@ -41,7 +41,7 @@ export default function CompoCongelados() {
                             <img src={congelados3} alt="imagem congelados" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Batata Bem Brasil (Pct 1,05kg)</p>
                         </article>
                     </div>
 
@@ -50,7 +50,7 @@ export default function CompoCongelados() {
                             <img src={congelados4} alt="imagem congelados" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Batata Lamb Weston Stealth Fries (Pct 2kg)</p>
                         </article>
                     </div>
 

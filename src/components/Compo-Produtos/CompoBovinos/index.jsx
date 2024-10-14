@@ -24,7 +24,7 @@ export default function CompoBovinos() {
                             <img src={bovinos1} alt="imagem aves" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Peito Bovino</p>
                         </article>
                     </div>
 
@@ -33,7 +33,7 @@ export default function CompoBovinos() {
                             <img src={bovinos2} alt="imagem aves" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Capa de Filé</p>
                         </article>
                     </div>
 
@@ -42,7 +42,7 @@ export default function CompoBovinos() {
                             <img src={bovinos3} alt="imagem aves" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Acém</p>
                         </article>
                     </div>
 
@@ -51,7 +51,7 @@ export default function CompoBovinos() {
                             <img src={bovinos4} alt="imagem aves" />
                         </figure>
                         <article>
-                            <p>Filé de Frango (peito s/ osso)</p>
+                            <p>Costela Bovina</p>
                         </article>
                     </div>
 
