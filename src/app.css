@@ -2,6 +2,34 @@
     background-color: #fff;
     
 }
+.App .arrow-top{
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: fixed;     
+  right: 10px;         
+  top: 80%; 
+  z-index: 1000; 
+  cursor: pointer;
+  animation: pular 3s ease-in-out infinite; 
+  
+}
+ .App .arrow-top .button-icon-top{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  
+}
+.App .arrow-top .button-icon-top svg{
+  height: 50%;
+}
+
+
 .App .button-whats{
     height: 70px;
     width: 70px;
@@ -15,6 +43,7 @@
     z-index: 1000; 
     cursor: pointer;
     animation: pular 2s ease-in-out infinite;
+   
     
 }
 .App .button-whats a{
