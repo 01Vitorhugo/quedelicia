@@ -144,7 +144,7 @@ const data = {
         { id: 69, img: merluzao , title: 'Merluzão', category: 'peixe'},
         { id: 70, img: merluzaArgentina , title: 'Merluza Argentina', category: 'peixe'},
         { id: 71, img: fileTilapia , title: 'Filé de Tilapia', category: 'peixe'},
-        { id: 72, img: filePangassius , title: 'File de Pangassius', category: 'peixe'},
+        { id: 72, img: filePangassius , title: 'Filé de Pangassius', category: 'peixe'},
         { id: 73, img: filePescadaBranca , title: 'Filé de Pescada Branca', category: 'peixe'},
         { id: 74, img: cacao , title: 'Cação', category: 'peixe'},
         { id: 75, img: porquinhoLimpo , title: 'Porquinho Limpo (s/ cabeça)', category: 'peixe'},
