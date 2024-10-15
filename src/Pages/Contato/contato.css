@@ -1,0 +1,43 @@
+.contato {
+  height: auto;
+}
+.contato .conecte {
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+  margin-top: 160px;
+  display: flex;
+}
+.contato .conecte .redes {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contato .conecte .redes h1 {
+  font-weight: 700;
+  font-size: 27px;
+}
+.contato .conecte .redes .redes-icons {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contato .conecte .redes .redes-icons a {
+  width: 30px;
+  height: auto;
+}
+.contato .conecte .redes .redes-icons a svg {
+  height: 60% !important;
+}
+.contato .conecte .telefone {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}/*# sourceMappingURL=contato.css.map */
