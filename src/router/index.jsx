@@ -12,6 +12,7 @@ import Peixes from "../Pages/Produtos/Page-Peixes";
 import Suinos from "../Pages/Produtos/Page-Suinos";
 import ScrollToTop from "../components/ScrollTop";
 import Muidos from "../Pages/Produtos/Page-Muidos";
+import Contato from "../Pages/Contato";
 
 export default function RoutsPage() {
 
@@ -32,6 +33,8 @@ export default function RoutsPage() {
                 <Route path="/produtos/frios" element={<Frios/> } />
                 <Route path="/produtos/peixes" element={ <Peixes/>} />
                 <Route path="/produtos/suinos" element={ <Suinos/>} />
+
+                <Route path="/contato" element={ <Contato/>  } />
 
                 <Route path="*" element={ <Home/>} />
                 
