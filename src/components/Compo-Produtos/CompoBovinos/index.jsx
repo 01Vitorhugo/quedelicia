@@ -1,4 +1,4 @@
-import bovinos from '../../../imagens/icons-produtos-submenu/boi.svg'
+import bovinos from '../../../imagens/icons-produtos-submenu/corteBovino.png'
 import bovinos1 from '../../../imagens/bovinos/peito-bovino.png'
 import bovinos2 from '../../../imagens/bovinos/capa-de-filé.png'
 import bovinos3 from '../../../imagens/bovinos/acem.png'

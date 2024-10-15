@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import congelados from '../../../imagens/icons-produtos-submenu/congelados.svg'
+import congelados from '../../../imagens/icons-produtos-submenu/congelados.png'
 import congelados1 from '../../../imagens/congelados/Couve flor.png'
 import congelados2 from '../../../imagens/congelados/anel de cebola.png'
 import congelados3 from '../../../imagens/congelados/batata bem brasil.png'
