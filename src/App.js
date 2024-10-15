@@ -7,7 +7,7 @@ function App() {
 
   const [heigth, setHeight] = useState(0);
 
-  console.log(heigth)
+  // console.log(heigth)
   useEffect(() => {
     const handleResize = () => {
       setHeight(window.scrollY);
