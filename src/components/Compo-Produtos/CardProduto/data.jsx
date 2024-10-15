@@ -55,6 +55,18 @@ import seleta from '../../../imagens/congelados/Jardineira Seleta.png'
 import polenta from '../../../imagens/congelados/Polenta.png'
 import vagem from '../../../imagens/congelados/Design sem nome.png'
 
+import bacalhau from '../../../imagens/peixes/bacalhau.png'
+import merluzao from '../../../imagens/peixes/merluzão.png'
+import merluzaArgentina from '../../../imagens/peixes/merluza argentina.png'
+import fileTilapia from '../../../imagens/peixes/filé de tilápia.png'
+import filePangassius from '../../../imagens/peixes/filé de pangassius.png'
+import filePescadaBranca from '../../../imagens/peixes/filé de pescada branca.png'
+import cacao from '../../../imagens/peixes/cação.png'
+import porquinhoLimpo from '../../../imagens/peixes/porquinho limpo.png'
+import sardinhaEspalmada from '../../../imagens/peixes/sardinha espalmada.png'
+import sardinhaSemCabeca from '../../../imagens/peixes/sardinha sem cabeça.png'
+import camarao7Barbas from '../../../imagens/peixes/camarão 7 barbas.png'
+
 
 const data = {
     cardData: [
@@ -128,18 +140,17 @@ const data = {
         { id: 66, img: toucinhoCortado , title: 'Toucinho Cortado p/ Torresmo', category: 'suinos' },
         { id: 67, img: toucinhoPele , title: 'Toucinho c/ Pele', category: 'suinos'},
 
-
-        { id: 68, img: '' , title: 'Bacalhau Desfiado', category: 'peixe'},
-        { id: 69, img: '' , title: 'Merluzão', category: 'peixe'},
-        { id: 70, img: '' , title: 'Merluza Argentina', category: 'peixe'},
-        { id: 71, img: '' , title: 'Filé de Tilapia', category: 'peixe'},
-        { id: 72, img: '' , title: 'File de Pangassius', category: 'peixe'},
-        { id: 73, img: '' , title: 'Filé de Pescada Branca', category: 'peixe'},
-        { id: 74, img: '' , title: 'Cação', category: 'peixe'},
-        { id: 75, img: '' , title: 'Porquinho Limpo (s/ cabeça)', category: 'peixe'},
-        { id: 76, img: '' , title: 'Sardinha Espalmada', category: 'peixe'},
-        { id: 77, img: '' , title: 'Sardinha (s/ cabeça)', category: 'peixe'},
-        { id: 78, img: '' , title: 'Camarão 7 Barbas (Pct 5kg)', category: 'peixe'},
+        { id: 68, img: bacalhau , title: 'Bacalhau Desfiado', category: 'peixe'},
+        { id: 69, img: merluzao , title: 'Merluzão', category: 'peixe'},
+        { id: 70, img: merluzaArgentina , title: 'Merluza Argentina', category: 'peixe'},
+        { id: 71, img: fileTilapia , title: 'Filé de Tilapia', category: 'peixe'},
+        { id: 72, img: filePangassius , title: 'File de Pangassius', category: 'peixe'},
+        { id: 73, img: filePescadaBranca , title: 'Filé de Pescada Branca', category: 'peixe'},
+        { id: 74, img: cacao , title: 'Cação', category: 'peixe'},
+        { id: 75, img: porquinhoLimpo , title: 'Porquinho Limpo (s/ cabeça)', category: 'peixe'},
+        { id: 76, img: sardinhaEspalmada , title: 'Sardinha Espalmada', category: 'peixe'},
+        { id: 77, img: sardinhaSemCabeca , title: 'Sardinha (s/ cabeça)', category: 'peixe'},
+        { id: 78, img: camarao7Barbas , title: 'Camarão 7 Barbas (Pct 5kg)', category: 'peixe'},
 
 
         { id: 79, img: '' , title: 'Champignon Fatiado', category: 'conservas-secos'},
