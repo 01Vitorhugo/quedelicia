@@ -111,10 +111,115 @@ import tempeiroBaiano from '../../../imagens/conservas/tempero baiano.png'
 import feijaoCarioca from '../../../imagens/conservas/feijão carioca.png'
 import feijaoPreto from '../../../imagens/conservas/Feijão preto.png'
 
+import costelaSalgada from '../../../imagens/feijoada/costela salgada.png'
+import raboSalgado from '../../../imagens/feijoada/rabo salgado.png'
+import pontaCostela from '../../../imagens/feijoada/ponta de costela.png'
+import peSalgado from '../../../imagens/feijoada/pe salgado.png'
+import orelhaSalgada from '../../../imagens/feijoada/orelha salgada.png'
+import linguaSalgada from '../../../imagens/feijoada/lingua salgada.png'
+import lomboSalgado from '../../../imagens/feijoada/lombo salgado.png'
+import coxaoDuroFeijoada from '../../../imagens/feijoada/carne seca coxão duro.png'
+import traseiroFeijoada from '../../../imagens/feijoada/carne seca traseiro.png'
+import dianteiro from '../../../imagens/feijoada/carne seca dianteiro.png'
+
+
 
 
 const data = {
     cardData: [
+        { id: 109, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
+        { id: 110, img: raboSalgado, title: 'Rabo Salgado', category: 'feijoada' },
+        { id: 111, img: pontaCostela, title: 'Ponta de Costela', category: 'feijoada' },
+        { id: 112, img: peSalgado, title: 'Pé Salgado', category: 'feijoada' },
+        { id: 113, img: orelhaSalgada, title: 'Orelha Salgada', category: 'feijoada' },
+        { id: 114, img: linguaSalgada, title: 'Língua Salgada', category: 'feijoada' },
+        { id: 115, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
+        { id: 116, img: lomboSalgado, title: 'Lombo Salgado', category: 'feijoada' },
+        { id: 117, img: coxaoDuroFeijoada, title: 'Coxão Duro (Pct 30kg) - 41,99kg', category: 'feijoada' },
+        { id: 118, img: traseiroFeijoada, title: 'Traseiro (Pct 5kg) - 36,80kg', category: 'feijoada' },
+        { id: 119, img: dianteiro, title: 'Dianteiro (Pct 5kg)', category: 'feijoada' },
+        { id: 129, img: '', title: 'Dianteiro Vilheto Pct 400gr', category: 'feijoada' },
+
+       
+        
+        { id: 1, img: batataBemBrasil, title: 'Batata Bem Brasil (Pct 1,05kg)', category: 'congelados' },
+        { id: 2, img: batataBemBrasil, title: 'Batata Bem Brasil (Pct 2,5kg)', category: 'congelados' },
+        { id: 3, img: batataCarinha, title: 'Batata Bem Brasil Carinhas', category: 'congelados' },
+        { id: 4, img: batataChic, title: 'Batata Bem Brasil Chic', category: 'congelados' },
+        { id: 5, img: batataCrinkle, title: 'Batata Bem Brasil Crinkle (Pct 2kg)', category: 'congelados' },
+        { id: 6, img: batataFast, title: 'Batata Bem Brasil Fast Food 7mm (Pct 2kg)', category: 'congelados' },
+        { id: 7, img: batataRustica, title: 'Batata Bem Brasil Rústica (Pct 2,5kg)', category: 'congelados' },
+        { id: 8, img: batataSteack, title: 'Batata Bem Brasil Steakhouse 9x18 (Pct 2,5kg)', category: 'congelados' },
+        { id: 9, img: batataLamb, title: 'Batata Lamb Weston Stealth Fries (Pct 2kg)', category: 'congelados' },
+        { id: 10, img: batataMaisBatata, title: 'Batata Mais Batata (Pct 1,5kg)', category: 'congelados' },
+        { id: 11, img: batataMaisBatata, title: 'Batata Mais Batata (Pct 2kg)', category: 'congelados' },
+        { id: 12, img: batataMaisBatata, title: 'Batata Mais Batata (Pct 2,5kg)', category: 'congelados' },
+        { id: 13, img: Stickqueijo, title: 'Stick de Queijo Bem Brasil (Pct 1,2kg) -', category: 'congelados' },
+        { id: 14, img: anelCebola, title: 'Anel de Cebola Bem Brasil (Pct 1,05kg)', category: 'congelados' },
+        { id: 15, img: anelCebola, title: 'Anel de Cebola Bem Brasil (Pct 400gr)', category: 'congelados' },
+        { id: 16, img: mandioca, title: 'Mandioca Pedaços Canção', category: 'congelados' },
+        { id: 17, img: brocolis, title: 'Brócolis', category: 'congelados' },
+        { id: 18, img: couve, title: 'Couve Flor', category: 'congelados' },
+        { id: 19, img: seleta, title: 'Jardineira Seleta', category: 'congelados' },
+        { id: 20, img: polenta, title: 'Polenta Bem Brasil', category: 'congelados' },
+        { id: 21, img: vagem, title: 'Vagem Inteira Francesa', category: 'congelados' },
+        // { id: 31, img:  , title: 'Batata Mc Cain (Pct 2,5kg)', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr *Picanha*', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 36x90gr', category: 'congelados' },
+        // { id: 43, img:  , title: 'Hamburguer Brasa 36x56gr', category: 'congelados' },
+
+        { id: 31, img: coracaoDeFrango, title: 'Coração de Frango', category: 'aves' },
+        { id: 32, img: meioDaAsa, title: 'Meio da asa', category: 'aves' },
+        { id: 33, img: sassami, title: 'Sassami', category: 'aves' },
+        { id: 34, img: fileDeFrango, title: 'Filé de Frango (peito s/ osso)', category: 'aves' },
+        { id: 35, img: fileDeCoxa, title: 'Filé de Coxa', category: 'aves' },
+        { id: 36, img: asaDeFrango, title: 'Asa de Frango', category: 'aves' },
+        { id: 37, img: peitoDeFrango, title: 'Peito de Frango c/ osso', category: 'aves' },
+        { id: 38, img: coxinhaDaAsa, title: 'Coxinha da Asa', category: 'aves' },
+        { id: 39, img: coxaSobrecoxa, title: 'Coxa e Sobrecoxa', category: 'aves' },
+        { id: 40, img: carcacaoDeFrango, title: 'Carcaça de Frango 1.9Kg', category: 'aves' },
+        { id: 42, img: frangoResfriado, title: 'Frango Resfriado', category: 'aves' },
+        { id: 42, img: moela, title: 'Moela', category: 'aves' },
+        { id: 43, img: galinha, title: 'Galinha Pesada', category: 'aves' },
+
+        { id: 44, img: picanha, title: 'Picanha Uruguaia Steakhouse', category: 'bovinos' },
+        { id: 45, img: fileMignon, title: 'Filé Mignon s/ Cordão', category: 'bovinos' },
+        { id: 46, img: patinho, title: 'Patinho', category: 'bovinos' },
+        { id: 47, img: alcatra, title: 'Alcatra c/ Maminha', category: 'bovinos' },
+        { id: 48, img: coxaoMole, title: 'Coxão Mole', category: 'bovinos' },
+        { id: 49, img: coxaoDuro, title: 'Coxão Duro', category: 'bovinos' },
+        { id: 50, img: capaFile, title: 'Capa de Filé', category: 'bovinos' },
+        { id: 51, img: peitoBovino, title: 'Peito Bovino', category: 'bovinos' },
+        { id: 52, img: acem, title: 'Acém', category: 'bovinos' },
+        { id: 53, img: costelaBovina, title: 'Costela Bovina', category: 'bovinos' },
+        { id: 54, img: carneMoida, title: 'Carne Moída (Pct 2kg)', category: 'bovinos' },
+        { id: 55, img: '', title: 'Diafragma', category: 'bovinos' },
+        { id: 56, img: '', title: 'Sangria', category: 'bovinos' },
+        { id: 57, img: '', title: 'Carne Indústrial', category: 'bovinos' },
+
+        { id: 58, img: barriga, title: 'Barriga', category: 'suinos' },
+        { id: 59, img: costelinha, title: 'Costelinha', category: 'suinos' },
+        { id: 60, img: carre, title: 'Carré', category: 'suinos' },
+        { id: 61, img: bisteca, title: 'Bisteca', category: 'suinos' },
+        { id: 62, img: pernil, title: 'Pernil c/ osso c/ pele', category: 'suinos' },
+        { id: 63, img: tripa, title: 'Tripa Suina (Culatra)', category: 'suinos' },
+        { id: 64, img: papada, title: 'Papada c/ Pele', category: 'suinos' },
+        { id: 65, img: paleta, title: 'Sobre Paleta c/ Osso', category: 'suinos' },
+        { id: 66, img: toucinhoCortado, title: 'Toucinho Cortado p/ Torresmo', category: 'suinos' },
+        { id: 67, img: toucinhoPele, title: 'Toucinho c/ Pele', category: 'suinos' },
+
+        { id: 68, img: bacalhau, title: 'Bacalhau Desfiado', category: 'peixe' },
+        { id: 69, img: merluzao, title: 'Merluzão', category: 'peixe' },
+        { id: 70, img: merluzaArgentina, title: 'Merluza Argentina', category: 'peixe' },
+        { id: 71, img: fileTilapia, title: 'Filé de Tilapia', category: 'peixe' },
+        { id: 72, img: filePangassius, title: 'Filé de Pangassius', category: 'peixe' },
+        { id: 73, img: filePescadaBranca, title: 'Filé de Pescada Branca', category: 'peixe' },
+        { id: 74, img: cacao, title: 'Cação', category: 'peixe' },
+        { id: 75, img: porquinhoLimpo, title: 'Porquinho Limpo (s/ cabeça)', category: 'peixe' },
+        { id: 76, img: sardinhaEspalmada, title: 'Sardinha Espalmada', category: 'peixe' },
+        { id: 77, img: sardinhaSemCabeca, title: 'Sardinha (s/ cabeça)', category: 'peixe' },
+        { id: 78, img: camarao7Barbas, title: 'Camarão 7 Barbas (Pct 5kg)', category: 'peixe' },
 
         { id: 79, img: champignonFatiado, title: 'Champignon Fatiado', category: 'conservas-secos' },
         { id: 80, img: ovoCodorna, title: 'Ovo de Codorna', category: 'conservas-secos' },
@@ -146,7 +251,9 @@ const data = {
         { id: 106, img: tempeiroBaiano, title: 'Tempero Baiano', category: 'conservas-secos' },
         { id: 107, img: feijaoCarioca, title: 'Feijão Carioca 30x1', category: 'conservas-secos' },
         { id: 108, img: feijaoPreto, title: 'Feijão Preto 10x1', category: 'conservas-secos' },
-        
+
+    
+
         { id: 130, img: bofeBovino , title: 'Bofe Bovino', category: 'muidos' },
         { id: 131, img: buchoBovino, title: 'Bucho bovino', category: 'muidos' },
         { id: 132, img: carneIndustrial, title: ' Carne Industrial', category: 'muidos' },
@@ -154,111 +261,13 @@ const data = {
         { id: 133, img: cupimBovino, title: 'Cupim Bovino', category: 'muidos' },
         { id: 134, img: figadoBovino, title: 'Figado Bovino', category: 'muidos' },
         { id: 135, img: fressuraSuina, title: 'Fressura Suina', category: 'muidos' },
-        { id: 136, img: linguaBovina, title: 'Lingua Bovina', category: 'muidos' },
+        { id: 136, img: linguaBovina, title: 'Língua Bovina', category: 'muidos' },
         { id: 137, img: mocotoBovino, title: 'Mocóto Bovino', category: 'muidos' },
         { id: 138, img: mocotoCortado, title: 'Mocotó Cortado', category: 'muidos' },
         { id: 139, img: passarinha, title: 'Passarinha', category: 'muidos' },
         { id: 140, img: rabada, title: 'Rabada Bovina', category: 'muidos' },
         { id: 141, img: rimBovino, title: 'Rim Bovino', category: 'muidos' },
         { id: 142, img: tripaBovina, title: 'Tripa Bovina', category: 'muidos' },
-
-        { id: 1, img: batataBemBrasil, title: 'Batata Bem Brasil (Pct 1,05kg)', category: 'congelados' },
-        { id: 2, img: batataBemBrasil, title: 'Batata Bem Brasil (Pct 2,5kg)', category: 'congelados' },
-        { id: 3, img: batataCarinha, title: 'Batata Bem Brasil Carinhas', category: 'congelados' },
-        { id: 4, img: batataChic, title: 'Batata Bem Brasil Chic', category: 'congelados' },
-        { id: 5, img: batataCrinkle, title: 'Batata Bem Brasil Crinkle (Pct 2kg)', category: 'congelados' },
-        { id: 6, img: batataFast, title: 'Batata Bem Brasil Fast Food 7mm (Pct 2kg)', category: 'congelados' },
-        { id: 7, img: batataRustica, title: 'Batata Bem Brasil Rústica (Pct 2,5kg)', category: 'congelados' },
-        { id: 8, img: batataSteack, title: 'Batata Bem Brasil Steakhouse 9x18 (Pct 2,5kg)', category: 'congelados' },
-        { id: 9, img: batataLamb, title: 'Batata Lamb Weston Stealth Fries (Pct 2kg)', category: 'congelados' },
-        { id: 10, img: batataMaisBatata, title: 'Batata Mais Batata (Pct 1,5kg)', category: 'congelados' },
-        { id: 11, img: batataMaisBatata, title: 'Batata Mais Batata (Pct 2kg)', category: 'congelados' },
-        { id: 12, img: batataMaisBatata, title: 'Batata Mais Batata (Pct 2,5kg)', category: 'congelados' },
-        { id: 13, img: Stickqueijo, title: 'Stick de Queijo Bem Brasil (Pct 1,2kg) -', category: 'congelados' },
-        { id: 14, img: anelCebola, title: 'Anel de Cebola Bem Brasil (Pct 1,05kg)', category: 'congelados' },
-        { id: 15, img: anelCebola, title: 'Anel de Cebola Bem Brasil (Pct 400gr)', category: 'congelados' },
-        { id: 16, img: mandioca, title: 'Mandioca Pedaços Canção', category: 'congelados' },
-        { id: 17, img: brocolis, title: 'Brócolis', category: 'congelados' },
-        { id: 18, img: couve, title: 'Couve Flor', category: 'congelados' },
-        { id: 19, img: seleta, title: 'Jardineira Seleta', category: 'congelados' },
-        { id: 20, img: polenta, title: 'Polenta Bem Brasil', category: 'congelados' },
-        { id: 21, img: vagem, title: 'Vagem Inteira Francesa', category: 'congelados' },
-        // { id: 31, img:  , title: 'Batata Mc Cain (Pct 2,5kg)', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr *Picanha*', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 36x90gr', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 36x56gr', category: 'congelados' },
-
-
-        { id: 31, img: coracaoDeFrango, title: 'Coração de Frango', category: 'aves' },
-        { id: 32, img: meioDaAsa, title: 'Meio da asa', category: 'aves' },
-        { id: 33, img: sassami, title: 'Sassami', category: 'aves' },
-        { id: 34, img: fileDeFrango, title: 'Filé de Frango (peito s/ osso)', category: 'aves' },
-        { id: 35, img: fileDeCoxa, title: 'Filé de Coxa', category: 'aves' },
-        { id: 36, img: asaDeFrango, title: 'Asa de Frango', category: 'aves' },
-        { id: 37, img: peitoDeFrango, title: 'Peito de Frango c/ osso', category: 'aves' },
-        { id: 38, img: coxinhaDaAsa, title: 'Coxinha da Asa', category: 'aves' },
-        { id: 39, img: coxaSobrecoxa, title: 'Coxa e Sobrecoxa', category: 'aves' },
-        { id: 40, img: carcacaoDeFrango, title: 'Carcaça de Frango 1.9Kg', category: 'aves' },
-        { id: 42, img: frangoResfriado, title: 'Frango Resfriado', category: 'aves' },
-        { id: 42, img: moela, title: 'Moela', category: 'aves' },
-        { id: 43, img: galinha, title: 'Galinha Pesada', category: 'aves' },
-
-
-        { id: 44, img: picanha, title: 'Picanha Uruguaia Steakhouse', category: 'bovinos' },
-        { id: 45, img: fileMignon, title: 'Filé Mignon s/ Cordão', category: 'bovinos' },
-        { id: 46, img: patinho, title: 'Patinho', category: 'bovinos' },
-        { id: 47, img: alcatra, title: 'Alcatra c/ Maminha', category: 'bovinos' },
-        { id: 48, img: coxaoMole, title: 'Coxão Mole', category: 'bovinos' },
-        { id: 49, img: coxaoDuro, title: 'Coxão Duro', category: 'bovinos' },
-        { id: 50, img: capaFile, title: 'Capa de Filé', category: 'bovinos' },
-        { id: 51, img: peitoBovino, title: 'Peito Bovino', category: 'bovinos' },
-        { id: 52, img: acem, title: 'Acém', category: 'bovinos' },
-        { id: 53, img: costelaBovina, title: 'Costela Bovina', category: 'bovinos' },
-        { id: 54, img: carneMoida, title: 'Carne Moída (Pct 2kg)', category: 'bovinos' },
-        { id: 55, img: '', title: 'Diafragma', category: 'bovinos' },
-        { id: 56, img: '', title: 'Sangria', category: 'bovinos' },
-        { id: 57, img: '', title: 'Carne Indústrial', category: 'bovinos' },
-
-
-        { id: 58, img: barriga, title: 'Barriga', category: 'suinos' },
-        { id: 59, img: costelinha, title: 'Costelinha', category: 'suinos' },
-        { id: 60, img: carre, title: 'Carré', category: 'suinos' },
-        { id: 61, img: bisteca, title: 'Bisteca', category: 'suinos' },
-        { id: 62, img: pernil, title: 'Pernil c/ osso c/ pele', category: 'suinos' },
-        { id: 63, img: tripa, title: 'Tripa Suina (Culatra)', category: 'suinos' },
-        { id: 64, img: papada, title: 'Papada c/ Pele', category: 'suinos' },
-        { id: 65, img: paleta, title: 'Sobre Paleta c/ Osso', category: 'suinos' },
-        { id: 66, img: toucinhoCortado, title: 'Toucinho Cortado p/ Torresmo', category: 'suinos' },
-        { id: 67, img: toucinhoPele, title: 'Toucinho c/ Pele', category: 'suinos' },
-
-        { id: 68, img: bacalhau, title: 'Bacalhau Desfiado', category: 'peixe' },
-        { id: 69, img: merluzao, title: 'Merluzão', category: 'peixe' },
-        { id: 70, img: merluzaArgentina, title: 'Merluza Argentina', category: 'peixe' },
-        { id: 71, img: fileTilapia, title: 'Filé de Tilapia', category: 'peixe' },
-        { id: 72, img: filePangassius, title: 'Filé de Pangassius', category: 'peixe' },
-        { id: 73, img: filePescadaBranca, title: 'Filé de Pescada Branca', category: 'peixe' },
-        { id: 74, img: cacao, title: 'Cação', category: 'peixe' },
-        { id: 75, img: porquinhoLimpo, title: 'Porquinho Limpo (s/ cabeça)', category: 'peixe' },
-        { id: 76, img: sardinhaEspalmada, title: 'Sardinha Espalmada', category: 'peixe' },
-        { id: 77, img: sardinhaSemCabeca, title: 'Sardinha (s/ cabeça)', category: 'peixe' },
-        { id: 78, img: camarao7Barbas, title: 'Camarão 7 Barbas (Pct 5kg)', category: 'peixe' },
-
-
-      
-
-        { id: 109, img: '', title: 'Costela Salgada', category: 'feijoada' },
-        { id: 110, img: '', title: 'Rabo Salgado', category: 'feijoada' },
-        { id: 111, img: '', title: 'Ponta de Costela', category: 'feijoada' },
-        { id: 112, img: '', title: 'Pé Salgado', category: 'feijoada' },
-        { id: 113, img: '', title: 'Orelha Salgada', category: 'feijoada' },
-        { id: 114, img: '', title: 'Língua Salgada', category: 'feijoada' },
-        { id: 115, img: '', title: 'Costela Salgada', category: 'feijoada' },
-        { id: 116, img: '', title: 'Lombo Salgado', category: 'feijoada' },
-        { id: 117, img: '', title: 'Coxão Duro (Pct 30kg) - 41,99kg', category: 'feijoada' },
-        { id: 118, img: '', title: 'Traseiro (Pct 5kg) - 36,80kg', category: 'feijoada' },
-        { id: 119, img: '', title: 'Dianteiro (Pct 5kg)', category: 'feijoada' },
-        { id: 129, img: '', title: 'Dianteiro Vilheto Pct 400gr', category: 'feijoada' },
 
 
 

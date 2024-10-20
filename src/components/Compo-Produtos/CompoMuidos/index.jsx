@@ -1,19 +1,19 @@
-import feijoada from '../../../imagens/icons-produtos-submenu/pertences de feijoada.svg'
-import feijoada1 from '../../../imagens/feijoada/costela salgada.png'
-import feijoada2 from '../../../imagens/feijoada/rabo salgado.png'
-import feijoada3 from '../../../imagens/feijoada/ponta de costela.png'
-import feijoada4 from '../../../imagens/feijoada/pe salgado.png'
+import muidos from '../../../imagens/icons-produtos-submenu/boi.svg'
+import muidos1 from '../../../imagens/miudos/Bofe Bovino.png'
+import muidos2 from '../../../imagens/miudos/Lingua Bovina.png'
+import muidos3 from '../../../imagens/miudos/Passarinha.png'
+import muidos4 from '../../../imagens/miudos/Fressura suina.png'
 import { Link } from "react-router-dom";
-import './compoFeijoada.css'
+import './compoMuidos.css'
 
-export default function CompoFeijoada() {
+export default function CompoMuidos() {
 
 
     return (
-        <div className="container-produtosFeijoada">
+        <div className="container-produtosMuidos">
             <article className="text">
-                <img src={feijoada} alt="icone feijoada" />
-                <h1>Feijoada</h1>
+                <img src={muidos} alt="icone muidos" />
+                <h1>Muidos</h1>
             </article>
 
             <section className="box-produto">
@@ -21,37 +21,37 @@ export default function CompoFeijoada() {
 
                     <div className="card-produto">
                         <figure>
-                            <img src={feijoada1} alt="imagem feijoada" />
+                            <img src={muidos1} alt="imagem muidos" />
                         </figure>
                         <article>
-                            <p>Costela Salgada</p>
+                            <p>Bofe Bovino</p>
                         </article>
                     </div>
 
                     <div className="card-produto">
                         <figure>
-                            <img src={feijoada2} alt="imagem feijoada" />
+                            <img src={muidos2} alt="imagem muidos" />
                         </figure>
                         <article>
-                            <p>Rabo Salgado</p>
+                            <p>Língua Bovina</p>
                         </article>
                     </div>
 
                     <div className="card-produto">
                         <figure>
-                            <img src={feijoada3} alt="imagem feijoada" />
+                            <img src={muidos3} alt="imagem muidos" />
                         </figure>
                         <article>
-                            <p>Ponta de Costela</p>
+                            <p>Passarinha</p>
                         </article>
                     </div>
 
                     <div className="card-produto">
                         <figure>
-                            <img src={feijoada4} alt="imagem feijoada" />
+                            <img src={muidos4} alt="imagem muidos" />
                         </figure>
                         <article>
-                            <p>Pé Salgado</p>
+                            <p>Fressura Suina</p>
                         </article>
                     </div>
 
@@ -59,7 +59,7 @@ export default function CompoFeijoada() {
 
                 <div className="button">
                     <button>
-                        <p><Link to='/produtos/feijoada'>Veja Mais</Link></p>
+                        <p><Link to='/produtos/muidos'>Veja Mais</Link></p>
                     </button>
                 </div>
 

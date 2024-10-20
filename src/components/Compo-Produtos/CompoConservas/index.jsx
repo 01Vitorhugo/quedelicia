@@ -1,8 +1,8 @@
 import conserva from '../../../imagens/icons-produtos-submenu/conservas e secos.svg'
-import conserva1 from '../../../imagens/conservas/background.png'
-import conserva2 from '../../../imagens/conservas/background.png'
-import conserva3 from '../../../imagens/conservas/background.png'
-import conserva4 from '../../../imagens/conservas/background.png'
+import conserva1 from '../../../imagens/conservas/champignon fatiado.png'
+import conserva2 from '../../../imagens/conservas/Ovo de codorna.png'
+import conserva3 from '../../../imagens/conservas/palmito picado.png'
+import conserva4 from '../../../imagens/conservas/Tomate Seco.png'
 import { Link } from "react-router-dom";
 import './compoConserva.css'
 

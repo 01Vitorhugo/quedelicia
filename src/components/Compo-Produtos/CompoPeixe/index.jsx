@@ -10,7 +10,7 @@ export default function CompoPeixes() {
 
 
     return (
-        <div className="container-produtosAves">
+        <div className="container-produtosPeixes">
             <article className="text">
                 <img src={peixe} alt="icone peixe" />
                 <h1>Peixes</h1>
