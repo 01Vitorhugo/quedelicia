@@ -27,7 +27,7 @@ export default function FooterMain() {
               style={{ width: "50px", height: "auto" }}
             />
             <p className="desc">
-              
+
             </p>
             <ul className="socials">
               <li>
