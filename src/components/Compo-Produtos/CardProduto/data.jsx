@@ -126,21 +126,7 @@ import dianteiro from '../../../imagens/feijoada/carne seca dianteiro.png'
 
 
 const data = {
-    cardData: [
-        { id: 109, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
-        { id: 110, img: raboSalgado, title: 'Rabo Salgado', category: 'feijoada' },
-        { id: 111, img: pontaCostela, title: 'Ponta de Costela', category: 'feijoada' },
-        { id: 112, img: peSalgado, title: 'Pé Salgado', category: 'feijoada' },
-        { id: 113, img: orelhaSalgada, title: 'Orelha Salgada', category: 'feijoada' },
-        { id: 114, img: linguaSalgada, title: 'Língua Salgada', category: 'feijoada' },
-        { id: 115, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
-        { id: 116, img: lomboSalgado, title: 'Lombo Salgado', category: 'feijoada' },
-        { id: 117, img: coxaoDuroFeijoada, title: 'Coxão Duro (Pct 30kg) - 41,99kg', category: 'feijoada' },
-        { id: 118, img: traseiroFeijoada, title: 'Traseiro (Pct 5kg) - 36,80kg', category: 'feijoada' },
-        { id: 119, img: dianteiro, title: 'Dianteiro (Pct 5kg)', category: 'feijoada' },
-        { id: 129, img: '', title: 'Dianteiro Vilheto Pct 400gr', category: 'feijoada' },
-
-       
+    cardData: [    
         
         { id: 1, img: batataBemBrasil, title: 'Batata Bem Brasil (Pct 1,05kg)', category: 'congelados' },
         { id: 2, img: batataBemBrasil, title: 'Batata Bem Brasil (Pct 2,5kg)', category: 'congelados' },
@@ -252,7 +238,18 @@ const data = {
         { id: 107, img: feijaoCarioca, title: 'Feijão Carioca 30x1', category: 'conservas-secos' },
         { id: 108, img: feijaoPreto, title: 'Feijão Preto 10x1', category: 'conservas-secos' },
 
-    
+        { id: 109, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
+        { id: 110, img: raboSalgado, title: 'Rabo Salgado', category: 'feijoada' },
+        { id: 111, img: pontaCostela, title: 'Ponta de Costela', category: 'feijoada' },
+        { id: 112, img: peSalgado, title: 'Pé Salgado', category: 'feijoada' },
+        { id: 113, img: orelhaSalgada, title: 'Orelha Salgada', category: 'feijoada' },
+        { id: 114, img: linguaSalgada, title: 'Língua Salgada', category: 'feijoada' },
+        { id: 115, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
+        { id: 116, img: lomboSalgado, title: 'Lombo Salgado', category: 'feijoada' },
+        { id: 117, img: coxaoDuroFeijoada, title: 'Coxão Duro (Pct 30kg) - 41,99kg', category: 'feijoada' },
+        { id: 118, img: traseiroFeijoada, title: 'Traseiro (Pct 5kg) - 36,80kg', category: 'feijoada' },
+        { id: 119, img: dianteiro, title: 'Dianteiro (Pct 5kg)', category: 'feijoada' },
+        { id: 129, img: '', title: 'Dianteiro Vilheto Pct 400gr', category: 'feijoada' },    
 
         { id: 130, img: bofeBovino , title: 'Bofe Bovino', category: 'muidos' },
         { id: 131, img: buchoBovino, title: 'Bucho bovino', category: 'muidos' },
