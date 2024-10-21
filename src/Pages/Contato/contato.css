@@ -1,43 +1,141 @@
 .contato {
   height: auto;
+  margin-top: 110px;
 }
-.contato .conecte {
-  background-color: #fff;
+.contato .banner-contato {
+  height: 500px;
   width: 100%;
-  height: 200px;
-  margin-top: 160px;
+  /* background-color: black; */
   display: flex;
 }
-.contato .conecte .redes {
-  width: 50%;
+.contato .banner-contato .icon {
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.contato .conecte .redes h1 {
-  font-weight: 700;
-  font-size: 27px;
+.contato .banner-contato .icon img {
+  height: 150px;
 }
-.contato .conecte .redes .redes-icons {
+.contato .banner-contato .icon h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #044168;
+}
+.contato .banner-contato .icon p {
+  font-weight: 600;
+}
+.contato .banner-contato .image-background {
+  width: 60%;
+  height: 100%;
+}
+.contato .banner-contato .image-background img {
   width: 100%;
-  height: 50px;
-  margin-top: 5px;
+  height: 100%;
+}
+.contato .formulario {
+  height: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  flex-direction: column;
+  margin-top: 100px;
 }
-.contato .conecte .redes .redes-icons a {
-  width: 30px;
-  height: auto;
+.contato .formulario h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #044168;
 }
-.contato .conecte .redes .redes-icons a svg {
-  height: 60% !important;
-}
-.contato .conecte .telefone {
+.contato .formulario form {
+  margin-top: 30px;
+  /* background-color: yellow;  */
   width: 50%;
-  height: 100%;
-  background-color: black;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contato .formulario form input {
+  border: solid 2px rgba(0, 0, 0, 0.2352941176);
+  border-radius: 10px;
+}
+.contato .formulario form .assunto {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contato .formulario form .assunto select {
+  border: solid 2px rgba(0, 0, 0, 0.2352941176);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contato .formulario form .name {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contato .formulario form .boxEmailAndNumberPhone {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 50px;
+}
+.contato .formulario form .boxEmailAndNumberPhone .email {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* input{
+      width: 90%;
+  } */
+}
+.contato .formulario form .boxEmailAndNumberPhone .numberPhone {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contato .formulario form .boxCityAndState {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 50px;
+}
+.contato .formulario form .boxCityAndState .city {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* input{
+      width: 90%;
+  } */
+}
+.contato .formulario form .boxCityAndState .state {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contato .formulario form .boxMessage {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contato .formulario form .boxMessage textarea {
+  border: solid 2px rgba(0, 0, 0, 0.2352941176);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+.contato .formulario form .boxMessage textarea:focus, .contato .formulario form .boxMessage input:focus, .contato .formulario form .boxMessage select:focus {
+  box-shadow: 0 0 0 0;
+}
+.contato .formulario button {
+  width: 100px;
+  height: 40px;
+  border: solid 2px #044168;
+  border-radius: 40px;
+  color: #044168;
+  font-weight: 600;
 }/*# sourceMappingURL=contato.css.map */
