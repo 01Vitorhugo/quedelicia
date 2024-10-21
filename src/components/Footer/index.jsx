@@ -1,8 +1,7 @@
 import "./footer.css";
 import Logo from "../../imagens/logo-sem-fundo.png";
-
+import { Link } from "react-router-dom";
 import {
-  // Footer,
   FooterBrand,
   FooterCopyright,
   FooterDivider,
@@ -10,25 +9,28 @@ import {
   FooterLinkGroup,
 } from "flowbite-react";
 
+const CustomFooterLink = ({ children, to }) => (
+  <li>
+    <Link to={to}>{children}</Link>
+  </li>
+);
+
 export default function FooterMain() {
   var date = new Date();
   const year = date.getFullYear();
-  // console.log(year);
 
   return (
     <footer>
       <div className="container">
         <div className="wrapper">
-          <div className="footer-widget">
+        <div className="footer-widget">
             <FooterBrand
               src={Logo}
               alt="Que Delícia Logo"
               name="Que Delícia"
               style={{ width: "50px", height: "auto" }}
             />
-            <p className="desc">
-
-            </p>
+            <p className="desc"></p>
             <ul className="socials">
               <li>
                 <a href="#">
@@ -78,22 +80,18 @@ export default function FooterMain() {
           </div>
 
           <div className="footer-widget">
-            <h6>Links</h6>
-            <ul className="links">
-              <FooterLinkGroup>
-                <FooterLink href="#">About</FooterLink>
-                <FooterLink href="#">Privacy Policy</FooterLink>
-                <FooterLink href="#">Licensing</FooterLink>
-                <FooterLink href="#">Contact</FooterLink>
-              </FooterLinkGroup>
-            </ul>
+            <h6>links</h6>
+            <FooterLinkGroup col={true}>
+              <CustomFooterLink to="/">Sobre</CustomFooterLink>
+              <CustomFooterLink to="/produtos">Produtos</CustomFooterLink>
+              <CustomFooterLink to="/contato">Contato</CustomFooterLink>
+              <CustomFooterLink to="/teste">Política de privacidade</CustomFooterLink>
+            </FooterLinkGroup>
           </div>
         </div>
-        <FooterDivider />
-        <div className="copyright-wrapper">
-          <FooterCopyright href="#" by="Que Delícia" year={year} />
-        </div>
       </div>
+      <FooterDivider />
+      <FooterCopyright by="Que Delícia™" year={year} />
     </footer>
   );
 }
