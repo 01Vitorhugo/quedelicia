@@ -5,7 +5,6 @@ import {
   FooterBrand,
   FooterCopyright,
   FooterDivider,
-  FooterLink,
   FooterLinkGroup,
 } from "flowbite-react";
 
@@ -63,7 +62,7 @@ export default function FooterMain() {
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/5511995216604?text=Olá,%20vim%20do%20site%20https://quedelicia.vercel.app/,%20tenho%20interesse%20nos%20seus%20produtos.">
+              <a href="https://wa.me/551120313812?text=Olá!%20vim%20através%20do%20site%20https://quedelicia.vercel.app/,%gostaria%20de%20mais%20informações.">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
