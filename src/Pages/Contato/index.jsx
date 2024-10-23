@@ -1,17 +1,82 @@
 import './contato.css'
 import Imagebackground from '../../imagens/PageContato/background.png'
 import icon from '../../imagens/PageContato/icon.png'
+import { useState } from 'react'
+import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify";
 
 
 
 
 
 export default function Contato() {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [city, setCity] = useState('')
+    const [state, setState] = useState('')
+    const [message, setMessage] = useState('')
+    const [selectOptionId, setSelectOptionId] = useState('')
 
-    function teste(){
-        alert('Testeeee')
+    const handleChange = (event) => {
+        const selectedId = event.target.selectedOptions[0].id;
+        setSelectOptionId(selectedId);
 
+    };
+
+    if (selectOptionId === 'agregarVeiculo') {
+        setSelectOptionId('Agregar veiculo')
+
+    } if (selectOptionId === 'trabalheConosco') {
+        setSelectOptionId('Trabalhe conosco')
+
+    } if (selectOptionId === 'sejaRepresentante') {
+        setSelectOptionId('Seja representante')
+
+    } if (selectOptionId === 'cotacaoProdutos') {
+        setSelectOptionId('Cotação de produtos ')
+
+    } if (selectOptionId === 'outrosAssuntos') {
+        setSelectOptionId('Outros assuntos ')
+
+    } if (selectOptionId === 'escolhaAssunto') {
+        setSelectOptionId('')
     }
+
+
+    const enviarFormulario = (e) => {
+        e.preventDefault();
+
+        // Configurar EmailJS
+        emailjs.send('emailQueDelicia', 'templateQueDelicia', {
+            city: city,
+            name: name,
+            email: email,
+            phone: phone,
+            state: state,
+            selectOptionId: selectOptionId,
+            message: message
+
+        }, 'TmaA6gPIBF0R4ZnGp')
+            .then(() => {
+                setName('');
+                setMessage('');
+                setCity('');
+                setEmail('');
+                setPhone('');
+                setSelectOptionId('');
+                setState('');
+
+                toast.success("Email enviado com sucesso");
+            })
+            .catch(() => {
+                toast.error("Email não enviado");
+            });
+
+
+    };
+
+
 
     return (
         <section className='contato'>
@@ -24,39 +89,56 @@ export default function Contato() {
                 </div>
 
                 <div className='image-background'>
-                    <img src={Imagebackground} alt="image contato" />
+                    <img src={Imagebackground} alt="contato" />
                 </div>
             </section>
 
             <section className='formulario'>
                 <h1>Envie uma mensagem</h1>
 
-                <form action="">
+                <form onSubmit={enviarFormulario}>
                     <div className='assunto'>
-                        <label for="assunto">Assunto:</label>
-                        <select id="assunto" >
-                            <option>Escolha um assunto</option>
-                            <option value="Teste">Teste</option>
-                            <option value="Teste">Teste</option>
-                            <option value="Teste">Teste</option>
-                            <option value="Teste">Teste</option>
+                        <label htmlFor="assunto">Assunto</label>
+                        <select id="assunto" onChange={handleChange}>
+                            <option id='escolhaAssunto' value='0' className='optionSelect'>Escolha um assunto</option>
+                            <option id='agregarVeiculo' value='1'>Agregar veiculo</option>
+                            <option id='trabalheConosco' value='2'>Trabalhe conosco</option>
+                            <option id='sejaRepresentante' value='3'>Seja representante</option>
+                            <option id='cotacaoProdutos' value='4'>Cotação de produtos</option>
+                            <option id='outrosAssuntos' value='5'>Outros assuntos</option>
                         </select>
                     </div>
 
                     <div className='name'>
-                        <label for="name">Nome:</label>
-                        <input type="text" />
+                        <label htmlFor="name">Nome</label>
+                        <input type="text"
+                            id='name'
+                            name='name'
+                            required
+                            value={name}
+                            onChange={e => setName(e.target.value)} />
                     </div>
 
                     <div className='boxEmailAndNumberPhone'>
                         <div className='email'>
-                            <label for="name">E-mail:</label>
-                            <input type="email" />
+                            <label htmlFor="email">E-mail</label>
+                            <input type="email"
+                                id='email'
+                                name='email'
+                                required
+                                value={email}
+                                onChange={e => setEmail(e.target.value)} />
+
                         </div>
 
                         <div className='numberPhone'>
-                            <label for="name">Telefone:</label>
-                            <input type="email" />
+                            <label htmlFor="number">Telefone</label>
+                            <input type="number"
+                                id='number'
+                                required
+                                name='phone'
+                                value={phone}
+                                onChange={e => setPhone(e.target.value)} />
 
                         </div>
                     </div>
@@ -64,23 +146,45 @@ export default function Contato() {
 
                     <div className='boxCityAndState'>
                         <div className='city'>
-                            <label for="city">Cidade:</label>
-                            <input type="text" />
+                            <label htmlFor="city">Cidade</label>
+                            <input type="text"
+                                id='city'
+                                required
+                                name='city'
+                                value={city}
+                                onChange={e => setCity(e.target.value)} />
                         </div>
 
+
                         <div className='state'>
-                            <label for="state">Estado:</label>
-                            <input type="text" />
+                            <label htmlFor="state">Estado</label>
+                            <input type="text"
+                                id='state'
+                                required
+                                value={state}
+                                name='state'
+                                onChange={e => setState(e.target.value)} />
 
                         </div>
                     </div>
 
                     <div className='boxMessage'>
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui..."></textarea>
+                        <label htmlFor="mensagem">Mensagem</label>
+                        <textarea id="mensagem"
+                            name="mensagem"
+                            rows="4"
+                            cols="50"
+                            placeholder="Digite sua mensagem aqui..." required
+                            value={message}
+                            onChange={e => setMessage(e.target.value)} />
                     </div>
 
-                    <button onClick={teste}>Enviar</button>
+                    {
+                        (selectOptionId !== '' && name !== '' && email !== '' && phone !== '' && city !== '' && state !== '' && message !== '') ?
+                            <button>Enviar</button> :
+                            <button disabled>Enviar</button>
+                    }
+
 
                 </form>
 
