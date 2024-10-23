@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .contato {
   height: auto;
   margin-top: 110px;
@@ -62,6 +63,12 @@
   border: solid 2px rgba(0, 0, 0, 0.2352941176);
   border-radius: 10px;
 }
+.contato .formulario form label::after {
+  content: " *";
+  color: red; /* Muda a cor do asterisco para vermelho */
+  margin-left: 0px; /* Adiciona um pequeno espaçamento à esquerda */
+  font-size: 16px; /* Ajusta o tamanho do asterisco, se necessário */
+}
 .contato .formulario form .assunto {
   width: 100%;
   height: auto;
@@ -72,6 +79,10 @@
   border: solid 2px rgba(0, 0, 0, 0.2352941176);
   border-radius: 10px;
   cursor: pointer;
+}
+.contato .formulario form .assunto select .optionSelect {
+  background-color: #044168;
+  color: #fff;
 }
 .contato .formulario form .name {
   width: 100%;
@@ -130,6 +141,11 @@
 }
 .contato .formulario form .boxMessage textarea:focus, .contato .formulario form .boxMessage input:focus, .contato .formulario form .boxMessage select:focus {
   box-shadow: 0 0 0 0;
+}
+.contato .formulario button:disabled {
+  border: solid 2px rgba(4, 66, 104, 0.1960784314);
+  color: rgba(4, 66, 104, 0.4274509804);
+  cursor: not-allowed;
 }
 .contato .formulario button {
   width: 100px;

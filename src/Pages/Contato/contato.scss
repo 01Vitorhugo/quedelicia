@@ -72,6 +72,12 @@
 
             }
 
+            label::after{
+                content: ' *';
+                color: red; /* Muda a cor do asterisco para vermelho */
+                margin-left: 0px; /* Adiciona um pequeno espaçamento à esquerda */
+                font-size: 16px; /* Ajusta o tamanho do asterisco, se necessário */
+            }
             .assunto {
                 width: 100%;
                 height: auto;
@@ -82,6 +88,11 @@
                     border: solid 2px #0000003c;
                     border-radius: 10px;
                     cursor: pointer;
+
+                    .optionSelect{
+                        background-color: #044168;
+                        color: #fff;
+                    }
                 }
             }
 
@@ -168,6 +179,12 @@
             }
         }
 
+        button:disabled{
+            border: solid 2px #04426832;
+            color: #0442686d;
+            cursor: not-allowed ;
+
+        }
         button{
             width: 100px;
             height: 40px;
