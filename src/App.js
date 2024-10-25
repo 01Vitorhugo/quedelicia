@@ -1,6 +1,8 @@
 import "./app.css";
 import RoutsPage from './router'; // Verifique se o caminho está correto
 import { useState, useEffect } from "react";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [heigth, setHeight] = useState(0);
@@ -26,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+      <ToastContainer autoClose={3000}/>
       <RoutsPage />
 
       {heigth > 150 && (
