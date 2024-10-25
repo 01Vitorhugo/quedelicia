@@ -47,7 +47,6 @@ export default function Contato() {
     const enviarFormulario = (e) => {
         e.preventDefault();
 
-        // Configurar EmailJS
         emailjs.send('emailQueDelicia', 'templateQueDelicia', {
             city: city,
             name: name,
