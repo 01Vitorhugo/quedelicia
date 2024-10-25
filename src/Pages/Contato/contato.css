@@ -65,9 +65,12 @@
 }
 .contato .formulario form label::after {
   content: " *";
-  color: red; /* Muda a cor do asterisco para vermelho */
-  margin-left: 0px; /* Adiciona um pequeno espaçamento à esquerda */
-  font-size: 16px; /* Ajusta o tamanho do asterisco, se necessário */
+  color: red;
+  /* Muda a cor do asterisco para vermelho */
+  margin-left: 0px;
+  /* Adiciona um pequeno espaçamento à esquerda */
+  font-size: 16px;
+  /* Ajusta o tamanho do asterisco, se necessário */
 }
 .contato .formulario form .assunto {
   width: 100%;
@@ -139,7 +142,9 @@
   overflow: hidden;
   width: 100%;
 }
-.contato .formulario form .boxMessage textarea:focus, .contato .formulario form .boxMessage input:focus, .contato .formulario form .boxMessage select:focus {
+.contato .formulario form .boxMessage textarea:focus,
+.contato .formulario form .boxMessage input:focus,
+.contato .formulario form .boxMessage select:focus {
   box-shadow: 0 0 0 0;
 }
 .contato .formulario button:disabled {
@@ -154,4 +159,100 @@
   border-radius: 40px;
   color: #044168;
   font-weight: 600;
+}
+
+@media (min-width: 330px) and (max-width: 584px) {
+  .contato {
+    margin-top: 80px;
+  }
+  .contato .banner-contato {
+    flex-direction: column-reverse;
+    height: 400px !important;
+    margin-top: 10px !important;
+  }
+  .contato .banner-contato .image-background {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .contato .banner-contato .icon {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .contato .banner-contato .icon img {
+    height: 100px;
+  }
+  .contato .banner-contato .icon h1 {
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+  .contato .banner-contato .icon p {
+    font-size: small;
+  }
+}
+@media (min-width: 585px) and (max-width: 800px) {
+  .contato {
+    margin-top: 80px;
+  }
+  .contato .banner-contato {
+    flex-direction: column-reverse;
+    height: 600px !important;
+    margin-top: 10px !important;
+  }
+  .contato .banner-contato .image-background {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .contato .banner-contato .icon {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .contato .banner-contato .icon img {
+    height: 140px;
+  }
+  .contato .banner-contato .icon h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .contato .banner-contato .icon p {
+    font-size: medium;
+  }
+}
+@media (min-width: 801px) and (max-width: 1088px) {
+  .contato {
+    margin-top: 80px;
+  }
+  .contato .banner-contato {
+    height: 400px;
+  }
+}
+@media (min-width: 330px) and (max-width: 1000px) {
+  .contato .formulario {
+    margin-top: 50px;
+  }
+  .contato .formulario h1 {
+    font-size: larger;
+  }
+  .contato .formulario form {
+    width: 90%;
+  }
+  .contato .formulario form .boxEmailAndNumberPhone {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contato .formulario form .boxEmailAndNumberPhone .email {
+    width: 100%;
+  }
+  .contato .formulario form .boxEmailAndNumberPhone .numberPhone {
+    width: 100%;
+  }
+  .contato .formulario form .boxCityAndState {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contato .formulario form .boxCityAndState .city {
+    width: 100%;
+  }
+  .contato .formulario form .boxCityAndState .state {
+    width: 100%;
+  }
 }/*# sourceMappingURL=contato.css.map */

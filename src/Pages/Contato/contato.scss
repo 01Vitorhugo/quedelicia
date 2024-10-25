@@ -72,12 +72,16 @@
 
             }
 
-            label::after{
+            label::after {
                 content: ' *';
-                color: red; /* Muda a cor do asterisco para vermelho */
-                margin-left: 0px; /* Adiciona um pequeno espaçamento à esquerda */
-                font-size: 16px; /* Ajusta o tamanho do asterisco, se necessário */
+                color: red;
+                /* Muda a cor do asterisco para vermelho */
+                margin-left: 0px;
+                /* Adiciona um pequeno espaçamento à esquerda */
+                font-size: 16px;
+                /* Ajusta o tamanho do asterisco, se necessário */
             }
+
             .assunto {
                 width: 100%;
                 height: auto;
@@ -89,7 +93,7 @@
                     border-radius: 10px;
                     cursor: pointer;
 
-                    .optionSelect{
+                    .optionSelect {
                         background-color: #044168;
                         color: #fff;
                     }
@@ -161,8 +165,8 @@
                 height: auto;
                 display: flex;
                 flex-direction: column;
-                
-                textarea{
+
+                textarea {
                     border: solid 2px #0000003c;
                     border-radius: 10px;
                     overflow: hidden;
@@ -170,22 +174,25 @@
 
                 }
 
-                textarea:focus, input:focus, select:focus {
+                textarea:focus,
+                input:focus,
+                select:focus {
                     box-shadow: 0 0 0 0;
-                 
+
                 }
 
-          
+
             }
         }
 
-        button:disabled{
+        button:disabled {
             border: solid 2px #04426832;
             color: #0442686d;
-            cursor: not-allowed ;
+            cursor: not-allowed;
 
         }
-        button{
+
+        button {
             width: 100px;
             height: 40px;
             border: solid 2px #044168;
@@ -198,3 +205,145 @@
 
 
 }
+
+@media (min-width: 330px) and (max-width: 584px) {
+    .contato {
+        margin-top: 80px;
+
+        .banner-contato {
+            flex-direction: column-reverse;
+            height: 400px !important;
+            margin-top: 10px !important;
+
+            .image-background {
+                width: 100% !important;
+                height: 50% !important;
+            }
+
+            .icon {
+                width: 100% !important;
+                height: 50% !important;
+
+                img {
+                    height: 100px;
+                }
+
+                h1 {
+                    font-size: larger;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: small;
+                }
+
+
+            }
+        }
+
+    }
+
+}
+@media (min-width: 585px) and (max-width: 800px) {
+    .contato {
+        margin-top: 80px;
+
+        .banner-contato {
+            flex-direction: column-reverse;
+            height: 600px !important;
+            margin-top: 10px !important;
+
+            .image-background {
+                width: 100% !important;
+                height: 50% !important;
+            }
+
+            .icon {
+                width: 100% !important;
+                height: 50% !important;
+
+                img {
+                    height: 140px;
+                }
+
+                h1 {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: medium;
+                }
+
+
+            }
+        }
+
+    }
+
+}
+@media (min-width: 801px) and (max-width: 1088px) {
+    .contato {
+        margin-top: 80px;
+
+        .banner-contato{
+            height: 400px;
+        }
+
+
+    }
+
+}
+
+
+
+    @media (min-width: 330px) and (max-width: 1000px) {
+        .contato {
+
+
+            .formulario {
+                margin-top: 50px;
+
+                h1 {
+                    font-size: larger;
+
+                }
+
+                form {
+                    width: 90%;
+
+                    .boxEmailAndNumberPhone {
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .email {
+                            width: 100%;
+                        }
+
+                        .numberPhone {
+                            width: 100%;
+
+                        }
+
+                    }
+
+                    .boxCityAndState {
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .city {
+                            width: 100%;
+                        }
+
+                        .state {
+                            width: 100%;
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
