@@ -151,7 +151,7 @@
     gap: 20px;
   }
   .atendimento-icons .icon-box1 section {
-    height: 230px !important;
+    height: 150px !important;
     flex-direction: column !important;
     gap: 10px !important;
     flex: 1 1 50%;
@@ -173,7 +173,7 @@
   }
   .atendimento-icons .icon-box2 section {
     margin-top: 7px;
-    height: 230px !important;
+    height: 150px !important;
     flex-direction: column !important;
     gap: 10px !important;
     flex: 1 1 50%;

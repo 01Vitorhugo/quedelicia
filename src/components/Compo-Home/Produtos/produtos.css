@@ -213,7 +213,7 @@
 }
 @media (max-width: 734px) {
   .produtos article h1 {
-    font-size: 26px !important;
+    font-size: larger !important;
     font-weight: 800;
   }
 }

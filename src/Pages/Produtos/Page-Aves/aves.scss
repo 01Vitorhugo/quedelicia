@@ -99,6 +99,16 @@
     .imagemBackground::after{
         font-size: 20px !important;
     }
+    .container-produtosAves{
+        .text{
+            h1{
+ 
+                font-size: larger !important;
+            }
+            
+     } 
+ 
+    } 
 
 }
 
@@ -109,6 +119,16 @@
     }
     .imagemBackground::after{
         font-size: 25px !important;
+    } 
+    .container-produtosAves{
+        .text{
+            h1{
+ 
+                font-size: larger !important;
+            }
+            
+     } 
+ 
     } 
 
 }
@@ -121,9 +141,20 @@
    .imagemBackground::after{
        font-size: 27px !important;
    } 
+   .container-produtosAves{
+    .text{
+        h1{
+
+            font-size: larger !important;
+        }
+        
+ } 
+
+} 
 
 
 }
+
 @media (min-width: 601px) and (max-width: 649px ){
     .imagemBackground{
        height: 210px !important;
@@ -132,6 +163,16 @@
    .imagemBackground::after{
        font-size: 30px !important;
    } 
+   .container-produtosAves{
+    .text{
+        h1{
+
+            font-size: larger !important;
+        }
+        
+ } 
+
+} 
 
 }
 
@@ -144,7 +185,19 @@
        font-size: 30px !important;
    } 
 
-}
+   .container-produtosAves{
+       .text{
+           h1{
+
+               font-size: larger !important;
+           }
+           
+    } 
+
+   } 
+   }
+  
+
 
 @media (min-width: 750px) and (max-width: 849px ){
     .imagemBackground{

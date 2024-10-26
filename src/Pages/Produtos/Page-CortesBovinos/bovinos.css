@@ -118,6 +118,9 @@
   .imagemBackground::after {
     font-size: 30px !important;
   }
+  .container-produtosBovinos .text h1 {
+    font-size: larger !important;
+  }
 }
 @media (min-width: 750px) and (max-width: 849px) {
   .imagemBackground {

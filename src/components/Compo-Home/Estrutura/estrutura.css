@@ -53,6 +53,7 @@
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 .estrutura .texto article h1::after {
   content: "";
@@ -278,9 +279,12 @@
     display: none;
   }
 }
-@media (max-width: 603px) {
+@media (max-width: 731px) {
   .texto {
     height: auto !important;
+  }
+  .texto h1 {
+    font-size: larger !important;
   }
   .texto .boxConteudo {
     height: 200px !important;
