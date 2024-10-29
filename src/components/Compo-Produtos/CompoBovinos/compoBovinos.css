@@ -1,7 +1,6 @@
 .container-produtosBovinos {
   width: 100%;
   height: 500px;
-  margin-top: 30px;
   display: flex;
 }
 .container-produtosBovinos .text {

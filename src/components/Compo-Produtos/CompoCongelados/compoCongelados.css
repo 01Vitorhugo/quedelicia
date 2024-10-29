@@ -1,8 +1,8 @@
 .container-produtosCongelados {
   width: 100%;
   height: 500px;
-  margin-top: 30px;
   display: flex;
+  background-color: #fff;
 }
 .container-produtosCongelados .text {
   margin: 0;
