@@ -122,6 +122,26 @@ import traseiroFeijoada from '../../../imagens/feijoada/carne seca traseiro.png'
 import dianteiro from '../../../imagens/feijoada/carne seca dianteiro.png'
 
 
+import queijoMussarela from '../../../imagens/lacteos/1Queijo Mussarela.png'
+import queijoPrato from '../../../imagens/lacteos/2Queijo Prato.png'
+import mortadela from '../../../imagens/lacteos/3Mortadela.png'
+import presunto from '../../../imagens/lacteos/4Presunto.png'
+import apresuntado from '../../../imagens/lacteos/Apresuntado.png'
+import cheddarFatiado from '../../../imagens/lacteos/Cheddar Fatiado.png'
+import margarinaPote from '../../../imagens/lacteos/Margarina pote.png'
+import manteigaCaixa from '../../../imagens/lacteos/Mateiga Caixa com e sem sal.png'
+import parmesãoInteiro from '../../../imagens/lacteos/Parmesão Inteiro.png'
+import peitoDePeru from '../../../imagens/lacteos/Peito de Peru.png'
+import provolone from '../../../imagens/lacteos/Provolone.png'
+import queijoCoalho from '../../../imagens/lacteos/Queijo Coalho.png'
+import queijoRalado from '../../../imagens/lacteos/Queijo Ralado.png'
+import requeijãoBisnaga from '../../../imagens/lacteos/Requeijão Bisnaga.png'
+import requeijãoPote from '../../../imagens/lacteos/Requeijão Pote.png'
+import requeijãoDoNorte from '../../../imagens/lacteos/Requeijão do Norte.png'
+import salame from '../../../imagens/lacteos/Salame.png'
+import cheddarBisnaga from '../../../imagens/lacteos/cheddar Bisnaga.png'
+
+
 
 
 const data = {
@@ -148,11 +168,7 @@ const data = {
         { id: 19, img: seleta, title: 'Jardineira Seleta', category: 'congelados' },
         { id: 20, img: polenta, title: 'Polenta Bem Brasil', category: 'congelados' },
         { id: 21, img: vagem, title: 'Vagem Inteira Francesa', category: 'congelados' },
-        // { id: 31, img:  , title: 'Batata Mc Cain (Pct 2,5kg)', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 30x120gr *Picanha*', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 36x90gr', category: 'congelados' },
-        // { id: 43, img:  , title: 'Hamburguer Brasa 36x56gr', category: 'congelados' },
+
 
         { id: 31, img: coracaoDeFrango, title: 'Coração de Frango', category: 'aves' },
         { id: 32, img: meioDaAsa, title: 'Meio da asa', category: 'aves' },
@@ -265,9 +281,24 @@ const data = {
         { id: 141, img: rimBovino, title: 'Rim Bovino', category: 'muidos' },
         { id: 142, img: tripaBovina, title: 'Tripa Bovina', category: 'muidos' },
 
-
-
-        // Colocar frios e lacticíos
+        { id: 143, img: queijoMussarela, title: 'Queijo Mussarela', category: 'frios' },
+        { id: 144, img: queijoPrato, title: 'Queijo Prato', category: 'frios' },
+        { id: 145, img: mortadela, title: 'Mortadela', category: 'frios' },
+        { id: 146, img: presunto, title: 'Presunto', category: 'frios' },
+        { id: 147, img: apresuntado, title: 'Apresuntado', category: 'frios' },
+        { id: 148, img: cheddarFatiado, title: 'Cheddar Fatiado', category: 'frios' },
+        { id: 149, img: margarinaPote, title: 'Margarina Pote', category: 'frios' },
+        { id: 150, img: manteigaCaixa, title: 'Manteiga Caixa c/s sal', category: 'frios' },
+        { id: 151, img: parmesãoInteiro, title: 'Parmesão Inteiro', category: 'frios' },
+        { id: 152, img: peitoDePeru, title: 'Peito de Peru', category: 'frios' },
+        { id: 153, img: provolone, title: 'Provolone', category: 'frios' },
+        { id: 154, img: queijoCoalho, title: 'Queijo Coalho', category: 'frios' },
+        { id: 155, img: queijoRalado, title: 'Queijo ralado', category: 'frios' },
+        { id: 156, img: requeijãoBisnaga, title: 'Requeijão Bisnaga', category: 'frios' },
+        { id: 157, img: requeijãoPote, title: 'Requeijão Pote', category: 'frios' },
+        { id: 158, img: requeijãoDoNorte, title: 'Requeijão do Norte', category: 'frios' },
+        { id: 159, img: salame, title: 'Salame', category: 'frios' },
+        { id: 160, img: cheddarBisnaga, title: 'Cheddar Bisnaga', category: 'frios' },
     ]
 };
 
