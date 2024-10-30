@@ -91,16 +91,16 @@
 }
 
 @media (max-width: 1023px) {
-  .container-produtosFeijoada {
+  .container-produtosFrios {
     flex-direction: column;
     height: auto;
     align-items: center;
     margin-top: 30px;
   }
-  .container-produtosFeijoada .text {
+  .container-produtosFrios .text {
     margin-bottom: 30px;
   }
-  .container-produtosFeijoada .box-produto {
+  .container-produtosFrios .box-produto {
     width: 90%;
     height: auto;
     display: flex;
@@ -108,15 +108,15 @@
     align-items: center;
     flex-direction: column;
   }
-  .container-produtosFeijoada .box-produto .container {
+  .container-produtosFrios .box-produto .container {
     height: auto;
     width: 100%;
     flex-wrap: wrap;
   }
-  .container-produtosFeijoada .box-produto .container .card-produto {
+  .container-produtosFrios .box-produto .container .card-produto {
     width: 350px;
   }
-  .container-produtosFeijoada .box-produto .button {
+  .container-produtosFrios .box-produto .button {
     margin-top: 50px;
   }
 }
