@@ -32,7 +32,7 @@ export default function FooterMain() {
             <p className="desc"></p>
             <ul className="socials">
               <li>
-                <a href="#">
+                <a href="/*">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     data-name="Layer 1"
@@ -47,7 +47,7 @@ export default function FooterMain() {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/quedeliciaalimentos/profilecard/?igsh=MThndWVmY2s0bWd5dg==">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     data-name="Layer 1"
@@ -81,10 +81,10 @@ export default function FooterMain() {
           <div className="footer-widget">
             <h6>links</h6>
             <FooterLinkGroup col={true}>
-              <CustomFooterLink to="/">Sobre</CustomFooterLink>
+              <CustomFooterLink to="/">Home</CustomFooterLink>
               <CustomFooterLink to="/produtos">Produtos</CustomFooterLink>
               <CustomFooterLink to="/contato">Contato</CustomFooterLink>
-              <CustomFooterLink to="/teste">Política de privacidade</CustomFooterLink>
+              <CustomFooterLink to="/QuemSomos"> Quem somos</CustomFooterLink>
             </FooterLinkGroup>
           </div>
         </div>
