@@ -158,10 +158,24 @@
 }
 
 @media (max-width: 545px){
-    .card-produto{
-        article{
-            width: 100% !important;
-        }
-    }
+    .container-produtosAves {
+        .box-produto{
 
+            .card-produto{
+    
+            width: 80% !important;
+            
+                article{
+                    width: 100% !important;
+                }
+        
+                img{
+                    width: 60% !important;
+                    height: 58% !important;
+                }
+            }
+
+        }
+
+        }
 }
