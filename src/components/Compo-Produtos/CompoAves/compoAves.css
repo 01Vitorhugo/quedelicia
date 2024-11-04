@@ -129,7 +129,8 @@
     width: 100% !important;
   }
   .container-produtosAves .box-produto .card-produto img {
-    width: 60% !important;
-    height: 58% !important;
+    min-width: 60% !important;
+    max-width: 65% !important;
+    min-height: 50% !important;
   }
 }/*# sourceMappingURL=compoAves.css.map */
