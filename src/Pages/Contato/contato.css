@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .contato {
   height: auto;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .contato .banner-contato {
   height: 500px;
@@ -223,5 +223,36 @@
   }
   .contato .banner-contato {
     height: 400px;
+  }
+}
+@media (min-width: 330px) and (max-width: 1000px) {
+  .contato .formulario {
+    margin-top: 50px;
+  }
+  .contato .formulario h1 {
+    font-size: larger;
+  }
+  .contato .formulario form {
+    width: 90%;
+  }
+  .contato .formulario form .boxEmailAndNumberPhone {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contato .formulario form .boxEmailAndNumberPhone .email {
+    width: 100%;
+  }
+  .contato .formulario form .boxEmailAndNumberPhone .numberPhone {
+    width: 100%;
+  }
+  .contato .formulario form .boxCityAndState {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contato .formulario form .boxCityAndState .city {
+    width: 100%;
+  }
+  .contato .formulario form .boxCityAndState .state {
+    width: 100%;
   }
 }/*# sourceMappingURL=contato.css.map */

@@ -1,6 +1,6 @@
 .contato {
     height: auto;
-    margin-top: 80px;
+    margin-top: 70px;
 
     .banner-contato {
         height: 500px;
@@ -295,3 +295,55 @@
 
 }
 
+
+
+    @media (min-width: 330px) and (max-width: 1000px) {
+        .contato {
+
+
+            .formulario {
+                margin-top: 50px;
+
+                h1 {
+                    font-size: larger;
+
+                }
+
+                form {
+                    width: 90%;
+
+                    .boxEmailAndNumberPhone {
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .email {
+                            width: 100%;
+                        }
+
+                        .numberPhone {
+                            width: 100%;
+
+                        }
+
+                    }
+
+                    .boxCityAndState {
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .city {
+                            width: 100%;
+                        }
+
+                        .state {
+                            width: 100%;
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
