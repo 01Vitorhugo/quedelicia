@@ -52,7 +52,7 @@
   overflow: hidden;
 }
 .container-produtosAves .box-produto .container .card-produto figure img {
-  width: 90%;
+  width: 70%;
 }
 .container-produtosAves .box-produto .container .card-produto article {
   width: 100%;
@@ -91,7 +91,7 @@
   font-size: 1.2rem;
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 546px) and (max-width: 770px) {
   .container-produtosAves {
     flex-direction: column;
     height: auto;
@@ -101,13 +101,34 @@
   .container-produtosAves .text {
     margin-bottom: 30px;
   }
-  .container-produtosAves .box-produto {
-    width: 90%;
+  .container-produtosAves .box-produto .container {
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container-produtosAves .box-produto .container .card-produto {
+    width: 100% !important;
+  }
+  .container-produtosAves .box-produto .container .card-produto article {
+    width: 100% !important;
+  }
+  .container-produtosAves .box-produto .container .card-produto img {
+    width: 250px !important;
+    height: 170px !important;
+  }
+  .container-produtosAves .button {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 545px) {
+  .container-produtosAves {
     flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .container-produtosAves .text {
+    margin-bottom: 30px;
   }
   .container-produtosAves .box-produto .container {
     height: auto;
@@ -115,22 +136,18 @@
     flex-wrap: wrap;
   }
   .container-produtosAves .box-produto .container .card-produto {
-    width: 350px;
-  }
-  .container-produtosAves .box-produto .button {
-    margin-top: 50px;
-  }
-}
-@media (max-width: 545px) {
-  .container-produtosAves .box-produto .card-produto {
-    width: 80% !important;
-  }
-  .container-produtosAves .box-produto .card-produto article {
     width: 100% !important;
   }
-  .container-produtosAves .box-produto .card-produto img {
+  .container-produtosAves .box-produto .container .card-produto article {
+    width: 100% !important;
+  }
+  .container-produtosAves .box-produto .container .card-produto img {
     min-width: 60% !important;
     max-width: 65% !important;
     min-height: 50% !important;
+  }
+  .container-produtosAves .button {
+    margin-top: 50px;
+    width: 100% !important;
   }
 }/*# sourceMappingURL=compoAves.css.map */
