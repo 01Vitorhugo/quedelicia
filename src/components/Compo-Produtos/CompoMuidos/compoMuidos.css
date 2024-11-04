@@ -1,6 +1,7 @@
 .container-produtosMuidos {
   width: 100%;
   height: 500px;
+  margin-top: 80px;
   display: flex;
   background-color: #fff;
 }
@@ -52,7 +53,7 @@
   overflow: hidden;
 }
 .container-produtosMuidos .box-produto .container .card-produto figure img {
-  width: 90%;
+  width: 70%;
 }
 .container-produtosMuidos .box-produto .container .card-produto article {
   width: 100%;
@@ -91,7 +92,7 @@
   font-size: 1.2rem;
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 546px) and (max-width: 770px) {
   .container-produtosMuidos {
     flex-direction: column;
     height: auto;
@@ -101,13 +102,34 @@
   .container-produtosMuidos .text {
     margin-bottom: 30px;
   }
-  .container-produtosMuidos .box-produto {
-    width: 90%;
+  .container-produtosMuidos .box-produto .container {
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container-produtosMuidos .box-produto .container .card-produto {
+    width: 100% !important;
+  }
+  .container-produtosMuidos .box-produto .container .card-produto article {
+    width: 100% !important;
+  }
+  .container-produtosMuidos .box-produto .container .card-produto img {
+    width: 220px !important;
+    height: 190px !important;
+  }
+  .container-produtosMuidos .button {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 545px) {
+  .container-produtosMuidos {
     flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .container-produtosMuidos .text {
+    margin-bottom: 30px;
   }
   .container-produtosMuidos .box-produto .container {
     height: auto;
@@ -115,14 +137,18 @@
     flex-wrap: wrap;
   }
   .container-produtosMuidos .box-produto .container .card-produto {
-    width: 350px;
+    width: 100% !important;
   }
-  .container-produtosMuidos .box-produto .button {
+  .container-produtosMuidos .box-produto .container .card-produto article {
+    width: 100% !important;
+  }
+  .container-produtosMuidos .box-produto .container .card-produto img {
+    min-width: 60% !important;
+    max-width: 65% !important;
+    min-height: 50% !important;
+  }
+  .container-produtosMuidos .button {
     margin-top: 50px;
-  }
-}
-@media (max-width: 545px) {
-  .card-produto article {
     width: 100% !important;
   }
 }/*# sourceMappingURL=compoMuidos.css.map */
