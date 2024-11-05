@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "use";
+  src: url("../../../fonts/candice/Candice Personal Use.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.historiaEmpresa {
+  margin-top: 80px;
+  padding-top: 200px;
+  background-color: aqua;
+  width: 100%;
+  height: 95vh;
+}
+.historiaEmpresa article {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.historiaEmpresa article h1 {
+  font-family: "use", sans-serif;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  /* color: #fff; */
+}
+.historiaEmpresa .pagHistoria {
+  text-align: center;
+  margin-top: 50px;
+}
+.historiaEmpresa .pagHistoria p {
+  padding: 15px;
+  font-size: 18px;
+  /* color: #fff; */
+}/*# sourceMappingURL=CompoHistoria.css.map */
