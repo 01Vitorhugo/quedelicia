@@ -84,7 +84,7 @@ export default function FooterMain() {
               <CustomFooterLink to="/">Home</CustomFooterLink>
               <CustomFooterLink to="/produtos">Produtos</CustomFooterLink>
               <CustomFooterLink to="/contato">Contato</CustomFooterLink>
-              <CustomFooterLink to="/QuemSomos"> Quem somos</CustomFooterLink>
+              <CustomFooterLink to="/quem-somos"> Quem somos</CustomFooterLink>
             </FooterLinkGroup>
           </div>
         </div>
