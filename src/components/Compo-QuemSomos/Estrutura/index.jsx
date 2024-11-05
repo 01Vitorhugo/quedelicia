@@ -15,7 +15,7 @@ export default function NossaEstrutura() {
             <section className='boxEstrutura'>
 
                 <div className='box1'>
-                    <h1>Câmara Refriada</h1>
+                    <h1>Câmara Resfriada</h1>
 
                     <p>
                         Renovamos nossas instalações, ampliação de câmaras frigoríficas, para melhorar ainda mais
