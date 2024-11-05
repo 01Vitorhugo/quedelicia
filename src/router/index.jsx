@@ -15,6 +15,7 @@ import Muidos from "../Pages/Produtos/Page-Muidos";
 import Contato from "../Pages/Contato";
 import FooterMain from "../components/Footer";
 import PageNotFound from "../components/PageNotFound";
+import QuemSomos from "../Pages/QuemSomos";
 
 export default function RoutsPage() {
     return (
@@ -35,7 +36,8 @@ export default function RoutsPage() {
                 <Route path="/produtos/peixes" element={<Peixes />} />
                 <Route path="/produtos/suinos" element={<Suinos />} />
                 <Route path="/contato" element={<Contato />} />
-                <Route path="/*" element={<PageNotFound/>} />
+                <Route path="/quem-somos" element={<QuemSomos/> }/>
+                <Route path="*" element={<PageNotFound/>} />
             </Routes>
 
             <FooterMain />
