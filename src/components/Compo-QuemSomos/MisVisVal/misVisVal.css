@@ -54,6 +54,7 @@
 
 @media (max-width: 1000px) {
   .missEmpresa {
+    margin-top: 50px;
     height: auto;
     flex-direction: column;
     justify-content: center;
