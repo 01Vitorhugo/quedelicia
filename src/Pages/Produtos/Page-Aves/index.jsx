@@ -2,6 +2,7 @@ import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import './aves.css'
 import background from '../../../imagens/aves/background.png'
 import data from '../../../components/Compo-Produtos/CardProduto/data'
+import ButtonBack from '../../../components/ButtonBack'
 
 
 export default function Aves() {
@@ -19,6 +20,7 @@ export default function Aves() {
                     </figure>
 
                 <div className='box-produto-aves'>
+                    <ButtonBack/>
                     {
                         avesProducts.map((item) => {
                             return (
