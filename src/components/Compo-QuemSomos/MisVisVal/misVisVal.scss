@@ -60,3 +60,28 @@
 
     }
 }
+
+@media (max-width: 1000px){
+    .missEmpresa{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .missao{
+            border-bottom: solid 1px #dcdcdc;
+            width: 100%;
+            padding: 15px;
+        }
+        .visao{
+            border-bottom: solid 1px #dcdcdc;
+            width: 100%;
+            padding: 15px;
+        }
+        .valor{
+            width: 100%;
+            padding: 15px;
+        }
+    }
+}
