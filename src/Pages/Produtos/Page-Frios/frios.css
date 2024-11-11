@@ -22,6 +22,7 @@
   border-radius: 5px;
   font-size: 40px;
   font-family: "use", sans-serif;
+  width: 100%;
 }
 .frios .imagemBackground {
   height: 400px;

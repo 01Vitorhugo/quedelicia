@@ -2,6 +2,7 @@ import './congelados.css'
 import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import data from '../../../components/Compo-Produtos/CardProduto/data'
 import background from '../../../imagens/congelados/background.png'
+import ButtonBack from '../../../components/ButtonBack';
 
 
 export default function Bovinos(){
@@ -17,6 +18,7 @@ export default function Bovinos(){
             <figure className='imagemBackground'>
                         <img src={background} alt="Imagem congelados" />
                     </figure>
+                    <ButtonBack/>
 
                 <div className='box-produto-congelados'>
                     {

@@ -2,20 +2,22 @@ import './suinos.css'
 import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import data from '../../../components/Compo-Produtos/CardProduto/data';
 import background from '../../../imagens/suinos/background.png'
+import ButtonBack from '../../../components/ButtonBack'
 
-export default function Suinos(){
+export default function Suinos() {
 
     const suinosProducts = data.cardData.filter(
         (item) => item.category === 'suinos'
     );
 
-    return(
+    return (
         <>
-            <SubMenu/>
+            <SubMenu />
             <section className='suinos'>
-            <figure className='imagemBackground'>
-                        <img src={background} alt="Imagem suinos" />
-                    </figure>
+                <figure className='imagemBackground'>
+                    <img src={background} alt="Imagem suinos" />
+                </figure>
+                <ButtonBack />
 
                 <div className='box-produto-suinos'>
                     {

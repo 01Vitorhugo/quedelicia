@@ -2,6 +2,7 @@ import SubMenu from "../../../components/Compo-Produtos/SubMenuProdutos";
 import './muidos.css'
 import background from '../../../imagens/miudos/background.png'
 import data from "../../../components/Compo-Produtos/CardProduto/data";
+import ButtonBack from '../../../components/ButtonBack'
 
 
 export default function Muidos() {
@@ -17,6 +18,7 @@ export default function Muidos() {
                 <figure className='imagemBackground'>
                     <img src={background} alt="Imagem muidos" />
                 </figure>
+                    <ButtonBack/>
 
                 <div className='box-produto-muidos'>
                     {

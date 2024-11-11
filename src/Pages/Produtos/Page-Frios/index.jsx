@@ -2,19 +2,21 @@ import './frios.css'
 import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import background from '../../../imagens/lacteos/background.png'
 import data from '../../../components/Compo-Produtos/CardProduto/data';
+import ButtonBack from '../../../components/ButtonBack'
 
-export default function Frios(){
+export default function Frios() {
     const friosProducts = data.cardData.filter(
         (item) => item.category === 'frios'
     );
 
-    return(
+    return (
         <>
-            <SubMenu/>
+            <SubMenu />
             <section className='frios'>
-            <figure className='imagemBackground'>
-                        <img src={background} alt="Imagem frios" />
-                    </figure>
+                <figure className='imagemBackground'>
+                    <img src={background} alt="Imagem frios" />
+                </figure>
+                <ButtonBack/>
 
                 <div className='box-produto-frios'>
                     {

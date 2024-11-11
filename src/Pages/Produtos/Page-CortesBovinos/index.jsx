@@ -2,21 +2,23 @@ import './bovinos.css'
 import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import data from '../../../components/Compo-Produtos/CardProduto/data'
 import background from '../../../imagens/bovinos/backgroung.png'
+import ButtonBack from '../../../components/ButtonBack'
 
 
-export default function Bovinos(){
+export default function Bovinos() {
 
     const bovinosProducts = data.cardData.filter(
         (item) => item.category === 'bovinos'
     );
 
-    return(
+    return (
         <>
-            <SubMenu/>
+            <SubMenu />
             <section className='bovinos'>
-            <figure className='imagemBackground'>
-                        <img src={background} alt="Imagem bovinos" />
-                    </figure>
+                <figure className='imagemBackground'>
+                    <img src={background} alt="Imagem bovinos" />
+                </figure>
+                <ButtonBack/>
 
                 <div className='box-produto-bovinos'>
                     {

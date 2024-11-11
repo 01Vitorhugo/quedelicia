@@ -2,6 +2,7 @@ import './conservas.css'
 import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import data from '../../../components/Compo-Produtos/CardProduto/data'
 import background from '../../../imagens/conservas/background.png'
+import ButtonBack from '../../../components/ButtonBack'
 
 
 export default function ConservasSecos(){
@@ -17,6 +18,7 @@ export default function ConservasSecos(){
             <figure className='imagemBackground'>
                         <img src={background} alt="Imagem conservas" />
                     </figure>
+                    <ButtonBack/>
 
                 <div className='box-produto-conservas'>
                     {

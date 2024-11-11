@@ -21,6 +21,7 @@
   border-radius: 5px;
   font-size: 40px;
   font-family: "use", sans-serif;
+  width: 100%;
 }
 .feijoada .imagemBackground {
   height: 400px;
@@ -37,7 +38,6 @@
 .feijoada .box-produto-feijoada {
   width: 100%;
   height: auto;
-  margin-top: 30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

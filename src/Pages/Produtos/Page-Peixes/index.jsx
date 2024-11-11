@@ -2,6 +2,7 @@ import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import './peixes.css'
 import data from '../../../components/Compo-Produtos/CardProduto/data'
 import background from '../../../imagens/peixes/background.png'
+import ButtonBack from '../../../components/ButtonBack'
 
 
 export default function Aves() {
@@ -17,6 +18,7 @@ export default function Aves() {
                     <figure className='imagemBackground'>
                         <img src={background} alt="Imagem peixe" /> 
                     </figure>
+                    <ButtonBack/>
 
                 <div className='box-produto-peixe'>
                     {

@@ -2,21 +2,23 @@ import './feijoada.css'
 import SubMenu from '../../../components/Compo-Produtos/SubMenuProdutos'
 import data from '../../../components/Compo-Produtos/CardProduto/data'
 import background from '../../../imagens/feijoada/background.png'
+import ButtonBack from '../../../components/ButtonBack'
 
 
-export default function ConservasSecos(){
+export default function ConservasSecos() {
 
     const bovinosProducts = data.cardData.filter(
         (item) => item.category === 'feijoada'
     );
 
-    return(
+    return (
         <>
-            <SubMenu/>
+            <SubMenu />
             <section className='feijoada'>
-            <figure className='imagemBackground'>
-                        <img src={background} alt="Imagem feijoada" />
-                    </figure>
+                <figure className='imagemBackground'>
+                    <img src={background} alt="Imagem feijoada" />
+                </figure>
+                <ButtonBack/>
 
                 <div className='box-produto-feijoada'>
                     {

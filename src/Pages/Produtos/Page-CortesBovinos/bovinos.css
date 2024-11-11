@@ -37,7 +37,6 @@
 .bovinos .box-produto-bovinos {
   width: 100%;
   height: auto;
-  margin-top: 30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
