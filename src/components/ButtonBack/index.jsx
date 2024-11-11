@@ -14,7 +14,7 @@ export default function ButtonBack() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [width]);
 
     if (width < 1025) {
         return (
