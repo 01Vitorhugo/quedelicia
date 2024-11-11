@@ -1,8 +1,9 @@
 .buttonBack {
-  margin: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: end;
+  padding: 20px;
+  background-color: #565c60;
 }
 .buttonBack a {
   border: solid 1px #044168;
