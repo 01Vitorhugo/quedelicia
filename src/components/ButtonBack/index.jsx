@@ -1,12 +1,13 @@
 import './button.css'
 
-export default function ButtonBack(){
+export default function ButtonBack() {
 
-    return(
-        <>
+    return (
+        <div className='buttonBack'>
             <a href="javascript:history.back()" className="buttonBack">
-               Voltar
+                Voltar
             </a>
-        </>
+        </div>
+
     )
 }
