@@ -1,3 +1,26 @@
-/* .buttonBack{
+.buttonBack{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a{
+        border: solid 1px #044168;
+        border-radius: 10px;
+        padding: 5px;
+        position: relative;
+        padding-left: 20px;
+        color: #044168;
 
-} */
+    }
+    a::before{
+        content: '';
+        position: absolute;
+        top: 50%; 
+        left: 0; 
+        transform: translateY(-50%); 
+        border: solid transparent;
+        border-width: 5px; 
+        border-right-color: #044168; 
+    }
+} 
