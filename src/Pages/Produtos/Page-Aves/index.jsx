@@ -18,12 +18,13 @@ export default function Aves() {
                     <figure className='imagemBackground'>
                         <img src={background} alt="Imagem aves" />
                     </figure>
+                    <ButtonBack/>
 
                 <div className='box-produto-aves'>
-                    <ButtonBack/>
                     {
                         avesProducts.map((item) => {
                             return (
+                                
                                 <section className='box-produto' key={item.id}>
                                     <figure>
                                         <img src={item.img} alt="imagem produto" />
@@ -34,6 +35,7 @@ export default function Aves() {
 
                                     </article>
                                 </section>
+                                
 
                             )
 
