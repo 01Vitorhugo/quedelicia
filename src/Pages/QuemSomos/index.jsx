@@ -6,8 +6,8 @@ export default function QuemSomos(){
 
     return(
         <>
-        <NossaEstrutura/>
         <CompoHistoria/>
+        <NossaEstrutura/>
         <MisVisVal/>
         </>
     )
