@@ -124,7 +124,7 @@ export default function Estrutura() {
 
                             <article>
                                 <h2>Frota de Veículos Refrigerados </h2>
-                                <p>(Caminhao, Ducatos, Doblôs e Fiorinos).</p>
+                                <p>(Caminhão, Ducatos, Doblos e Fiorinos)</p>
                             </article>
 
                         </section>
@@ -137,7 +137,7 @@ export default function Estrutura() {
                             <article>
                                 <h2>Compromisso e Qualidade</h2>
                                 <p>Garantimos a entrega confiável e eficiente de produtos <br />
-                                    perecíveis, ideal para produtos sensíveis à temperatura.
+                                    perecíveis, ideal para produtos sensíveis à temperatura
                                 </p>
                             </article>
 

@@ -14,7 +14,7 @@ export default function DescriIcons() {
           </div>
         </figure>
         <article>
-          <p>Entregas em 24h</p>
+          <p>Entregas em até 48 hrs e consultar regiões</p>
         </article>
       </div>
 
