@@ -13,7 +13,8 @@ export default function CompoBovinos() {
         <div className="container-produtosBovinos">
             <article className="text">
                 <img src={bovinos} alt="icone ave" />
-                <h1>Bovinos</h1>
+                {/* trocou o nome bovidos para muidos.. */}
+                <h1>Muidos</h1>
             </article>
 
             <section className="box-produto">
