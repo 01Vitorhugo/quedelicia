@@ -3,6 +3,7 @@
   height: 500px;
   margin-top: 80px;
   display: flex;
+  background-color: #fff;
 }
 .container-produtosPeixes .text {
   margin: 0;
