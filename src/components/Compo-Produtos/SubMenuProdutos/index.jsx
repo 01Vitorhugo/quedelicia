@@ -24,16 +24,16 @@ export default function SubMenu() {
                     </li>
                 </Link>
 
-                <Link to='/produtos/muidos' title='Pertences de feijoada'>
+                {/* <Link to='/produtos/muidos' title='Pertences de feijoada'>
                     <li>
                         <p>Muidos</p>
                         <img src={muidos} alt="icone muidos" id='icons-submenu'/>
                     </li>
-                </Link>
+                </Link> */}
 
                 <Link to='/produtos/bovinos' title='Cortes bovinos'>
                     <li>
-                        <p>Cortes bovinos</p>
+                        <p>Muidos</p>
                         <img src={bovino} alt="icone cortes bovinos" id='icons-submenu' className='subMenuBovinoImg'/>
                     </li>
                 </Link>

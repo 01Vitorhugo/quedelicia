@@ -23,7 +23,7 @@ export default function PageProdutos() {
         </article>
 
         <CompoAves/>
-        <CompoMuidos/>
+        {/* <CompoMuidos/> */}
         <CompoBovinos/>
         <CompoSuinos/>
         <CompoFrios/>
