@@ -32,7 +32,7 @@ export default function FooterMain() {
             <p className="desc"></p>
             <ul className="socials">
               <li>
-                <a href="/*">
+                <a href="https://www.facebook.com/quedeliciaalimentos">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     data-name="Layer 1"
