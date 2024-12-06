@@ -24,17 +24,20 @@ export default function SubMenu() {
                     </li>
                 </Link>
 
-                {/* <Link to='/produtos/muidos' title='Pertences de feijoada'>
+                {/*
+                Foi trocado a pedido do cliente, Miudos x Bovinos
+                
+                <Link to='/produtos/muidos' title='Pertences de feijoada'>
                     <li>
                         <p>Muidos</p>
-                        <img src={muidos} alt="icone muidos" id='icons-submenu'/>
+                        <img src={bovino} alt="icone muidos" id='icons-submenu'/>
                     </li>
                 </Link> */}
 
                 <Link to='/produtos/bovinos' title='Cortes bovinos'>
                     <li>
-                        <p>Muidos</p>
-                        <img src={bovino} alt="icone cortes bovinos" id='icons-submenu' className='subMenuBovinoImg'/>
+                        <p>Miudos</p>
+                        <img src={muidos} alt="icone cortes bovinos" id='icons-submenu' className='subMenuBovinoImg'/>
                     </li>
                 </Link>
 

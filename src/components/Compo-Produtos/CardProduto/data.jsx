@@ -55,6 +55,20 @@ import seleta from '../../../imagens/congelados/Jardineira Seleta.png'
 import polenta from '../../../imagens/congelados/Polenta.png'
 import vagem from '../../../imagens/congelados/Design sem nome.png'
 
+//novos
+import batataMcCain from '../../../imagens/congelados/Batata McCain.png'
+import chickenQueijo from '../../../imagens/congelados/chicken com queijo.png'
+import chickenTradicional from '../../../imagens/congelados/chicken Tradicional.png'
+import ervilhaCongelada from '../../../imagens/congelados/ervilha congelada.png'
+import filezinhoEmpanado from '../../../imagens/congelados/Filezinho empanado.png'
+import mandiocaCongelado from '../../../imagens/congelados/Mandioca Congelada.png'
+import milhoCongelado from '../../../imagens/congelados/milho congelado.png'
+import polentaCongelado from '../../../imagens/congelados/Polenta congelada.png'
+import steakFrango from '../../../imagens/congelados/steak de frango.png'
+import torresmoMoido from '../../../imagens/congelados/torresmo moido.png'
+import hamburgue from '../../../imagens/congelados/hamburguer.png'
+
+
 import bacalhau from '../../../imagens/peixes/bacalhau.png'
 import merluzao from '../../../imagens/peixes/merluzão.png'
 import merluzaArgentina from '../../../imagens/peixes/merluza argentina.png'
@@ -81,6 +95,8 @@ import passarinha from '../../../imagens/miudos/Passarinha.png'
 import rabada from '../../../imagens/miudos/Rabada bovina.png'
 import rimBovino from '../../../imagens/miudos/Rim Bovino.png'
 import tripaBovina from '../../../imagens/miudos/tripa bovina.png'
+import diafragma from '../../../imagens/miudos/Diafragma.png'
+import sangria from '../../../imagens/miudos/Sangria Bovina.png'
 
 import champignonFatiado from '../../../imagens/conservas/champignon fatiado.png'
 import ovoCodorna from '../../../imagens/conservas/Ovo de codorna.png'
@@ -97,6 +113,7 @@ import azeitonaPretaSemcaroco from '../../../imagens/conservas/azeitona preta se
 import azeitonaPretaFatiada from '../../../imagens/conservas/azeitona preta fatiada.png'
 import azeitonaChilena from '../../../imagens/conservas/azeitona chilena.png'
 import azeitonaBarrica from '../../../imagens/conservas/barrica de azeitona 28x32 - 16x20.png'
+import chimichurri from '../../../imagens/conservas/chimichurri.png'
 
 import amacianteCarne from '../../../imagens/conservas/amaciante de carne.png'
 import caldoCarne from '../../../imagens/conservas/caldo de carne.png'
@@ -109,6 +126,13 @@ import oreganoFlocos from '../../../imagens/conservas/oregano flocos.png'
 import tempeiroBaiano from '../../../imagens/conservas/tempero baiano.png'
 import feijaoCarioca from '../../../imagens/conservas/feijão carioca.png'
 import feijaoPreto from '../../../imagens/conservas/Feijão preto.png'
+
+import doceDeLeite from '../../../imagens/conservas/Doce de Leite.png'
+import ketchupGalaoSache from '../../../imagens/conservas/ketchup Galão e Sachê.png'
+import maioneseBalseSache from '../../../imagens/conservas/Maionese balde e sachê.png'
+import molhoPizza from '../../../imagens/conservas/Molho de pizza.png'
+import mostardaGalaoSache from '../../../imagens/conservas/Mostarda Galão e sachê.png'
+
 
 import costelaSalgada from '../../../imagens/feijoada/costela salgada.png'
 import raboSalgado from '../../../imagens/feijoada/rabo salgado.png'
@@ -169,6 +193,18 @@ const data = {
         { id: 20, img: polenta, title: 'Polenta Bem Brasil', category: 'congelados' },
         { id: 21, img: vagem, title: 'Vagem Inteira Francesa', category: 'congelados' },
 
+        { id: 22, img: batataMcCain, title: 'Batata McCain', category: 'congelados' },
+        { id: 23, img: chickenQueijo, title: 'Chicken de Queijo', category: 'congelados' },
+        { id: 24, img: chickenTradicional, title: 'Chicken Tradicional', category: 'congelados' },
+        { id: 25, img: ervilhaCongelada, title: 'Ervilha Congelada ', category: 'congelados' },
+        { id: 26, img: filezinhoEmpanado, title: 'Filezinho Empanado', category: 'congelados' },
+        { id: 27, img: mandiocaCongelado, title: 'Mandioca Congelada  ', category: 'congelados' },
+        { id: 28, img: milhoCongelado, title: 'milho Congelado  ', category: 'congelados' },
+        { id: 29, img: polentaCongelado, title: 'Polenta Congelada  ', category: 'congelados' },
+        { id: 30, img: steakFrango, title: 'Steak de Frango  ', category: 'congelados' },
+        { id: 31, img: torresmoMoido, title: 'Torresmo Moido  ', category: 'congelados' },
+        { id: 32, img: hamburgue, title: 'Hamburgue  ', category: 'congelados' },
+
 
         { id: 31, img: coracaoDeFrango, title: 'Coração de Frango', category: 'aves' },
         { id: 32, img: meioDaAsa, title: 'Meio da asa', category: 'aves' },
@@ -195,9 +231,8 @@ const data = {
         { id: 52, img: acem, title: 'Acém', category: 'bovinos' },
         { id: 53, img: costelaBovina, title: 'Costela Bovina', category: 'bovinos' },
         { id: 54, img: carneMoida, title: 'Carne Moída (Pct 2kg)', category: 'bovinos' },
-        { id: 55, img: '', title: 'Diafragma', category: 'bovinos' },
-        { id: 56, img: '', title: 'Sangria', category: 'bovinos' },
-        { id: 57, img: '', title: 'Carne Indústrial', category: 'bovinos' },
+        { id: 55, img: diafragma, title: 'Diafragma', category: 'bovinos' },
+        { id: 56, img: sangria, title: 'Sangria', category: 'bovinos' },
 
         { id: 58, img: barriga, title: 'Barriga', category: 'suinos' },
         { id: 59, img: costelinha, title: 'Costelinha', category: 'suinos' },
@@ -235,7 +270,7 @@ const data = {
         { id: 89, img: azeitonaComCaroco, title: 'Azeitona Verde c/ Caroço Pequena', category: 'conservas-secos' },
         { id: 90, img: azeitonaComCaroco, title: 'Azeitona Verde c/ Caroço Grande', category: 'conservas-secos' },
         { id: 91, img: azeitonaPretaSemcaroco, title: 'Azeitona Preta s/ Caroço', category: 'conservas-secos' },
-        { id: 92, img: '', title: 'Azeitona Preta Pequena', category: 'conservas-secos' },
+        // { id: 92, img: '', title: 'Azeitona Preta Pequena', category: 'conservas-secos' },
         { id: 93, img: azeitonaPretaFatiada, title: 'Azeitona Preta Fatiada', category: 'conservas-secos' },
         { id: 94, img: azeitonaChilena, title: 'Azeitona Chilena Grande', category: 'conservas-secos' },
         { id: 95, img: azeitonaBarrica, title: 'Azeitona Verde 28x32', category: 'conservas-secos' },
@@ -243,7 +278,7 @@ const data = {
         { id: 97, img: amacianteCarne, title: 'Amaciante de Carne', category: 'conservas-secos' },
         { id: 98, img: caldoCarne, title: 'Caldo de Carnes', category: 'conservas-secos' },
         { id: 99, img: caldoGalinha, title: 'Caldo de galinha', category: 'conservas-secos' },
-        { id: 100, img: '', title: 'Chimichurr', category: 'conservas-secos' },
+        { id: 100, img: chimichurri, title: 'Chimichurri', category: 'conservas-secos' },
         { id: 101, img: colorifico, title: 'Colorifico', category: 'conservas-secos' },
         { id: 102, img: cominho, title: 'Cominho', category: 'conservas-secos' },
         { id: 103, img: condimentoPimenta, title: 'Condimento Pimenta', category: 'conservas-secos' },
@@ -252,6 +287,15 @@ const data = {
         { id: 106, img: tempeiroBaiano, title: 'Tempero Baiano', category: 'conservas-secos' },
         { id: 107, img: feijaoCarioca, title: 'Feijão Carioca 30x1', category: 'conservas-secos' },
         { id: 108, img: feijaoPreto, title: 'Feijão Preto 10x1', category: 'conservas-secos' },
+        
+        //novos 
+        { id: 108, img: doceDeLeite , title: 'Doce de Leite ', category: 'conservas-secos' },
+        { id: 108, img: ketchupGalaoSache , title: ' Ketchuo Galão e Sache ', category: 'conservas-secos' },
+        { id: 108, img: maioneseBalseSache, title: 'Maionese Balde e Sache  ', category: 'conservas-secos' },
+        { id: 108, img: molhoPizza , title: ' Molho de Pizza ', category: 'conservas-secos' },
+        { id: 108, img: mostardaGalaoSache , title: ' Mostarda Galão e Sache ', category: 'conservas-secos' },
+
+
 
         { id: 109, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
         { id: 110, img: raboSalgado, title: 'Rabo Salgado', category: 'feijoada' },

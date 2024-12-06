@@ -1,4 +1,4 @@
-import bovinos from '../../../imagens/icons-produtos-submenu/corteBovino.png'
+import bovinos from '../../../imagens/icons-produtos-submenu/boi.svg'
 import bovinos1 from '../../../imagens/bovinos/peito-bovino.png'
 import bovinos2 from '../../../imagens/bovinos/capa-de-filé.png'
 import bovinos3 from '../../../imagens/bovinos/acem.png'
@@ -13,8 +13,8 @@ export default function CompoBovinos() {
         <div className="container-produtosBovinos">
             <article className="text">
                 <img src={bovinos} alt="icone ave" />
-                {/* trocou o nome bovidos para muidos.. */}
-                <h1>Muidos</h1>
+                {/* trocou o nome bovidos para miudos.. */}
+                <h1>Miudos</h1>
             </article>
 
             <section className="box-produto">
