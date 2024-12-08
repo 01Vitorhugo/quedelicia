@@ -203,7 +203,7 @@ const data = {
         { id: 29, img: polentaCongelado, title: 'Polenta Congelada  ', category: 'congelados' },
         { id: 30, img: steakFrango, title: 'Steak de Frango  ', category: 'congelados' },
         { id: 31, img: torresmoMoido, title: 'Torresmo Moido  ', category: 'congelados' },
-        { id: 32, img: hamburgue, title: 'Hamburgue  ', category: 'congelados' },
+        { id: 32, img: hamburgue, title: 'Hambúrgue  ', category: 'congelados' },
 
 
         { id: 31, img: coracaoDeFrango, title: 'Coração de Frango', category: 'aves' },
@@ -305,10 +305,10 @@ const data = {
         { id: 114, img: linguaSalgada, title: 'Língua Salgada', category: 'feijoada' },
         { id: 115, img: costelaSalgada, title: 'Costela Salgada', category: 'feijoada' },
         { id: 116, img: lomboSalgado, title: 'Lombo Salgado', category: 'feijoada' },
-        { id: 117, img: coxaoDuroFeijoada, title: 'Coxão Duro (Pct 30kg) - 41,99kg', category: 'feijoada' },
-        { id: 118, img: traseiroFeijoada, title: 'Traseiro (Pct 5kg) - 36,80kg', category: 'feijoada' },
-        { id: 119, img: dianteiro, title: 'Dianteiro (Pct 5kg)', category: 'feijoada' },
-        { id: 129, img: '', title: 'Dianteiro Vilheto Pct 400gr', category: 'feijoada' },    
+        { id: 117, img: coxaoDuroFeijoada, title: 'Carne seca Coxão duro ', category: 'feijoada' },
+        { id: 118, img: traseiroFeijoada, title: 'Carne seca Traseiro ', category: 'feijoada' },
+        // { id: 119, img: , title: 'Dianteiro (Pct 5kg)', category: 'feijoada' },
+        { id: 129, img: dianteiro, title: 'Carne seca Dianteiro (Pct 400gr)', category: 'feijoada' },    
 
         //muiudos virou bovidos
         { id: 130, img: bofeBovino , title: 'Bofe Bovino', category: 'bovinos' },
