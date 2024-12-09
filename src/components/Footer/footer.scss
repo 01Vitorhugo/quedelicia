@@ -3,6 +3,7 @@ footer{
   height: auto;
   background-image: linear-gradient(to right, #022144, #113A69, #19487E);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px 0;
 
@@ -10,14 +11,14 @@ footer{
   
   section{
     height: 300px;
-    width: 24%;
-    /* background-color: beige; */
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: #ffff;
     position: relative;
+
 
     .top{
       margin-top: 5px;
@@ -52,4 +53,61 @@ footer{
     background-color: #fff; 
     top: 25%;
 }
+
+.logo{
+
+  figure{
+    width: auto;
+    height: auto;
+    display: flex;
+    
+    a{
+      height: 50px;
+      width: 50px;
+      background-color: #fff;
+      border-radius: 50%;
+      margin-left: 10px;
+      overflow: hidden;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg{
+        height: 80%;
+        width: 90%;
+      
+      }
+    }
+
+  }
+
+  }
+
 }
+
+@media (max-width: 592px){
+
+  footer{
+    flex-direction: column;
+    align-items: center;
+
+    section{
+      width: 60%;
+      height: 250px;
+
+
+    }
+    #border{
+      width: 80%;
+      padding: 20px; 
+      border-bottom: 2px solid #fff;
+
+    }
+
+    #border::before {
+      width: 0%; 
+  }  
+  }
+
+} 
