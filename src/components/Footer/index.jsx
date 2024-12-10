@@ -43,12 +43,12 @@ export default function FooterMain() {
         <p>Acompanhe nossas redes sociais</p>
 
         <figure>
-          <a href="">
+          <a href="https://www.facebook.com/quedeliciaalimentos">
             <img src={facebook} alt="" />
          
           </a>
 
-          <a href="">
+          <a href="https://www.instagram.com/quedeliciaalimentos/profilecard/?igsh=MThndWVmY2s0bWd5dg==">
           <img src={instagram} alt="" />
         
           </a>
