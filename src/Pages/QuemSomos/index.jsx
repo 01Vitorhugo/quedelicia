@@ -7,8 +7,8 @@ export default function QuemSomos(){
     return(
         <>
         <CompoHistoria/>
-        <NossaEstrutura/>
         <MisVisVal/>
+        <NossaEstrutura/>
         </>
     )
 }
