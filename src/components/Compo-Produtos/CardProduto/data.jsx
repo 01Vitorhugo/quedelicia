@@ -203,7 +203,7 @@ const data = {
         { id: 29, img: polentaCongelado, title: 'Polenta Congelada  ', category: 'congelados' },
         { id: 30, img: steakFrango, title: 'Steak de Frango  ', category: 'congelados' },
         { id: 31, img: torresmoMoido, title: 'Torresmo Moido  ', category: 'congelados' },
-        { id: 32, img: hamburgue, title: 'Hambúrgue  ', category: 'congelados' },
+        { id: 32, img: hamburgue, title: 'Hambúrguer', category: 'congelados' },
 
 
         { id: 31, img: coracaoDeFrango, title: 'Coração de Frango', category: 'aves' },

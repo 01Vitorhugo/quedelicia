@@ -45,12 +45,10 @@ export default function FooterMain() {
         <figure>
           <a href="https://www.facebook.com/quedeliciaalimentos">
             <img src={facebook} alt="" />
-         
           </a>
 
           <a href="https://www.instagram.com/quedeliciaalimentos/profilecard/?igsh=MThndWVmY2s0bWd5dg==">
-          <img src={instagram} alt="" />
-        
+            <img src={instagram} alt="" />
           </a>
         </figure>
 
