@@ -17,6 +17,18 @@
   align-items: center;
   flex-direction: column;
 }
+.missEmpresa .missao figure {
+  width: 100%;
+  height: 40%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.missEmpresa .missao figure img {
+  height: 60px;
+}
 .missEmpresa .missao h1 {
   font-weight: 800;
   font-size: 30px;
@@ -32,6 +44,18 @@
   align-items: center;
   flex-direction: column;
 }
+.missEmpresa .visao figure {
+  width: 100%;
+  height: 40%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.missEmpresa .visao figure img {
+  height: 60px;
+}
 .missEmpresa .visao h1 {
   font-weight: 800;
   font-size: 30px;
@@ -46,6 +70,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.missEmpresa .valor figure {
+  width: 100%;
+  height: 40%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.missEmpresa .valor figure img {
+  height: 60px;
 }
 .missEmpresa .valor h1 {
   font-weight: 800;
