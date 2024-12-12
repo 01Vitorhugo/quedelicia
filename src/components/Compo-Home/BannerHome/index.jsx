@@ -1,7 +1,7 @@
 import "./bannerHome.css";
-import banner1 from "../../../imagens/bannerFood.png"
-import banner2 from "../../../imagens/bannerAlimentos.png"
-import banner3 from "../../../imagens/bannerFood2.png"
+import banner1 from "../../../imagens/bannerHome1.png"
+import banner2 from "../../../imagens/bannerHome2.png"
+import banner3 from "../../../imagens/bannerHome3.png"
 
 import { Carousel } from "flowbite-react";
 

@@ -99,7 +99,7 @@ export default function Estrutura() {
                             </figure>
 
                             <article>
-                                <h2>Entregas em até 24h</h2>
+                                <h2>Entregas em até 48h</h2>
                                 <p>Serviço de entregas rápidas e eficientes</p>
                             </article>
 
