@@ -45,7 +45,14 @@
     .texto {
         width: 50%;
         height: 700px;
-        background-color: rgba(9, 65, 95, 0.8784313725);
+        /* background-color: rgba(9, 65, 95, 0.8784313725); */
+        background: linear-gradient(
+            to right, 
+            rgba(9, 65, 95, 1) 0%, 
+            rgba(9, 65, 95, 0.979) 50%, 
+            rgba(9, 65, 95, 0.858) 100%
+          );
+          
         border-radius: 200px 0px 0px 0px;
         overflow: hidden;
         display: flex;
