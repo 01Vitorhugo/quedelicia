@@ -32,9 +32,9 @@ export default function FooterMain() {
 
       <section className="televendas" id="border">
         <h1>Televendas</h1>
-        <a href="tel:551120325793">11 2032-5793</a>
-        <a href="tel:551120337339">11 2033-7339</a>
-        <a href="tel:551120313812">11 2031-3812</a>
+        <a href="tel:551120325793">(11) 2032-5793</a>
+        <a href="tel:551120337339">(11) 2033-7339</a>
+        <a href="tel:551120313812">(11) 2031-3812</a>
 
       </section>
 
