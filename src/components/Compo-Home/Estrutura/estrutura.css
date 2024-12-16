@@ -36,8 +36,7 @@
 .estrutura .texto {
   width: 50%;
   height: 700px;
-  /* background-color: rgba(9, 65, 95, 0.8784313725); */
-  background: linear-gradient(to right, rgb(9, 65, 95) 0%, rgba(9, 65, 95, 0.979) 50%, rgba(9, 65, 95, 0.858) 100%);
+  background-image: linear-gradient(to right, #03253b, #0c4361);
   border-radius: 200px 0px 0px 0px;
   overflow: hidden;
   display: flex;
