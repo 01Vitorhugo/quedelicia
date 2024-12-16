@@ -65,7 +65,7 @@ export default function Produtos() {
         <Slider {...settings}>
           <div className="carrossel-produto">
             <img src={Figado} alt="" srcset="" />
-            <span>Figado Bovino</span>
+            <span>Fígado Bovino</span>
           </div>
 
           <div className="carrossel-produto">
