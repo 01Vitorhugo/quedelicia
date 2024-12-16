@@ -1,7 +1,6 @@
 import './subMenu.css'
 import {Link } from "react-router-dom";
 import ave from '../../../imagens/icons-produtos-submenu/aveBranco.png'
-import bovino from '../../../imagens/icons-produtos-submenu/bovinoBranco.png'
 import suino from '../../../imagens/icons-produtos-submenu/suinosBranco.png'
 import frios from '../../../imagens/icons-produtos-submenu/frios e laticiniosBranco.png'
 import congelados from '../../../imagens/icons-produtos-submenu/congeladosBranco.png'
@@ -24,17 +23,9 @@ export default function SubMenu() {
                     </li>
                 </Link>
 
-                {/*
-                Foi trocado a pedido do cliente, Miudos x Bovinos
-                
-                <Link to='/produtos/muidos' title='Pertences de feijoada'>
-                    <li>
-                        <p>Muidos</p>
-                        <img src={bovino} alt="icone muidos" id='icons-submenu'/>
-                    </li>
-                </Link> */}
+               
 
-                <Link to='/produtos/bovinos' title='Cortes bovinos'>
+                <Link to='/produtos/miudos' title='Cortes bovinos'>
                     <li>
                         <p>Miudos</p>
                         <img src={muidos} alt="icone cortes bovinos" id='icons-submenu' className='subMenuBovinoImg'/>
