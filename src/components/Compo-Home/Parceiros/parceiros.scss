@@ -31,15 +31,16 @@
             height: 50%;
 
             .img-parceiro{
-                background-color: #ffff;
+                background-color: #fff;
                 display: flex !important;
                 justify-content: center !important;
                 align-items: center!important;
                 height: 100px;
-                width: 200px !important;
+                width: 170px !important;
 
                 img{
                     width: 50%;
+                   
                 }
 
                 #logoMarba{
@@ -80,5 +81,7 @@
            }
         }
 
+
     }
+
 }

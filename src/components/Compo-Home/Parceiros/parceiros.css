@@ -29,12 +29,12 @@
   height: 50%;
 }
 .parceiros .box-parceiros .slider-container .img-parceiro {
-  background-color: white;
+  background-color: #fff;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   height: 100px;
-  width: 200px !important;
+  width: 170px !important;
 }
 .parceiros .box-parceiros .slider-container .img-parceiro img {
   width: 50%;
