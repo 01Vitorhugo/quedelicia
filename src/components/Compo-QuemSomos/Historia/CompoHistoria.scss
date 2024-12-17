@@ -9,11 +9,12 @@
     margin-top: 80px;
     padding: 160px;
     width: 100%;
-    height: 100vh;
     background-image: url('../../../imagens/quemSomos/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff; 
+    max-height: auto;
+    min-height: 100vh;
 
 
     article{
