@@ -1,5 +1,5 @@
 import aves from '../../../imagens/icons-produtos-submenu/ave.svg'
-import aves1 from '../../../imagens/aves/Filé-de-Frango.png'
+import aves1 from '../../../imagens/aves/File-de-Frango.png'
 import aves2 from '../../../imagens/aves/frango-inteiro.png'
 import aves3 from '../../../imagens/aves/file-de-coxa.png'
 import aves4 from '../../../imagens/aves/meio-da-asa.png'

@@ -1,6 +1,6 @@
 import bovinos from '../../../imagens/icons-produtos-submenu/boi.svg'
 import bovinos1 from '../../../imagens/bovinos/peito-bovino.png'
-import bovinos2 from '../../../imagens/bovinos/capa-de-filé.png'
+import bovinos2 from '../../../imagens/bovinos/capa-de-file.png'
 import bovinos3 from '../../../imagens/bovinos/acem.png'
 import bovinos4 from '../../../imagens/bovinos/costela-bovina.png'
 import { Link } from "react-router-dom";

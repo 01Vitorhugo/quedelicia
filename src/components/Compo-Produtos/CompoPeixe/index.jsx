@@ -1,7 +1,7 @@
 import peixe from '../../../imagens/icons-produtos-submenu/peixes.svg'
-import peixe1 from '../../../imagens/peixes/camarão 7 barbas.png'
-import peixe2 from '../../../imagens/peixes/filé de tilápia.png'
-import peixe3 from  '../../../imagens/peixes/merluzão.png'
+import peixe1 from '../../../imagens/peixes/camarao 7 barbas.png'
+import peixe2 from '../../../imagens/peixes/file de tilapia.png'
+import peixe3 from  '../../../imagens/peixes/merluzao.png'
 import peixe4 from '../../../imagens/peixes/merluza argentina.png'
 import { Link } from "react-router-dom";
 import './compoPeixe.css'
