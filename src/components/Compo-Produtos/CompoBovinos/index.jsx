@@ -60,7 +60,7 @@ export default function CompoBovinos() {
 
                 <div className="button">
                     <button>
-                        <p><Link to='/produtos/bovinos'>Veja Mais</Link></p>
+                        <p><Link to='/produtos/miudos'>Veja Mais</Link></p>
                     </button>
                 </div>
 
