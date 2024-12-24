@@ -43,7 +43,7 @@ function App() {
       )}
 
       <div className='button-whats'>
-        <a href="https://wa.me/551120313812?text=Olá!%20vim%20através%20do%20site%20https://quedelicia.vercel.app/,%20gostaria%20de%20mais%20informações.">
+        <a href="https://wa.me/551120313812?text=Olá!%20vim%20através%20do%20site%20https://quedeliciaalimentos.com.br/,%20gostaria%20de%20mais%20informações.">
            <img src={imgWhats} alt="logo whatsapp"/>
         </a>
       </div>

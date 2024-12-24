@@ -27,10 +27,10 @@ export default function RoutsPage() {
                 <Route path="/" element={<Home />} />
                 <Route path="/produtos" element={<PageProdutos />} />
                 <Route path="/produtos/aves" element={<Aves />} />
-                {/* <Route path="/produtos/muidos" element={<Muidos />} /> */}
+                {/* <Route path="/produtos/muidos" element={< />} /> */}
                 <Route path="/produtos/congelados" element={<Congelados />} />
                 <Route path="/produtos/conservas" element={<Conservas />} />
-                <Route path="/produtos/miudos" element={<Bovinos />} />
+                <Route path="/produtos/miudos" element={<Muidos />} />
                 <Route path="/produtos/feijoada" element={<Feijoada />} />
                 <Route path="/produtos/frios" element={<Frios />} />
                 <Route path="/produtos/peixes" element={<Peixes />} />
