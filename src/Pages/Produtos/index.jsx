@@ -9,7 +9,6 @@ import CompoCongelados from "../../components/Compo-Produtos/CompoCongelados";
 import CompoPeixes from "../../components/Compo-Produtos/CompoPeixe";
 import CompoConservas from "../../components/Compo-Produtos/CompoConservas";
 import CompoFeijoada from "../../components/Compo-Produtos/CompoFeijoada";
-import CompoMuidos from "../../components/Compo-Produtos/CompoMuidos";
 import CompoFrios from "../../components/Compo-Produtos/CompoFrios";
 
 export default function PageProdutos() {
@@ -23,7 +22,6 @@ export default function PageProdutos() {
         </article>
 
         <CompoAves/>
-        {/* <CompoMuidos/> */}
         <CompoBovinos/>
         <CompoSuinos/>
         <CompoFrios/>
