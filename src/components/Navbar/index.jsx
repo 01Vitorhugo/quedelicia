@@ -48,7 +48,7 @@ export default function Menu() {
                 <div className="flex md:order-2">
                     <NavbarToggle onClick={handleToggleMenu} />
                 </div>
-                <NavbarCollapse isOpen={isOpen}  className={isOpen ? 'block' : 'hidden'}>
+                <NavbarCollapse  className={isOpen ? 'block' : 'hidden'}>
                     <Link
                         className="block py-2 pl-3 pr-4 md:p-0 border-b border-gray-100 text-gray-700 hover:bg-gray-50
                             dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0
